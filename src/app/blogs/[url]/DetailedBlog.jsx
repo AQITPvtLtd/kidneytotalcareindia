@@ -101,7 +101,7 @@ const DetailedBlog = ({ url }) => {
               <ul className="p-4">
                 <li className=" border-b border-body-color border-opacity-10 pb-3 dark:border-white dark:border-opacity-10">
                   {blog?.map((b) => (
-                    <div className="mb-5">
+                    <div className="mb-5" key={b.id}>
                       <RelatedPost
                         title={b.name}
                         image={`/blogs/${b.image}`}

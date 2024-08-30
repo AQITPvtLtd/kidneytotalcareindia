@@ -37,6 +37,7 @@ const Blogs = () => {
               width={1000}
               height={1000}
               className="w-full h-[270px]"
+              alt="blogimage"
             />
             <h1 className="px-5 font-semibold text-center text-xl mt-3 mb-2">
               {b.name}

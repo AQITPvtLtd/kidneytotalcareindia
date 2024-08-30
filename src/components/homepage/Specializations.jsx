@@ -5,7 +5,7 @@ const Specializations = () => {
     <div className="mb-10">
       <div className="mt-14 mb-7">
         <h1 className="text-3xl font-bold text-center">
-          Dr. Sunil Prakash's Specializations
+          Dr. Sunil Prakash&apos;s Specializations
         </h1>
         <p className="text-center text-xl">
           Dr. Sunil Prakash specializes in the diagnosis and treatment of

@@ -89,7 +89,7 @@ const FAQs = () => {
         <p className="text-center text-xl">
           Dr. Sunil Prakash is a renowned nephrologist in Delhi, India, known
           for his expertise and compassionate care. If you have questions about
-          Dr. Prakash and his practice, you've come to the right place.
+          Dr. Prakash and his practice, you&apos;ve come to the right place.
         </p>
       </div>
       <div className="overflow-x-clip">

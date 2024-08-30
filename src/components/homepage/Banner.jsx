@@ -11,6 +11,7 @@ const Banner = () => {
             width={800}
             height={800}
             className=""
+            alt="dr-sunil-prakash"
           />
         </div>
         <div className="bg-primary m-10 rounded-xl">

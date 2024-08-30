@@ -27,14 +27,17 @@ const Blogs = () => {
       </div>
       {blog.map((b) => (
         <Link
+          key={b.id}
           href={`/blogs/${b.url}`}
           className="flex border-2 mb-4 hover:scale-105 hover:shadow-lg"
+          alt="blogimage"
         >
           <Image
             src={`/blogs/${b.image}`}
             width={1000}
             height={1000}
             className="w-[200px]"
+            alt="blogimage"
           />
           <div className="p-4">
             <h1 className="text-xl font-bold ">{b.name}</h1>

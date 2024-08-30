@@ -33,6 +33,7 @@ const Who = () => {
             width={1000}
             height={1000}
             className="w-full"
+            alt="who"
           />
         </div>
       </div>

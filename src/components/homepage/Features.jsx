@@ -10,6 +10,7 @@ const Features = () => {
           width={1000}
           height={1000}
           className="h-[500px] w-full object-cover"
+          alt="feature"
         />
       </div>
       <div className="grid grid-cols-2 absolute inset-0 p-10">
@@ -35,7 +36,7 @@ const Features = () => {
             When it comes to your health, choosing the right doctor is crucial.
             Nephrological conditions can have a significant impact on your
             overall well-being, making it essential to seek care from an expert
-            in the field. Dr. Sunil Prakash's vast experience and in-depth
+            in the field. Dr. Sunil Prakash&apos;s vast experience and in-depth
             knowledge of nephrology make him the perfect choice for your
             kidney-related concerns. His commitment to patient care and
             individualized treatment plans ensures the best possible outcomes

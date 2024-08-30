@@ -18,6 +18,7 @@ const Treatments = () => {
               width={1000}
               height={1000}
               className="w-full rounded-tl-3xl"
+              alt="services"
             />
             <div className="p-3 bg-primary text-white bg-opacity-70 -translate-y-[50px]">
               <h1 className="font-bold text-xl text-center">
@@ -46,6 +47,7 @@ const Treatments = () => {
               width={1000}
               height={1000}
               className="w-full"
+              alt="services"
             />
             <div className="p-3 bg-primary text-white bg-opacity-70 -translate-y-[50px]">
               <h1 className="font-bold text-xl text-center">Dialysis</h1>
@@ -71,6 +73,7 @@ const Treatments = () => {
               width={1000}
               height={1000}
               className="w-full rounded-tr-3xl"
+              alt="home-dialysis"
             />
             <div className="p-3 bg-primary text-white bg-opacity-70 -translate-y-[50px]">
               <h1 className="font-bold text-xl text-center">
