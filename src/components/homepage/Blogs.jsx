@@ -25,7 +25,7 @@ const Blogs = () => {
           blog you find interesting.
         </p>
       </div>
-      <div className="grid grid-cols-3 mx-10 gap-5">
+      <div className="lg:grid grid-cols-3 mx-10 gap-5">
         {blog?.map((b) => (
           <Link
             href="/"

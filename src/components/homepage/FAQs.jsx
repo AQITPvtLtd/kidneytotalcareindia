@@ -80,8 +80,8 @@ const FAQs = () => {
     setAccordion(updatedAccordions);
   };
   return (
-    <div className="mx-10">
-      <div className="mt-14 mb-7">
+    <div className="lg:mx-10 mx-3">
+      <div className="lg:mt-14 mb-7">
         <h1 className="text-3xl font-bold text-center">
           Frequently Asked Questions About Dr. Sunil Prakash, Nephrologist in
           Delhi
@@ -95,7 +95,7 @@ const FAQs = () => {
       <div className="overflow-x-clip">
         {/* accordian */}
 
-        <div className="mx-12 my-5">
+        <div className="lg:mx-12 my-5">
           {accordions.map((accordion) => (
             <Accordion
               key={accordion.key}

@@ -4,7 +4,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div>
-      <div className="grid grid-cols-2">
+      <div className="lg:grid grid-cols-2">
         <div className="">
           <Image
             src="/doctor/dr-sunil-prakash.png"
@@ -14,7 +14,7 @@ const Banner = () => {
             alt="dr-sunil-prakash"
           />
         </div>
-        <div className="bg-primary m-10 rounded-xl">
+        <div className="bg-primary lg:m-10 rounded-xl">
           <div className="bg-skyblue border-white border-8 h-full p-5 rounded-xl font-thin translate-x-7 translate-y-7">
             <h1 className="text-4xl text-primary font-bold pb-3">
               Dr. Sunil Prakash: The Best Nephrologist in Delhi

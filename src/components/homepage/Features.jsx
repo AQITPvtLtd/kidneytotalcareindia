@@ -9,12 +9,12 @@ const Features = () => {
           src="/features/features.png"
           width={1000}
           height={1000}
-          className="h-[500px] w-full object-cover"
+          className="lg:h-[500px] h-[1250px] w-full object-cover"
           alt="feature"
         />
       </div>
-      <div className="grid grid-cols-2 absolute inset-0 p-10">
-        <div className="bg-white m-10 p-7 rounded-xl">
+      <div className="lg:grid grid-cols-2 absolute inset-0 p-10">
+        <div className="bg-white lg:m-10 p-7 rounded-xl">
           <div className="font-bold text-2xl pb-3">
             Expertise and Experience
           </div>
@@ -28,7 +28,7 @@ const Features = () => {
             plans.
           </p>
         </div>
-        <div className="bg-white m-10 p-7 rounded-xl">
+        <div className="bg-white lg:mt-0 mt-10 lg:m-10 p-7 rounded-xl">
           <div className="font-bold text-2xl pb-3">
             The Importance of Choosing the Right Nephrologist in Delhi
           </div>

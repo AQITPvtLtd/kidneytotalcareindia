@@ -4,9 +4,9 @@ import React from "react";
 
 const Who = () => {
   return (
-    <div className="bg-primary p-5 m-5 rounded-lg">
-      <div className="bg-skyblue border-white border-8 rounded-lg grid grid-cols-2">
-        <div className="flex items-center pl-10">
+    <div className="bg-primary p-5 m-5 rounded-lg lg:mt-0 mt-10">
+      <div className="bg-skyblue border-white border-8 rounded-lg lg:grid grid-cols-2">
+        <div className="lg:flex items-center lg:pl-10 p-4 lg:p-0">
           <div>
             <h1 className="text-4xl text-primary font-bold pb-3">
               Who is Dr. Sunil Prakash?

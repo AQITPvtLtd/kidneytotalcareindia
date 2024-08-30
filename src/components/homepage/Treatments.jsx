@@ -8,7 +8,7 @@ const Treatments = () => {
         <h1 className="text-3xl font-bold text-center">
           Treatment Offered By Best Kidney Specialist in Delhi
         </h1>
-        <div className="grid grid-cols-3 mx-20 gap-x-10 mt-10">
+        <div className="lg:grid grid-cols-3 lg:mx-20 mx-4 gap-x-10 mt-10">
           <Link
             href="/"
             className="bg-white border rounded-3xl hover:scale-105 transform duration-300 hover:bg-skyblue/20"
