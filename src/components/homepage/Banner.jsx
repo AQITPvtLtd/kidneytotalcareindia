@@ -3,7 +3,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div>
+    <div className="overflow-x-clip">
       <div className="lg:grid grid-cols-2">
         <div className="">
           <Image
