@@ -17,26 +17,23 @@ const Blogs = () => {
     getResult();
   }, []);
   return (
-    <div className="p-10">
+    <div className="lg:p-10 overflow-x-clip">
       <div className="my-7">
         <h1 className="text-5xl font-bold text-center">Latest Blog</h1>
-        <p className="text-center text-xl">
-          Read our latest blog. Feel free to ask questions in comments for any
-          blog you find interesting.
-        </p>
+        <p className="text-center text-xl">Read our latest blog.</p>
       </div>
       {blog.map((b) => (
         <Link
           key={b.id}
           href={`/blogs/${b.url}`}
-          className="flex border-2 mb-4 hover:scale-105 hover:shadow-lg"
+          className="lg:flex lg:border-2 mb-4 hover:scale-105 hover:shadow-lg"
           alt="blogimage"
         >
           <Image
             src={`/blogs/${b.image}`}
             width={1000}
             height={1000}
-            className="w-[200px]"
+            className="lg:w-[200px] "
             alt="blogimage"
           />
           <div className="p-4">
