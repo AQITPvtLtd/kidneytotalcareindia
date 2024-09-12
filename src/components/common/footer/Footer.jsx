@@ -23,6 +23,7 @@ const Footer = () => {
         width={10000}
         height={10000}
         className="w-full object-cover h-[400px] hidden lg:block"
+        alt="footer image"
       />
       <footer className="items-center text-surface lg:absolute lg:inset-0">
         <div className="border text-gray-600 mt-5 mx-5"></div>
