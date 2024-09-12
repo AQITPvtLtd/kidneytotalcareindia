@@ -58,15 +58,28 @@ const Header = () => {
           : ""
       }`}
     >
-      <header className="flex justify-around bg-primary text-white">
+      <header className="flex justify-around bg-primary text-white overflow-x-clip">
         <div className="container flex items-center">
-          <div className="flex items-center w-full justify-between lg:w-auto mx-5"></div>
           <div className=" flex items-center w-full justify-center lg:flex-grow">
+            <div>
+              <Link
+                href="/"
+                className={`header-logo block lg:ml-0 ml-2 mt-3 bg-white lg:my-3 lg:hidden`}
+              >
+                <Image
+                  src="/logo/logo.png"
+                  alt="logo"
+                  width={1000}
+                  height={1000}
+                  className="w-[250px] m-4"
+                />
+              </Link>
+            </div>
             <button
               onClick={navbarToggleHandler}
               id="navbarToggler"
               aria-label="Mobile Menu"
-              className=" rounded-full px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
+              className=" rounded-full px-3 py-[6px] ring-primary lg:hidden"
             >
               <span
                 className={`relative my-1.5 block h-0.5 w-[30px] bg-white transition-all duration-300  ${
@@ -88,7 +101,9 @@ const Header = () => {
               id="navbarCollapse"
               className={`navbar absolute right-0 z-30 rounded px-6 py-4 duration-300 dark:bg-dark lg:visible lg:static w-full lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
                 navbarOpen
-                  ? "visibility top-[6%] opacity-100"
+                  ? `visibility ${
+                      sticky ? "top-[60%]" : "top-[10%]"
+                    }  opacity-100`
                   : "invisible top-[120%] opacity-0"
               }`}
             >
@@ -205,7 +220,7 @@ const Header = () => {
       </header>
       <div className="lg:grid grid-cols-4 lg:px-10 bg-skyblue ">
         {/* grid 1 - logo */}
-        <div className="flex justify-center">
+        <div className="lg:block hidden justify-center">
           <Link
             href="/"
             className={`header-logo block lg:ml-0 ml-2 mt-3 lg:my-3`}
@@ -220,7 +235,7 @@ const Header = () => {
           </Link>
         </div>
         {/* grid 2 - public notice button */}
-        <div className="flex items-center justify-center py-5">
+        <div className="hidden lg:flex items-center justify-center py-5">
           <div className="flex items-center animate__animated shadow-lg  shadow-red-200 animate__slower animate__pulse animate__infinite">
             <Link
               href="/"
@@ -230,8 +245,8 @@ const Header = () => {
             </Link>
           </div>
         </div>
-        {/* grid 3 - social media icons */}
-        <div className="flex justify-center items-center">
+        {/* grid 3 - call details */}
+        <div className="hidden lg:flex justify-center items-center">
           <div>
             <Link className="flex" href="tel:011-44795968">
               <MdPhoneCallback className="mt-1.5 mr-0.5 text-lightgreen" />
@@ -248,22 +263,8 @@ const Header = () => {
           </div>
         </div>
 
-        {/* grid 4 - contact details */}
-        <div className="flex items-center justify-center py-3">
-          {/* <div>
-            <h1 className="text-lightgreen">
-              Have a Query? Call Us:{" "}
-              <Link href="tel:+91-9873692675" className="underline">
-                +91-9873692675
-              </Link>
-            </h1>
-            <h1 className="text-lightgreen">
-              Transplant Coordinator:
-              <Link href="tel:+91-8130698126" className="underline">
-                +91-8130698126
-              </Link>
-            </h1>
-          </div> */}
+        {/* grid 4 - mail id and social links */}
+        <div className="hidden lg:flex items-center justify-center py-3">
           <div>
             <Link className="flex" href="mailto:sunil.neph@gmail.com">
               <IoIosMail className="mt-1.5 text-lightgreen" />

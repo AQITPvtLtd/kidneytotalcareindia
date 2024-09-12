@@ -11,6 +11,10 @@ import {
   FaYoutube,
   FaTelegramPlane,
 } from "react-icons/fa";
+import { MdPhoneCallback } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
+import { IoIosMail } from "react-icons/io";
+
 const Footer = () => {
   return (
     <div className="lg:relative text-white bg-primary">
@@ -18,12 +22,12 @@ const Footer = () => {
         src="/footer/footerbg.png"
         width={10000}
         height={10000}
-        className="w-full object-cover h-[390px] hidden lg:block"
+        className="w-full object-cover h-[400px] hidden lg:block"
       />
       <footer className="items-center text-surface lg:absolute lg:inset-0">
         <div className="border text-gray-600 mt-5 mx-5"></div>
 
-        <div className="container py-20 pl-10 pt-6 mt-[50px] lg:mt-[14px]">
+        <div className="container pl-10 pt-6 mt-[50px] lg:mt-[14px]">
           <div className="lg:grid grid-cols-4">
             {/* logo */}
             <div>
@@ -41,45 +45,35 @@ const Footer = () => {
                 further because Dr. Sunil Prakash is here to provide you with
                 exceptional care and expertise.
               </p>
+
               <div className="flex gap-4 items-center mt-3">
                 <Link
                   target="__blank"
-                  href={
-                    "https://www.facebook.com/profile.php?id=61559397785328"
-                  }
+                  href={"https://www.facebook.com/TotalKidneySolutions"}
                   className="hover:text-secondary"
                 >
                   <FaFacebook size={20} />
                 </Link>
                 <Link
                   target="__blank"
-                  href={"https://www.instagram.com/treatglobe/"}
+                  href={"https://www.instagram.com/p/C_nKAkhhMhP/"}
                   className="hover:text-secondary"
                 >
                   <FaInstagram size={20} />
                 </Link>
                 <Link
                   target="__blank"
-                  href={
-                    "https://www.linkedin.com/company/treat-glob/?viewAsMember=true"
-                  }
+                  href={"https://www.linkedin.com/in/sunil-prakash-50879112/"}
                   className="hover:text-secondary"
                 >
                   <FaLinkedin size={20} />
                 </Link>
                 <Link
                   target="__blank"
-                  href={"https://www.youtube.com/@TreatGlobe"}
+                  href={"https://www.youtube.com/@drsunilprakash9685"}
                   className="hover:text-secondary"
                 >
                   <FaYoutube size={20} />
-                </Link>
-                <Link
-                  target="__blank"
-                  href={"https://t.me/treatglobe"}
-                  className="hover:text-secondary"
-                >
-                  <FaTelegramPlane size={20} />
                 </Link>
               </div>
             </div>
@@ -95,7 +89,12 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="/about" className="hover:text-darkgreen">
-                      Treatments
+                      Gallery
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/about" className="hover:text-darkgreen">
+                      Happy Patients
                     </Link>
                   </li>
                   <li>
@@ -136,6 +135,16 @@ const Footer = () => {
                       Slowing of kidney disease by diet
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/" className="hover:text-blue">
+                      Home Dialysis Treatments
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/" className="hover:text-blue">
+                      Hemodialysis Treatments for Kidney
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -148,17 +157,59 @@ const Footer = () => {
                     <Link
                       target="__blank"
                       href="https://maps.app.goo.gl/LPTCjhdCZBdtzp8m6"
-                      className="hover:text-blue"
+                      className="hover:text-blue flex"
                     >
+                      <FaLocationDot className="mt-1.5 mr-0.5 text-lightgreen" />
                       C -132 Top Floor Sarvodaya Enclave N.Delhi-110049
                     </Link>
                   </li>
-                  <li className="mt-3 leading-normal">
-                    <Link href="tel:+91 98186 47557">
-                      <h5 className="mb-2.5 font-bold uppercase">Address</h5>
-                      <div className="hover:text-blue">+91 98186 47557</div>
+                  <li className="leading-normal mt-2">
+                    <Link
+                      target="__blank"
+                      href="https://maps.app.goo.gl/LPTCjhdCZBdtzp8m6"
+                      className="hover:text-blue flex"
+                    >
+                      <FaLocationDot className="mt-1.5 mr-0.5 text-lightgreen" />
+                      BLK Hospital (Nephrology Department) Pusa Road, Delhi
+                      110005
                     </Link>
                   </li>
+                  <li className="leading-normal mt-2">
+                    <h5 className="mb-2.5 font-bold uppercase">Call US</h5>
+                    <div>
+                      <Link className="flex" href="mailto:sunil.neph@gmail.com">
+                        <IoIosMail className="mt-1.5 text-lightgreen" />
+                        sunil.neph@gmail.com
+                      </Link>
+                      <Link
+                        className="flex"
+                        href="mailto:prakashsunil70@hotmail.com"
+                      >
+                        <IoIosMail className="mt-1.5 text-lightgreen" />
+                        prakashsunil70@hotmail.com
+                      </Link>
+                    </div>
+                  </li>
+
+                  {/* <li className="mt-3 leading-normal">
+                    <h5 className="mb-2.5 font-bold uppercase">Call US</h5>
+                    <div className="flex  items-center">
+                      <div>
+                        <Link className="flex" href="tel:011-44795968">
+                          <MdPhoneCallback className="mt-1.5 mr-0.5 text-lightgreen" />
+                          Residence: 011-44795968
+                        </Link>
+                        <Link className="flex" href="tel:09873692675">
+                          <MdPhoneCallback className="mt-1.5 mr-0.5 text-lightgreen" />
+                          Mobile: 09873692675
+                        </Link>
+                        <Link className="flex" href="tel:011-30403040 ">
+                          <MdPhoneCallback className="mt-1.5 mr-0.5 text-lightgreen" />
+                          Office: 011-30403040
+                        </Link>
+                      </div>
+                    </div>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -168,6 +219,7 @@ const Footer = () => {
         <div className="w-full bg-lightgreen text-white p-2 text-center">
           © 2024 Copyright:
           <Link
+            target="__blank"
             className="text-white font-semibold"
             href="https://www.tekbooster.com"
           >

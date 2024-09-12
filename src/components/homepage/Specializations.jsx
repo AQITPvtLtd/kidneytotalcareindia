@@ -12,7 +12,7 @@ const Specializations = () => {
           various kidney-related conditions, including:
         </p>
       </div>
-      <div className="grid lg:grid-cols-3 gap-x-3 mx-20">
+      <div className="grid lg:grid-cols-3 gap-x-3 mx-5 lg:mx-20">
         <div className="bg-primary shadow-md shadow-primary text-white border-skyblue border-2 px-4 py-4 text-center mb-3">
           Chronic Kidney Disease (CKD)
         </div>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+
 const Treatments = () => {
   return (
     <div>
@@ -11,21 +12,21 @@ const Treatments = () => {
         <div className="lg:grid grid-cols-3 lg:mx-20 mx-4 gap-x-10 mt-10">
           <Link
             href="/"
-            className="bg-white border rounded-3xl hover:scale-105 transform duration-300 hover:bg-skyblue/20"
+            className="bg-white lg:border rounded-3xl hover:scale-105 transform duration-300 hover:bg-skyblue/20"
           >
             <Image
               src="/services/kidney-transplant.png"
               width={1000}
               height={1000}
-              className="w-full rounded-tl-3xl"
+              className="w-full rounded-tl-3xl rounded-tr-3xl"
               alt="services"
             />
-            <div className="p-3 bg-primary text-white bg-opacity-70 -translate-y-[50px]">
+            <div className="p-3 bg-primary text-white bg-opacity-70">
               <h1 className="font-bold text-xl text-center">
                 Kidney Transplantation
               </h1>
             </div>
-            <div className="p-3 -translate-y-[50px]">
+            <div className="p-3">
               <p className="leading-relaxed">
                 Each year, organ and tissue donation saves many lives in India.
                 At Kidney Total Care India, all patients are considered for
@@ -38,21 +39,22 @@ const Treatments = () => {
               </p>
             </div>
           </Link>
+
           <Link
             href="/"
-            className="bg-white border rounded-3xl hover:scale-105 transform duration-300 hover:bg-skyblue/20"
+            className="bg-white lg:border rounded-3xl hover:scale-105 transform duration-300 hover:bg-skyblue/20 mt-5 lg:mt-0"
           >
             <Image
               src="/services/dialysis.png"
               width={1000}
               height={1000}
-              className="w-full"
+              className="w-full rounded-tl-3xl rounded-tr-3xl"
               alt="services"
             />
-            <div className="p-3 bg-primary text-white bg-opacity-70 -translate-y-[50px]">
+            <div className="p-3 bg-primary text-white bg-opacity-70">
               <h1 className="font-bold text-xl text-center">Dialysis</h1>
             </div>
-            <div className="p-3 -translate-y-[50px]">
+            <div className="p-3">
               <p className="leading-relaxed">
                 In human body, kidneys are two bean-shaped organs which are
                 present on each side of spine. Their function is to remove waste
@@ -64,23 +66,24 @@ const Treatments = () => {
               </p>
             </div>
           </Link>
+
           <Link
             href="/"
-            className="bg-white border rounded-3xl hover:scale-105 transform duration-300 hover:bg-skyblue/20"
+            className="bg-white lg:border rounded-3xl hover:scale-105 transform duration-300 hover:bg-skyblue/20 mt-5 lg:mt-0"
           >
             <Image
               src="/services/home-dialysis.png"
               width={1000}
               height={1000}
-              className="w-full rounded-tr-3xl"
+              className="w-full rounded-tl-3xl rounded-tr-3xl"
               alt="home-dialysis"
             />
-            <div className="p-3 bg-primary text-white bg-opacity-70 -translate-y-[50px]">
+            <div className="p-3 bg-primary text-white bg-opacity-70">
               <h1 className="font-bold text-xl text-center">
                 Home Dialysis Treatments
               </h1>
             </div>
-            <div className="p-3 -translate-y-[50px]">
+            <div className="p-3">
               <p className="leading-relaxed">
                 If you’re on dialysis, you have three main approaches first is
                 Intermittent hemodialysis (IHD), second is Peritoneal dialysis

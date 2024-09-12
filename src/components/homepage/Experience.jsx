@@ -6,7 +6,7 @@ const Experience = () => {
       <h1 className="text-center font-bold text-4xl text-black bg-white py-2 px-1 rounded-md mb-10">
         EXPERIENCE
       </h1>
-      <div className="grid grid-cols-2">
+      <div className="lg:grid grid-cols-2">
         <ol className="relative border-s border-primary">
           <li className="mb-5 ms-4">
             <div className="absolute w-5 h-5 bg-lightgreen rounded-full mt-1.5 -start-2.5 border border-white "></div>

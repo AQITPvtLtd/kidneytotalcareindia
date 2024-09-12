@@ -25,18 +25,18 @@ const Blogs = () => {
           blog you find interesting.
         </p>
       </div>
-      <div className="lg:grid grid-cols-3 mx-10 gap-5">
+      <div className="lg:grid grid-cols-3 mx-10 gap-7">
         {blog?.map((b) => (
           <Link
             href="/"
             key={b.id}
-            className="hover:scale-105 border-gray-700 border"
+            className="hover:scale-105 border-gray-300 lg:border rounded-md shadow-md"
           >
             <Image
               src={`/blogs/${b.image}`}
               width={1000}
               height={1000}
-              className="w-full h-[270px]"
+              className="w-full h-[200px] object-cover"
               alt="blogimage"
             />
             <h1 className="px-5 font-semibold text-center text-xl mt-3 mb-2">

@@ -11,7 +11,7 @@ const Who = () => {
             <h1 className="text-4xl text-primary font-bold pb-3">
               Who is Dr. Sunil Prakash?
             </h1>
-            <p className="text-lg leading-relaxed font-semibold">
+            <p className="lg:text-lg leading-relaxed font-semibold">
               Dr. Sunil Prakash is a highly accomplished and respected kidney
               specialist in Delhi, India. He holds an impressive educational
               background, having completed his MBBS and MD in Internal Medicine

@@ -15,12 +15,12 @@ const Banner = () => {
             alt="dr-sunil-prakash"
           />
         </div>
-        <div className="bg-primary lg:m-8 rounded-xl">
+        <div className="bg-primary lg:m-8 mx-2 rounded-xl">
           <div className="bg-skyblue border-white border-8 h-full p-5 rounded-xl font-thin translate-x-7 translate-y-7">
-            <h1 className="text-4xl text-primary font-bold pb-3">
+            <h1 className="lg:text-4xl text-3xl text-primary font-bold pb-3">
               Dr. Sunil Prakash: The Best Nephrologist in Delhi
             </h1>
-            <h2 className="text-2xl text-lightgreen font-semibold leading-relaxed">
+            <h2 className="lg:text-2xl text-xl text-lightgreen font-semibold leading-relaxed">
               Expert Kidney Care: Consult with the Best Nephrologist in Delhi
               for Top-notch Treatment
             </h2>
