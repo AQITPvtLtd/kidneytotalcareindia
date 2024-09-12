@@ -10,6 +10,9 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { IoIosMail } from "react-icons/io";
+import { MdPhoneCallback } from "react-icons/md";
+
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
@@ -35,10 +38,25 @@ const Header = () => {
     }
   };
   const usePathName = usePathname();
-
+  // Sticky Navbar
+  const [sticky, setSticky] = useState(false);
+  const handleStickyNavbar = () => {
+    if (window.scrollY >= 80) {
+      setSticky(true);
+    } else {
+      setSticky(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleStickyNavbar);
+  });
   return (
     <div
-      className={`overflow-x-clip header left-0 z-40 top-0 w-full items-center bg-gradient-to-r font-semibold`}
+      className={`overflow-x-clip header left-0 z-40 top-0 w-full items-center bg-gradient-to-r font-semibold ${
+        sticky
+          ? "fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
+          : ""
+      }`}
     >
       <header className="flex justify-around bg-primary text-white">
         <div className="container flex items-center">
@@ -213,26 +231,26 @@ const Header = () => {
           </div>
         </div>
         {/* grid 3 - social media icons */}
-        <div className="flex justify-center">
-          <div className="flex items-center space-x-4">
-            <div className="text-white text-xl">
-              <FaFacebookF className="px-1 text-xl bg-lightgreen" />
-            </div>
-            <div className="text-white text-xl">
-              <FaInstagram className="px-1 bg-lightgreen" />
-            </div>
-            <div className="text-white text-xl">
-              <FaLinkedinIn className="px-1 bg-lightgreen" />
-            </div>
-            <div className="text-white text-xl">
-              <FaYoutube className="px-1 bg-lightgreen" />
-            </div>
+        <div className="flex justify-center items-center">
+          <div>
+            <Link className="flex" href="tel:011-44795968">
+              <MdPhoneCallback className="mt-1.5 mr-0.5 text-lightgreen" />
+              Residence: 011-44795968
+            </Link>
+            <Link className="flex" href="tel:09873692675">
+              <MdPhoneCallback className="mt-1.5 mr-0.5 text-lightgreen" />
+              Mobile: 09873692675
+            </Link>
+            <Link className="flex" href="tel:011-30403040 ">
+              <MdPhoneCallback className="mt-1.5 mr-0.5 text-lightgreen" />
+              Office: 011-30403040
+            </Link>
           </div>
         </div>
 
         {/* grid 4 - contact details */}
-        <div className="flex items-center justify-center py-3 text-center">
-          <div>
+        <div className="flex items-center justify-center py-3">
+          {/* <div>
             <h1 className="text-lightgreen">
               Have a Query? Call Us:{" "}
               <Link href="tel:+91-9873692675" className="underline">
@@ -240,11 +258,51 @@ const Header = () => {
               </Link>
             </h1>
             <h1 className="text-lightgreen">
-              Have a Query? Call Us:
+              Transplant Coordinator:
               <Link href="tel:+91-8130698126" className="underline">
                 +91-8130698126
               </Link>
             </h1>
+          </div> */}
+          <div>
+            <Link className="flex" href="mailto:sunil.neph@gmail.com">
+              <IoIosMail className="mt-1.5 text-lightgreen" />
+              sunil.neph@gmail.com
+            </Link>
+            <Link className="flex" href="mailto:prakashsunil70@hotmail.com">
+              <IoIosMail className="mt-1.5 text-lightgreen" />
+              prakashsunil70@hotmail.com
+            </Link>
+            <div className="flex items-center justify-center space-x-4 mt-1">
+              <Link
+                href="https://www.facebook.com/TotalKidneySolutions"
+                target="__blank"
+                className="text-white"
+              >
+                <FaFacebookF className="px-1 bg-lightgreen" />
+              </Link>
+              <Link
+                href="https://www.instagram.com/p/C_nKAkhhMhP/"
+                target="__blank"
+                className="text-white"
+              >
+                <FaInstagram className="px-1 bg-lightgreen" />
+              </Link>
+              <Link
+                href="https://www.linkedin.com/in/sunil-prakash-50879112/"
+                target="__blank"
+                className="text-white"
+              >
+                <FaLinkedinIn className="px-1 bg-lightgreen" />
+              </Link>
+              <Link
+                href="https://www.youtube.com/@drsunilprakash9685"
+                target="__blank"
+                className="text-white"
+              >
+                <FaYoutube className="px-1 bg-lightgreen" />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -253,10 +311,3 @@ const Header = () => {
 };
 
 export default Header;
-<div className="lg:pt-4">
-  <div className="max-w-lg lg:mx-auto pt-4 mx-2">
-    <div className="flex items-center justify-center space-x-10">
-      <div className="text-gray-400">|</div>
-    </div>
-  </div>
-</div>;

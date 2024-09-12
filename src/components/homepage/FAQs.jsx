@@ -80,7 +80,7 @@ const FAQs = () => {
     setAccordion(updatedAccordions);
   };
   return (
-    <div className="lg:mx-10 mx-3">
+    <div className="lg:mx-10 mx-3 mt-20">
       <div className="lg:mt-14 mb-7">
         <h1 className="text-3xl font-bold text-center">
           Frequently Asked Questions About Dr. Sunil Prakash, Nephrologist in

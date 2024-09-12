@@ -13,8 +13,9 @@ const Features = () => {
           alt="feature"
         />
       </div>
-      <div className="lg:grid grid-cols-2 absolute inset-0 p-10">
-        <div className="bg-white lg:m-10 p-7 rounded-xl">
+      <div className="lg:flex items-stretch absolute inset-0 p-10 gap-10">
+        {/* Expertise and Experience */}
+        <div className="bg-white lg:m-10 p-7 rounded-xl flex-1">
           <div className="font-bold text-2xl pb-3">
             Expertise and Experience
           </div>
@@ -28,7 +29,8 @@ const Features = () => {
             plans.
           </p>
         </div>
-        <div className="bg-white lg:mt-0 mt-10 lg:m-10 p-7 rounded-xl">
+
+        <div className="bg-white lg:m-10 p-7 rounded-xl flex-1">
           <div className="font-bold text-2xl pb-3">
             The Importance of Choosing the Right Nephrologist in Delhi
           </div>
