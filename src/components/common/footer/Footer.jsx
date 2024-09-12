@@ -166,7 +166,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="leading-normal mt-2">
-                    <h5 className="mb-2.5 font-bold uppercase">Call US</h5>
+                    <h5 className="mb-2.5 font-bold uppercase">Mail US</h5>
                     <div>
                       <Link className="flex" href="mailto:sunil.neph@gmail.com">
                         <IoIosMail className="mt-1.5 text-lightgreen" />
