@@ -22,7 +22,7 @@ const Footer = () => {
         src="/footer/footerbg.png"
         width={10000}
         height={10000}
-        className="w-full object-cover h-[400px] hidden lg:block"
+        className="w-full object-cover h-[370px] hidden lg:block"
         alt="footer image"
       />
       <footer className="items-center text-surface lg:absolute lg:inset-0">
@@ -153,18 +153,8 @@ const Footer = () => {
             <div className="lg:flex justify-center mt-6 lg:ml-5">
               <div className="mb-6">
                 <ul className="mb-0 list-none leading-loose">
-                  <li className="leading-normal">
-                    <h5 className="mb-2.5 font-bold uppercase">Address</h5>
-                    <Link
-                      target="__blank"
-                      href="https://maps.app.goo.gl/LPTCjhdCZBdtzp8m6"
-                      className="hover:text-blue flex"
-                    >
-                      <FaLocationDot className="mt-1.5 mr-0.5 text-lightgreen" />
-                      C -132 Top Floor Sarvodaya Enclave N.Delhi-110049
-                    </Link>
-                  </li>
                   <li className="leading-normal mt-2">
+                    <h5 className="mb-2.5 font-bold uppercase">Address</h5>
                     <Link
                       target="__blank"
                       href="https://maps.app.goo.gl/LPTCjhdCZBdtzp8m6"
