@@ -141,13 +141,13 @@ const menuData = [
       {
         id: 61,
         title: "Photo Gallery",
-        path: "/photo-gallery",
+        path: "/gallery/photoGallery",
         newTab: false,
       },
       {
         id: 62,
         title: "Awards",
-        path: "/awards",
+        path: "/gallery/awards",
         newTab: false,
       },
     ],
