@@ -174,10 +174,10 @@ const Footer = () => {
                       </Link>
                       <Link
                         className="flex"
-                        href="mailto:prakashsunil70@hotmail.com"
+                        href="mailto:drsunilprakash@gmail.com"
                       >
                         <IoIosMail className="mt-1.5 text-lightgreen" />
-                        prakashsunil70@hotmail.com
+                        drsunilprakash@gmail.com
                       </Link>
                     </div>
                   </li>

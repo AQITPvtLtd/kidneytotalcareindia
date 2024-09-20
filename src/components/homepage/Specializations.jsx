@@ -17,6 +17,9 @@ const Specializations = () => {
           Chronic Kidney Disease (CKD)
         </div>
         <div className="bg-primary text-white shadow-md shadow-primary border-skyblue border-2 px-4 py-4 mb-3 text-center">
+          Diabetes Mellitus
+        </div>
+        <div className="bg-primary text-white shadow-md shadow-primary border-skyblue border-2 px-4 py-4 mb-3 text-center">
           Acute Kidney Injury (AKI)
         </div>
         <div className="bg-primary text-white shadow-md shadow-primary border-skyblue border-2 px-4 py-4 mb-3 text-center">
@@ -29,13 +32,22 @@ const Specializations = () => {
           Nephrotic Syndrome
         </div>
         <div className="bg-primary text-white shadow-md shadow-primary border-skyblue border-2 px-4 py-4 mb-3 text-center">
-          Renal Hypertension
+          Hypertension
         </div>
         <div className="bg-primary text-white shadow-md shadow-primary border-skyblue border-2 px-4 py-4 text-center mb-3">
           Kidney Stones
         </div>
+        <div className="bg-primary text-white shadow-md shadow-primary border-skyblue border-2 px-4 py-4 text-center mb-3">
+          Prostate Enlargement
+        </div>
         <div className="bg-primary text-white shadow-md shadow-primary border-skyblue border-2 px-4 py-4 mb-3 text-center">
-          Dialysis
+          Hemodialysis
+        </div>
+        <div className="bg-primary text-white shadow-md shadow-primary border-skyblue border-2 px-4 py-4 mb-3 text-center">
+          Peritoneal Dialysis
+        </div>
+        <div className="bg-primary text-white shadow-md shadow-primary border-skyblue border-2 px-4 py-4 mb-3 text-center">
+          Home Dialysis
         </div>
         <div className="bg-primary text-white shadow-md shadow-primary border-skyblue border-2 px-4 py-4 mb-3 text-center">
           Renal Transplantation

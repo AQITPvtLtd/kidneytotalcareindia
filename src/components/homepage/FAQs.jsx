@@ -19,13 +19,17 @@ const FAQs = () => {
     {
       key: 3,
       title: "What conditions does Dr. Sunil Prakash treat?",
-      data: `Dr. Sunil Prakash as the best kidney specialist in Delhi treats a wide range of kidney-related conditions, including chronic kidney disease (CKD), acute kidney injury (AKI), polycystic kidney disease (PKD), glomerulonephritis, nephrotic syndrome, renal hypertension, kidney stones, dialysis, and renal transplantation.`,
+      data: `Dr. Sunil Prakash as the best kidney specialist in Delhi treats a wide range of kidney-related conditions, including chronic kidney disease (CKD), acute kidney injury (AKI), diabetes, high blood pressure, polycystic kidney disease (PKD), glomerulonephritis, nephrotic syndrome, renal hypertension, kidney stones, dialysis, and renal transplantation.`,
       isOpen: false,
     },
     {
       key: 4,
       title: "How can I schedule an appointment with Dr. Sunil Prakash?",
-      data: `To schedule an appointment with Dr. Sunil Prakash, you can contact his clinic directly. The contact details and appointment booking process can be found on website. It is advisable to call and inquire about the availability of appointments and any specific requirements for new patients.`,
+      data: `<p>To schedule an appointment with Dr. Sunil Prakash you can contact any of the numbers:</p>
+<p><strong>Max Hospital Gurgaon:</strong><u> </u><a href="tel:+919268880303"><u><span style="color: rgb(41, 105, 176);">+91 9268880303</span></u></a></p>
+<p><strong>BLK-Max:</strong> <a href="tel:011 30403040"><u><span style="color: rgb(41, 105, 176);">011 30403040</span></u></a></p>
+<p><strong>Coordinator:</strong> <a href="tel:+918130698126"><u><span style="color: rgb(41, 105, 176);">+91 8130698126</span></u></a></p>
+<p><strong>Dr. Sunil Prakash:</strong> <a href="tel:98736 92675"><u><span style="color: rgb(41, 105, 176);">+91 98736 92675</span></u></a></p>`,
       isOpen: false,
     },
     {
@@ -50,14 +54,7 @@ const FAQs = () => {
       key: 8,
       title:
         "Is Dr. Sunil Prakash affiliated with any hospitals or medical centers?",
-      data: `Yes, Dr. Sunil Prakash is affiliated with reputable hospitals and medical centers in Delhi, India. His affiliations enable him to provide comprehensive care to his patients, including access to state-of-the-art facilities and advanced treatment options.`,
-      isOpen: false,
-    },
-    {
-      key: 9,
-      title:
-        "How can I get in touch with Dr. Sunil Prakash for a second opinion?",
-      data: `If you are seeking a second opinion from Dr. Sunil Prakash, you can contact his clinic and explain your situation. It is advisable to gather all relevant medical records and test results to provide a complete picture of your condition. Dr. Prakash will review your case and provide his expert opinion on the best course of action.`,
+      data: `Yes, Dr. Sunil Prakash is affiliated with BLK-Max Super Speciality Hospital - Pusa Road, Max Hospital - Gurgaon, Uma Sanjeevani Health Centre - Gurgaon.`,
       isOpen: false,
     },
     {

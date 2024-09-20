@@ -32,10 +32,9 @@ const Treatments = () => {
                 At Kidney Total Care India, all patients are considered for
                 transplantation, but we inform those who are not suitable for
                 kidney transplantation for any reason. There are some risks
-                involved in transplanting a kidney such as the donor can have
-                Stocks, bleeding, blood clots, heart attack, infection,
-                pneumonia or other problems, so we take intensive care while
-                transplanting a kidney.
+                involved in transplanting a kidney such as the donor could
+                suffer from bleeding, infection, pneumonia etc. The patient may
+                have rejection of his kidney or other complications.
               </p>
             </div>
           </Link>
@@ -61,8 +60,9 @@ const Treatments = () => {
                 from human body and also it levels out our blood pressure plus
                 keeps our bones strong. A nephrologist suggests a patient for
                 dialysis, when his/her both kidneys stop functioning. The
-                patients having chronic kidney disease is suggested for dialysis
-                and after some time they must be advised for kidney transplant.
+                patients having chronic kidney disease is suggested for regular
+                dialysis in hospital or at home. These patients are also adviced
+                for kidney transplantation.
               </p>
             </div>
           </Link>
@@ -85,14 +85,15 @@ const Treatments = () => {
             </div>
             <div className="p-3">
               <p className="leading-relaxed">
-                If you’re on dialysis, you have three main approaches first is
-                Intermittent hemodialysis (IHD), second is Peritoneal dialysis
-                (PD) and last one is Continuous renal replacement therapies
-                (CRRT). You may go for any of the three, but many experts agree
-                that home dialysis either peritoneal or hemodialysis is the best
-                option for treating kidney failure. During dialysis, you can
-                live full and active life. At Kidney Total Care India, we offer
-                home dialysis treatment at reasonable cost in India.
+                If you’re on dialysis, you have three main approaches: first is
+                Intermittent hemodialysis (IHD), second is Day-Time Peritoneal
+                Dialysis (CAPD) and last one is night dialysis by cycler (NIPD).
+                You may go for any of the three, but many experts agree that
+                home dialysis either peritoneal or hemodialysis is the best
+                option for treating kidney failure. Patients who are on regular
+                dialysis can live a productive and active life. At Kidney Total
+                Care India, we offer home dialysis treatment at reasonable cost
+                in India.
               </p>
             </div>
           </Link>

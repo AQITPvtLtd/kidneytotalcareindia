@@ -270,9 +270,9 @@ const Header = () => {
               <IoIosMail className="mt-1.5 text-lightgreen" />
               sunil.neph@gmail.com
             </Link>
-            <Link className="flex" href="mailto:prakashsunil70@hotmail.com">
+            <Link className="flex" href="mailto:drsunilprakash@gmail.com">
               <IoIosMail className="mt-1.5 text-lightgreen" />
-              prakashsunil70@hotmail.com
+              drsunilprakash@gmail.com
             </Link>
             <div className="flex items-center justify-center space-x-4 mt-1">
               <Link

@@ -83,10 +83,22 @@ const Experience = () => {
           <li className="mb-5 ms-4">
             <div className="absolute w-5 h-5 bg-lightgreen rounded-full mt-1.5 -start-2.5 border border-white "></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400">
-              08 Febuary 2012 onwards
+              2012 - 2022
             </time>
             <h3 className="text-lg font-semibold text-gray-900">
               Sr. Director & Head of Nephrology & Renal Transplantation
+            </h3>
+            <p className="mb-4 text-base font-normal text-gray-500">
+              BLK-Max Hospital N Delhi & Max Hospital Gurgaon
+            </p>
+          </li>
+          <li className="mb-5 ms-4">
+            <div className="absolute w-5 h-5 bg-lightgreen rounded-full mt-1.5 -start-2.5 border border-white "></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400">
+              2022 onwards
+            </time>
+            <h3 className="text-lg font-semibold text-gray-900">
+              Principal Director & Head of Nephrology & Renal Transplantation
             </h3>
             <p className="mb-4 text-base font-normal text-gray-500">
               BLK-Max Hospital N Delhi & Max Hospital Gurgaon
