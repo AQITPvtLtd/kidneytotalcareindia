@@ -13,13 +13,13 @@ const menuData = [
       {
         id: 21,
         title: "Dr. Sunil Prakash",
-        path: "/dr-sunil-prakash",
+        path: "/about/dr-sunil-prakash",
         newTab: false,
       },
       {
         id: 22,
         title: "Certificates",
-        path: "/certificates",
+        path: "/about/certificates",
         newTab: false,
       },
       {

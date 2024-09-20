@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { GiCheckMark } from "react-icons/gi";
 import { education } from "@/data/education";
-import Sidebar from "./Sidebar";
+import Sidebar from "../Sidebar";
 
 const About = () => {
   return (
