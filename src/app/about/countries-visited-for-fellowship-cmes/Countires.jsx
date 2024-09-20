@@ -1,8 +1,10 @@
 import React from "react";
 import Sidebar from "../Sidebar";
 import ReactCountryFlag from "react-country-flag";
+import { data } from "../data";
+
 const Countires = () => {
-  const data = [
+  const country = [
     {
       id: 1,
       country: "Japan",
@@ -184,7 +186,7 @@ const Countires = () => {
             </h1>
             <div className="border border-lightgreen w-full h-[2px]"></div>
             <div className="grid grid-cols-3 gap-5 m-5">
-              {data.map((d) => (
+              {country.map((d) => (
                 <div
                   key={d.id}
                   className={`${
@@ -214,7 +216,7 @@ const Countires = () => {
           </div>
         </div>
         <div className="mt-14">
-          <Sidebar />
+          <Sidebar data={data} />
         </div>
       </div>
     </div>

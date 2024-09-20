@@ -4,6 +4,7 @@ import React from "react";
 import { GiCheckMark } from "react-icons/gi";
 import { education } from "@/data/education";
 import Sidebar from "../Sidebar";
+import { data } from "../data";
 
 const About = () => {
   return (
@@ -143,7 +144,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <Sidebar />
+        <Sidebar data={data} />
       </div>
     </div>
   );

@@ -1,11 +1,12 @@
 import React from "react";
 import Sidebar from "../Sidebar";
+import { data } from "../data";
 
 const Editor = () => {
   return (
     <div>
       <div className="grid grid-cols-3 m-16">
-        <Sidebar />
+        <Sidebar data={data} />
         <div className="col-span-2 mx-5 inline-block">
           <h1 className="text-primary font-extrabold text-3xl">
             Editor DNS News Letter
