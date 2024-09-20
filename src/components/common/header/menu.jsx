@@ -25,19 +25,19 @@ const menuData = [
       {
         id: 23,
         title: "Case Studies",
-        path: "/case-studies",
+        path: "/about/case-studies",
         newTab: false,
       },
       {
         id: 24,
         title: "Editor DNS News Letter",
-        path: "/editor-dns-news-letter",
+        path: "/about/editor-dns-newsletter",
         newTab: false,
       },
       {
         id: 25,
         title: "Countries Visited for Fellowship CME's",
-        path: "/countries-visited-for-fellowship-cmes",
+        path: "/about/countries-visited-for-fellowship-cmes",
         newTab: false,
       },
     ],
