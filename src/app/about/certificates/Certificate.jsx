@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { cert } from "@/data/certificate";
-import Sidebar from "../Sidebar";
+import Sidebar from "../../../components/common/Sidebar";
 import Image from "next/image";
 import { data } from "../data";
 const Certificate = () => {

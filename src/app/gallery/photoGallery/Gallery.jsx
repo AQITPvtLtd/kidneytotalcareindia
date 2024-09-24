@@ -59,7 +59,7 @@ const Gallery = () => {
             <img
               src={selectedImage}
               alt="Selected"
-              className="w-[1000px] h-auto"
+              className="max-w-[90vw] max-h-[90vh] object-contain" // Set max width/height and maintain aspect ratio
             />
             <button
               className="absolute top-2 right-2 bg-white px-2 py-1 rounded-full"

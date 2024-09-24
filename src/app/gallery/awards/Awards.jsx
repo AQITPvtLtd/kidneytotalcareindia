@@ -56,7 +56,7 @@ const Awards = () => {
               <img
                 src={selectedImage}
                 alt="Selected"
-                className="w-[1000px] h-auto"
+                className="max-w-[150vw] max-h-[150vh] object-contain"
               />
               <button
                 className="absolute top-2 right-2 bg-white px-2 py-1 rounded-full"

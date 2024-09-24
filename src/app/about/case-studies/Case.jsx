@@ -1,5 +1,5 @@
 import React from "react";
-import Sidebar from "../Sidebar";
+import Sidebar from "../../../components/common/Sidebar";
 import { data } from "../data";
 const Case = () => {
   return (
