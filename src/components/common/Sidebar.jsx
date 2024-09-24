@@ -9,11 +9,17 @@ const Sidebar = ({ data }) => {
         {data.map((d) => (
           <div
             key={d.id}
-            className="bg-blue-600 text-white px-3 py-2 mb-2 hover:translate-x-3 duration-500"
+            className="bg-blue-600 rounded-sm text-white px-3 py-2 mb-1 hover:translate-x-3 duration-500"
           >
-            <Link href={`/about/${d.link}`} className="flex">
-              <IoMdCheckmarkCircleOutline className="mt-1 mr-1" />
-              {d.name}
+            <Link href={`/about/${d.link}`} className="">
+              <table>
+                <tr>
+                  <td>
+                    <IoMdCheckmarkCircleOutline className="mt-1 mr-1" />
+                  </td>
+                  <td> {d.name}</td>
+                </tr>
+              </table>
             </Link>
           </div>
         ))}

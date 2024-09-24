@@ -1,9 +1,11 @@
-"use client"
+"use client";
 import React from "react";
 import Image from "next/image";
-import Sidebar from "@/app/about/Sidebar";
 import { useState } from "react";
 import { awards } from "@/data/award";
+import Sidebar from "@/components/common/Sidebar";
+import { data } from "../data";
+
 const Awards = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -15,7 +17,7 @@ const Awards = () => {
     setSelectedImage(null);
   };
   return (
-    <div className="mt-[50px]">
+    <div className="">
       <div className="relative">
         <Image
           src="/awards/award.avif"
@@ -25,38 +27,40 @@ const Awards = () => {
           alt="Contact Image"
         />
         <div className="absolute inset-0 bg-cyan-600 opacity-70 z-10"></div>
-        <h1 className="text-white font-serif text-center text-6xl font-bold my-4 absolute inset-0 z-20 flex items-center justify-center">
+        <h1 className="text-white font-serif text-center text-6xl font-bold my-4 absolute inset-0 z-[10] flex items-center justify-center">
           Awards
         </h1>
       </div>
 
-      <div className="lg:grid grid-cols-12 px-10 mt-10 z-50">
-        <div className="col-span-8">
-          <div className="flex flex-wrap gap-5">
+      <div className="lg:grid grid-cols-3 px-10 mt-10 z-50">
+        <div className="col-span-2">
+          <div className="lg:grid grid-cols-3">
             {awards.map((item) => (
               <div key={item.id} className="m-2">
-                <img
+                <Image
+                  width={1000}
+                  height={1000}
                   src={`/awards/${item.image}`}
                   alt={`awards ${item.id}`}
-                  className="cursor-pointer w-48 h-48 object-fill border-8 border-blue-800"
+                  className="hover:scale-105 duration-300 h-[250px] cursor-pointer object-fill border-8 border-blue-800"
                   onClick={() => openImage(`/awards/${item.image}`)}
                 />
               </div>
             ))}
           </div>
         </div>
-
-        <div className="col-span-4">
-          <Sidebar />
+        <div className="mt-2 lg:block hidden">
+          <Sidebar data={data} />
         </div>
-
         {selectedImage && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
             <div className="relative">
-              <img
+              <Image
+                height={1000}
+                width={1000}
                 src={selectedImage}
                 alt="Selected"
-                className="max-w-[150vw] max-h-[150vh] object-contain"
+                className="w-[400px] h-full"
               />
               <button
                 className="absolute top-2 right-2 bg-white px-2 py-1 rounded-full"
