@@ -1,6 +1,7 @@
 import React from "react";
 import Sidebar from "@/components/common/Sidebar";
 import { data } from "./data";
+import Link from "next/link";
 const Media = () => {
   return (
     <div>
@@ -12,9 +13,13 @@ const Media = () => {
           </div>
           <div className="grid grid-cols-3 gap-3 ">
             {data.map((d) => (
-              <div className="px-5 bg-primary text-white rounded-md py-2">
+              <Link
+                key={d.id}
+                href={`/media-coverage/${d.link}`}
+                className="px-5 hover:scale-105 duration-300 bg-primary text-white rounded-md py-2"
+              >
                 {d.name}
-              </div>
+              </Link>
             ))}
           </div>
         </div>
