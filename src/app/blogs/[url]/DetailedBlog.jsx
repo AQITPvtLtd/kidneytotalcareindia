@@ -89,6 +89,7 @@ const DetailedBlog = ({ url }) => {
                 </div>
                 <p
                   dangerouslySetInnerHTML={{ __html: blogDetail?.description }}
+                  className="p-5"
                 ></p>
               </div>
             </div>

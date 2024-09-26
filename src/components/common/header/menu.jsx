@@ -168,7 +168,7 @@ const menuData = [
   {
     id: 7,
     title: "Contact Us",
-    path: "/contact-us",
+    path: "/contact",
     newTab: false,
   },
 ];
