@@ -52,28 +52,28 @@ export const data = [
   {
     id: 11,
     name: "Dr. Sunil Prakash Attended the...",
-    link: "Dr-sunil-prakash-attended-the",
+    link: "dr-sunil-prakash-attended-the",
   },
   {
     id: 12,
     name: "Artemis in the news",
     link: "artemis-in-the-news",
   },
-  {
-    id: 13,
-    name: "Keeping kidneys healthy!",
-    link: "keeping-kidneys-healthy",
-  },
+  // {
+  //   id: 13,
+  //   name: "Keeping kidneys healthy!",
+  //   link: "keeping-kidneys-healthy",
+  // },
   {
     id: 14,
     name: "We used it for terminally ill",
     link: "we-used-it-for-terminally-ill",
   },
-  {
-    id: 15,
-    name: "No Carelessness accepted during Surgery",
-    link: "no-carelessness-accepted-during-surgery",
-  },
+  // {
+  //   id: 15,
+  //   name: "No Carelessness accepted during Surgery",
+  //   link: "no-carelessness-accepted-during-surgery",
+  // },
   {
     id: 16,
     name: "What Should You know about Kidney Transplant",
