@@ -238,7 +238,7 @@ const Header = () => {
         <div className="hidden lg:flex items-center justify-center py-5">
           <div className="flex items-center animate__animated shadow-lg  shadow-red-200 animate__slower animate__pulse animate__infinite">
             <Link
-              href="/"
+              href="/publicNotice"
               className="bg-lightgreen px-4 py-2 rounded-md text-white border-white border-2 text-sm"
             >
               Public Notice

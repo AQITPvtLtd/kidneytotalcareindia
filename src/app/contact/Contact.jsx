@@ -2,13 +2,14 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import Swal from "sweetalert";
+import Swal from "sweetalert2";
+import { form } from "@/services/user";
+
 const Contact = () => {
   const router = useRouter();
   const [formData, setformData] = useState({
     name: "",
     email: "",
-    phone: "",
     phone: "",
     message: "",
   });
@@ -17,14 +18,14 @@ const Contact = () => {
     setformData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSumbit = async (e) => {
-    e.prevantDefault();
-    const response = awaitform(formData);
+  const handleSubmit = async (e) => {
+    e.preventDefault(); // Corrected typo here
+    const response = await form(formData);
     console.log(response);
     if (response.success) {
       Swal.fire({
         title: "Form Submitted Successfully",
-        text: "Your clicked the Button!",
+        text: "You clicked the Button!",
         icon: "success",
       });
       router.push("/");
@@ -36,133 +37,113 @@ const Contact = () => {
       });
     }
   };
+
   return (
-    <div className="max-w-5xl mx-auto py-10">
-      <div className="justify-center text-center mb-5">
+    <div className="p-5 lg:px-20">
+      <div className="text-center mb-5">
         <div className="inline-block">
           <h1 className="text-3xl font-semibold text-primary">Contact Us</h1>
           <div className="border border-lightgreen w-full h-[2px]"></div>
         </div>
       </div>
-      <p className="text-xl font-medium text-gray-700 px-5 mb-8 text-center">
-        Welcome to Dr. Sunil Prakash's website! If you are looking for kidney
-        treatment in India, you've come to the right place. Dr. Sunil Prakash is
-        a leading nephrologist, providing top-notch treatment for kidney
-        diseases and disorders. Call today for early diagnosis and treatment!
+
+      <p className="text-xl font-medium text-gray-700 mb-8 text-center lg:px-16">
+        If you are looking for kidney treatment in India, you've come to the
+        right place. Dr. Sunil Prakash is a leading nephrologist, providing
+        top-notch treatment for kidney diseases and disorders. Call today for
+        early diagnosis and treatment!
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 px-5">
-        {/* Form sumbittion */}
+      <div className="lg:grid grid-cols-12 gap-10">
+        {/* Form section */}
+        <div className="col-start-2 col-span-5">
+          <form onSubmit={handleSubmit}>
+            <div className="mb-6">
+              <label
+                htmlFor="name"
+                className="block text-md font-medium mb-2 text-primary"
+              >
+                Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter Your Name"
+                required
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                value={formData.name}
+                onChange={handleChange}
+              />
+            </div>
 
-        <form
-          className="bg-blue-400 text-gray-800 p-8 rounded-lg w-full max-w-lg overflow-hidden"
-          onSubmit={handleSumbit}
-        >
-          <div className="mb-6">
-            <label
-              htmlFor="Name"
-              className="block text-md font-medium mb-2 text-primary"
-            >
-              Name
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Enter Your Name"
-              required
-              className="w-full px-4 py-2 border border-gray-300  rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              value={formData.name}
-              onChange={handleChange}
-            />
-          </div>
+            <div className="mb-6">
+              <label
+                htmlFor="phone"
+                className="block text-md font-medium mb-2 text-primary"
+              >
+                Phone Number
+              </label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter Your Phone Number"
+                required
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                value={formData.phone}
+                onChange={handleChange}
+              />
+            </div>
 
-          <div className="mb-6">
-            <label
-              htmlFor="Phone"
-              className="block text-md font-medium mb-2 text-primary"
-            >
-              Phone Number
-            </label>
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              placeholder="Enter Your Phone Number"
-              required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              value={formData.phone}
-              onChange={handleChange}
-            />
-          </div>
+            <div className="mb-6">
+              <label
+                htmlFor="email"
+                className="block text-md font-medium mb-2 text-primary"
+              >
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Your Email Address"
+                required
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                value={formData.email}
+                onChange={handleChange}
+              />
+            </div>
 
-          <div className="mb-6">
-            <label
-              htmlFor="Email"
-              className="block text-md font-medium mb-2 text-primary"
-            >
-              Email
-            </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Enter Your Email Address"
-              required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              value={formData.email}
-              onChange={handleChange}
-            />
-          </div>
+            <div className="mb-6">
+              <label
+                htmlFor="message"
+                className="block text-md font-medium mb-2 text-primary"
+              >
+                Message
+              </label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Write Your Message Here..."
+                required
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                value={formData.message}
+                onChange={handleChange}
+              ></textarea>
+            </div>
 
-          <div className="mb-6">
-            <label
-              htmlFor=" Date"
-              className="block text-md font-medium mb-2 text-primary"
-            >
-              Date
-            </label>
-            <input
-              type="date"
-              id="date"
-              name="date"
-              required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              value={formData.date}
-              //   onChange={handleChange}
-            />
-          </div>
-
-          <div className="mb-6">
-            <label
-              htmlFor="Message"
-              className="block text-md font-medium mb-2 text-primary"
-            >
-              Message
-            </label>
-            <textarea
-              name="message"
-              id="message"
-              placeholder="Write Your Message Here.."
-              required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              value={formData.message}
-              onChange={handleChange}
-            ></textarea>
-          </div>
-
-          <div>
             <button
               type="submit"
               className="w-full text-white bg-primary py-3 rounded-lg transition duration-300 ease-in-out transform hover:bg-white hover:text-primary hover:border-2 hover:border-primary hover:shadow-lg hover:scale-105"
             >
               Submit
             </button>
-          </div>
-        </form>
+          </form>
+        </div>
 
-        {/* Contact Info Section */}
-        <div>
+        {/* Contact details section */}
+        <div className="col-start-8 col-span-5 mt-8 lg:mt-0">
           <div>
             <h2 className="text-2xl font-semibold mb-4 text-primary underline underline-offset-4">
               Dr. Sunil Prakash
@@ -212,7 +193,7 @@ const Contact = () => {
           </div>
 
           {/* Uma Sanjivani Hospital Section */}
-          <div className="mt-4">
+          <div className="mt-8">
             <h2 className="text-2xl font-semibold mb-4 text-primary underline underline-offset-4">
               Uma Sanjivani Hospital
             </h2>

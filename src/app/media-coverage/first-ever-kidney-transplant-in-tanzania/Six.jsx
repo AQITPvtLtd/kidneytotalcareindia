@@ -16,7 +16,7 @@ const Six = () => {
   };
   return (
     <div>
-      <div className="grid grid-cols-4 px-10 mt-10">
+      <div className="lg:grid grid-cols-4 px-10 mt-10">
         <div className="col-span-3 mx-10">
           <div className="inline-block mb-4">
             <h1 className="font-bold text-3xl">
@@ -45,7 +45,7 @@ const Six = () => {
             The case was shared with media and had garnered us coverage in print
             and online publications.
           </div>
-          <div className="grid grid-cols-2">
+          <div className="lg:grid grid-cols-2">
             <Image
               src="/media-coverage/tanzania-01.jpg"
               width={10000}

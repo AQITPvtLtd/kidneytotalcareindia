@@ -178,14 +178,14 @@ const Countires = () => {
   ];
   return (
     <div>
-      <div className="grid grid-cols-3 mt-4 mx-10">
+      <div className="lg:grid grid-cols-3 mt-4 mx-10">
         <div className="col-span-2">
           <div className="inline-block">
             <h1 className="text-primary font-extrabold text-3xl">
               Countries Visited for followship & CMES
             </h1>
             <div className="border border-lightgreen w-full h-[2px]"></div>
-            <div className="grid grid-cols-3 gap-5 m-5">
+            <div className="lg:grid grid-cols-3 gap-5 m-5">
               {country.map((d) => (
                 <div
                   key={d.id}

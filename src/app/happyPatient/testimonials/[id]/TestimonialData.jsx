@@ -8,7 +8,7 @@ const TestimonialData = ({ id }) => {
 
   return (
     <div>
-      <div className="grid grid-cols-12">
+      <div className="lg:grid grid-cols-12">
         <div className="col-start-2 col-span-6">
           <div key={obj.id} className=" gap-4 items-center">
             <div className="justify-center bg-white p-6 rounded-lg shadow-inner   overflow-hidden">
@@ -19,13 +19,14 @@ const TestimonialData = ({ id }) => {
                 className="text-gray-700 text-lg"
                 dangerouslySetInnerHTML={{ __html: obj.content }}
               ></p>
-              <Image
+              {obj.image !== ""  && <Image
                 src={`/testimonials/${obj.image}`}
                 alt={obj.name}
                 width={500}
                 height={500}
                 className="rounded-lg"
-              />
+              />}
+              
 
               {/* <p className="text-gray-700 text-lg">{obj.image}</p> */}
               <p
@@ -35,7 +36,7 @@ const TestimonialData = ({ id }) => {
           </div>
         </div>
 
-        <div className="col-span-4">
+        <div className="col-span-4 mt-5 lg:block hidden">
           {TestiData.map((d) => (
             <div
               key={d.id}

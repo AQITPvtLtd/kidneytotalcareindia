@@ -23,7 +23,7 @@ const Education = () => {
         </h1>
 
         {/* Education Details */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mx-4 mt-10">
+        <div className="lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mx-4 mt-10">
           {education.slice(0, 4).map((e) => (
             <div
               key={e.id}
@@ -42,7 +42,7 @@ const Education = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 mt-8 gap-5">
+        <div className="lg:grid grid-cols-1 mt-8 gap-5">
           {education.slice(4, 5).map((e) => (
             <div
               key={e.id}

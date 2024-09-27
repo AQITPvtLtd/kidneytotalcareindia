@@ -98,7 +98,7 @@ const TwentyOne = () => {
   ];
   return (
     <div>
-      <div className="grid grid-cols-4 px-10 my-10">
+      <div className="lg:grid grid-cols-4 px-10 my-10">
         <div className="col-span-3 mx-10">
           <div className="inline-block mb-4">
             <h1 className="font-bold text-2xl uppercase">Kanpur Event</h1>

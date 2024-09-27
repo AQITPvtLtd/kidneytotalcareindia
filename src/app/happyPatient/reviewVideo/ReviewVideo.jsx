@@ -18,7 +18,7 @@ const ReviewVideo = () => {
         </h1>
       </div>
       <div className="mt-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-10 px-4">
+        <div className="lg:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-10 px-4">
           {video.map((item) => (
             <div key={item.id} className="relative w-full h-0 pb-[56.25%] mb-6">
               <iframe

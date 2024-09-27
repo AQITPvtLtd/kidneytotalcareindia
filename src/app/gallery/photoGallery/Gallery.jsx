@@ -32,7 +32,7 @@ const Gallery = () => {
 
       <div className="lg:grid grid-cols-3 px-10 mt-10 z-50">
         <div className="col-span-2">
-          <div className="grid grid-cols-3">
+          <div className="lg:grid grid-cols-3">
             {galleryPhoto.map((item) => (
               <div key={item.id} className="m-2">
                 <Image

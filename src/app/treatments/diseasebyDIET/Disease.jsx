@@ -1,12 +1,12 @@
 import React from "react";
-import Slider from "../Slider";
-
+import Sidebar from "@/components/common/Sidebar";
+import { treatmentData } from "../data";
 const Disease = () => {
   return (
     <div>
       <div className="lg:grid grid-cols-3 lg:m-16 m-8">
         <div className="lg:block hidden">
-          <Slider />
+          <Sidebar data={treatmentData} />
         </div>
         <div className="col-span-2 mx-5 inline-block">
           <div className="inline-block">
@@ -76,7 +76,9 @@ const Disease = () => {
           </div>
 
           <div>
-            <h1 className="text-primary font-extrabold text-3xl mt-8">Obesity:</h1>
+            <h1 className="text-primary font-extrabold text-3xl mt-8">
+              Obesity:
+            </h1>
 
             <p className="text-lg font-bold text-gray-700 mt-1">
               There are people in whom the cause of their kidney failure is

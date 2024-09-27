@@ -1,0 +1,123 @@
+"use client";
+
+import React from "react";
+import { useState } from "react";
+import { data } from "../data";
+import Sidebar from "@/components/common/Sidebar";
+import Image from "next/image";
+const TwentySeven = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const openImage = (image) => {
+    setSelectedImage(image);
+  };
+
+  const closeModal = () => {
+    setSelectedImage(null);
+  };
+  return (
+    <div>
+      <div className="lg:grid grid-cols-4 px-10 mt-10">
+        <div className="col-span-3 mx-10">
+          <div className="inline-block mb-4">
+            <h1 className="font-bold text-2xl uppercase">
+              Agra Health Check Camp
+            </h1>
+            <div className="border border-lightgreen"></div>
+          </div>
+
+          <div>
+            <p className="text-lg font-bold text-gray-700 mt-1">
+              Dear All, Wish to share the coverage we have received in Agra for
+              a health check camp organised on 25th September. This was a
+              multi-speciality camp led by Dr. Mradul Kaushik – Director,
+              Operations and Planning. The team of doctors comprised of: Dr.
+              Dharma Choudhary- Director, Hemato Oncology & Bone Marrow
+              Transplant; Dr Ajay Kaul – Chairman & HOD, Cardio Thoracic
+              Vascular Surgery; Dr. Sunil Prakash, Director & Sr. Consultant,
+              Nephrology & Renal Transplant Services; Dr. Deep Goel – Director,
+              Minimal Access, Bariatric & Surgical Gastroenterology and Dr.
+              Sanjay Singh Negi – Director, HPB Surgery and Liver Transplant.
+              Press Release shared with the local media garnered us coverage in
+              the following print publications.
+            </p>
+
+            <ol class="list-decimal">
+              <li>
+                {" "}
+                <strong>Hindustan :</strong> 272 patients benefitted from the
+                camp{" "}
+              </li>
+              <li>
+                <strong>DLA News :</strong>Experts from Delhi seen serious
+                patients
+              </li>
+              <li>
+                <strong>Amar Ujala :</strong> 272 patients benefitted from the
+                camp
+              </li>
+              <li>
+                <strong>Dainik Jaagran : </strong>Diabetes is damaging liver and
+                kidney
+              </li>
+              <li>
+                <strong>DLA News :</strong>Fear of Heart surgery eliminated
+              </li>
+              <li>
+                <strong>Swadesh :</strong>272 patients benefitted from the camp
+              </li>
+              <li>
+                <strong>Punjab Kesri :</strong>Bypass Surgery & Valve
+                replacement possible through laparoscopic procedure
+              </li>
+            </ol>
+          </div>
+          <div className="lg:grid grid-cols-2 gap-3 mt-2">
+            <Image
+              src="/media-coverage/27.jpg"
+              width={10000}
+              height={10000}
+              className=" object-cover hover:cursor-pointer hover:scale-105 duration-300"
+              alt="media-coverage"
+              onClick={() => openImage(`/media-coverage/27.jpg`)}
+            />
+
+            <Image
+              src="/media-coverage/27.1.jpg"
+              width={10000}
+              height={10000}
+              className=" object-cover hover:cursor-pointer hover:scale-105 duration-300"
+              alt="media-coverage"
+              onClick={() => openImage(`/media-coverage/27.1.jpg`)}
+            />
+          </div>
+        </div>
+        <div>
+          <Sidebar data={data} />
+        </div>
+      </div>
+
+      {selectedImage && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+          <div className="relative">
+            <Image
+              height={1000}
+              width={1000}
+              src={selectedImage}
+              alt="Selected"
+              className="w-auto h-screen"
+            />
+            <button
+              className="absolute top-2 right-2 bg-white px-2 py-1 rounded-full"
+              onClick={closeModal}
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default TwentySeven;

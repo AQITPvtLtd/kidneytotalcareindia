@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div>
       <div className="flex justify-center">
-        <div className="grid grid-cols-2">
+        <div className="lg:grid grid-cols-2">
           <div className="flex items-center justify-center text-center">
             <div>
               <h1 className="text-primary font-extrabold text-6xl">
@@ -33,7 +33,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3 m-10">
+      <div className="lg:grid grid-cols-3 m-10">
         <div className="col-span-2">
           <table className="table-auto w-full text-left">
             <tbody className=" leading-relaxed text-lg font-sans">
@@ -104,7 +104,7 @@ const About = () => {
               </h1>
 
               {/* Education Details */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mx-4 mt-10">
+              <div className="lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mx-4 mt-10">
                 {education.slice(0, 4).map((e) => (
                   <div
                     key={e.id}
@@ -123,7 +123,7 @@ const About = () => {
                 ))}
               </div>
 
-              <div className="grid grid-cols-1 mt-8 gap-5">
+              <div className="lg:grid grid-cols-1 mt-8 gap-5">
                 {education.slice(4, 5).map((e) => (
                   <div
                     key={e.id}

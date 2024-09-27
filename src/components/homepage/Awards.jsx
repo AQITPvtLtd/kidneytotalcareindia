@@ -40,7 +40,7 @@ const Awards = () => {
       <h1 className="text-center font-bold text-4xl text-black bg-white py-2 px-1 rounded-md">
         AWARDS AND TRAINING ABROAD
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-5 gap-y-6 gap-x-6 mt-5">
+      <div className="lg:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-5 gap-y-6 gap-x-6 mt-5">
         {awards.map((a) => (
           <div
             className="border p-6 rounded-md shadow-md relative bg-white"

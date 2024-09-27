@@ -84,22 +84,22 @@ const Footer = () => {
 
                 <ul className="mb-0 list-none leading-loose">
                   <li>
-                    <Link href="/" className="hover:text-darkgreen">
+                    <Link href="/about/dr-sunil-prakash" className="hover:text-darkgreen">
                       About Us
                     </Link>
                   </li>
                   <li>
-                    <Link href="/about" className="hover:text-darkgreen">
+                    <Link href="/gallery/photoGallery" className="hover:text-darkgreen">
                       Gallery
                     </Link>
                   </li>
                   <li>
-                    <Link href="/about" className="hover:text-darkgreen">
+                    <Link href="/happyPatient/testimonials" className="hover:text-darkgreen">
                       Happy Patients
                     </Link>
                   </li>
                   <li>
-                    <Link href="/articles" className="hover:text-darkgreen">
+                    <Link href="/blogs" className="hover:text-darkgreen">
                       Blog
                     </Link>
                   </li>
@@ -117,32 +117,32 @@ const Footer = () => {
 
                 <ul className="mb-0 list-none leading-loose">
                   <li>
-                    <Link href="/" className="hover:text-blue">
+                    <Link href="/treatments/renalReplacement" className="hover:text-blue">
                       Renal Replacement Therapy
                     </Link>
                   </li>
                   <li>
-                    <Link href="/" className="hover:text-blue">
+                    <Link href="/treatments/kidneyTransplantation" className="hover:text-blue">
                       Kidney Transplantation
                     </Link>
                   </li>
                   <li>
-                    <Link href="/" className="hover:text-blue">
+                    <Link href="/treatments/dialysis" className="hover:text-blue">
                       Dialysis
                     </Link>
                   </li>
                   <li>
-                    <Link href="/" className="hover:text-blue">
+                    <Link href="/treatments/diseasebyDIET" className="hover:text-blue">
                       Slowing of kidney disease by diet
                     </Link>
                   </li>
                   <li>
-                    <Link href="/" className="hover:text-blue">
+                    <Link href="/treatments/homeDialysis" className="hover:text-blue">
                       Home Dialysis Treatments
                     </Link>
                   </li>
                   <li>
-                    <Link href="/" className="hover:text-blue">
+                    <Link href="/treatments/hemodialysis" className="hover:text-blue">
                       Hemodialysis Treatments for Kidney
                     </Link>
                   </li>

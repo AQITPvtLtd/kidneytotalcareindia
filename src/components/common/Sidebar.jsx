@@ -11,7 +11,7 @@ const Sidebar = ({ data }) => {
             key={d.id}
             className="bg-blue-600 rounded-sm text-white px-3 py-2 mb-1 hover:translate-x-3 duration-500"
           >
-            <Link href={`/about/${d.link}`} className="">
+            <Link href={`${d.link}`} className="">
               <table>
                 <tr>
                   <td>

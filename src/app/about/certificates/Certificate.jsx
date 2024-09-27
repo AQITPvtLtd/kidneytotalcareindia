@@ -27,7 +27,7 @@ const Certificate = () => {
             Certificates
           </h1>
           <div className="border border-lightgreen w-full h-[2px] mx-2"></div>
-          <div className="grid grid-cols-4 gap-5">
+          <div className="lg:grid grid-cols-4 gap-5">
             {cert.map((item) => (
               <div key={item.id} className="m-2">
                 <img

@@ -5,13 +5,16 @@ import Link from "next/link";
 const Media = () => {
   return (
     <div>
-      <div className="lg:grid grid-cols-4 px-10 mt-10">
-        <div className="col-span-3 mx-5">
-          <div className="inline-block mb-4">
+      <div className="lg:grid grid-cols-4 px-10 mt-10 gap-5">
+        {/* Main content area */}
+        <div className="col-span-3">
+          <div className="mb-4">
             <h1 className="font-bold text-3xl">Media Coverage</h1>
             <div className="border border-lightgreen"></div>
           </div>
-          <div className="grid grid-cols-3 gap-3 ">
+
+          {/* Media coverage grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {data.map((d) => (
               <Link
                 key={d.id}
@@ -23,7 +26,9 @@ const Media = () => {
             ))}
           </div>
         </div>
-        <div className="mt-14">
+
+        {/* Sidebar */}
+        <div className="lg:block hidden">
           <Sidebar data={data} />
         </div>
       </div>

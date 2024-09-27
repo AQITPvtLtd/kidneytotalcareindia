@@ -2,46 +2,46 @@ export const treatmentData = [
   {
     id: 1,
     name: "Renal Replacement Therapy",
-    link: "renalReplacement",
+    link: "/treatments/renalReplacement",
   },
   {
     id: 2,
     name: "Kidney Transplantation",
-    link: "kidneyTransplantation",
+    link: "/treatments/kidneyTransplantation",
   },
   {
     id: 3,
     name: "Dialysis",
-    link: "dialysis",
+    link: "/treatments/dialysis",
   },
   {
     id: 4,
     name: "Slowing of Kidney Disease by DIET",
-    link: "diseasebyDIET",
+    link: "/treatments/diseasebyDIET",
   },
   {
     id: 5,
     name: "Home Dialysis Treatments",
-    link: "homeDialysis",
+    link: "/treatments/homeDialysis",
   },
   {
     id: 6,
     name: "Hemodialysis Treatments for Kidney",
-    link: "hemodialysis",
+    link: "/treatments/hemodialysis",
   },
   {
     id: 7,
     name: "Kidney Failure Treatments",
-    link: "kidneyFailure",
+    link: "/treatments/kidneyFailure",
   },
   {
     id: 8,
     name: "Patient Education Diabetes",
-    link: "patientEducation",
+    link: "/treatments/patientEducation",
   },
   {
     id: 9,
     name: "Kidney Donation",
-    link: "kidneyDonation",
+    link: "/treatments/kidneyDonation",
   },
 ];

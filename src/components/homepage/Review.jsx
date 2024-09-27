@@ -35,7 +35,7 @@ const Review = () => {
         Real Stories, Real Results
       </h1>
       <div className="flex justify-center mt-1">
-        <div className="grid grid-cols-4 w-1/2">
+        <div className="lg:grid grid-cols-4 w-1/2">
           <div className="border-2 col-start-2 border-primary"></div>
           <div className="border border-lightgreen"></div>
         </div>

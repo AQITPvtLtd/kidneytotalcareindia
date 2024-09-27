@@ -115,18 +115,12 @@ const menuData = [
     submenu: [
       {
         id: 51,
-        title: "Success Stories",
-        path: "/success-stories",
-        newTab: false,
-      },
-      {
-        id: 52,
         title: "Testimonials",
         path: "/happyPatient/testimonials",
         newTab: false,
       },
       {
-        id: 53,
+        id: 52,
         title: "Video Reviews",
         path: "/happyPatient/reviewVideo",
         newTab: false,

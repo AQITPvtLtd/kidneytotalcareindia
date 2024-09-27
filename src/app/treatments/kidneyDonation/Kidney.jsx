@@ -1,12 +1,13 @@
+import Sidebar from "@/components/common/Sidebar";
 import React from "react";
-import Slider from "../Slider";
+import { treatmentData } from "../data";
 
 const Kidney = () => {
   return (
     <div>
       <div className="lg:grid grid-cols-3 lg:m-16 m-8">
         <div className="lg:block hidden">
-          <Slider />
+          <Sidebar data={treatmentData} />
         </div>
         <div className="col-span-2 mx-5 inline-block">
           <div className="inline-block">
