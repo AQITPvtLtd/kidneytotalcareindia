@@ -5,7 +5,7 @@ import Sidebar from "@/components/common/Sidebar";
 const Kidney = () => {
   return (
     <div>
-      <div className="lg:grid grid-cols-3 lg:m-16 m-8">
+      <div className="lg:grid grid-cols-3 lg:m-16 m-3 overflow-x-clip">
         <div className="lg:block hidden">
           <Sidebar data={treatmentData} />
         </div>
@@ -49,11 +49,10 @@ const Kidney = () => {
             </p>
 
             <div className="p-3">
-              {" "}
               <Image
-                src="/Kidney/kidney.png"
-                height={350}
-                width={350}
+                src="/kidney/kidney.png"
+                height={1000}
+                width={1000}
                 alt="KidneyImg"
               />
             </div>
