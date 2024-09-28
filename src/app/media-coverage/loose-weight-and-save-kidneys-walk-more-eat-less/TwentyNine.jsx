@@ -115,7 +115,7 @@ const TwentyNine = () => {
               width={1000}
               src={selectedImage}
               alt="Selected"
-              className="w-auto h-screen"
+              className="w-screen"
             />
             <button
               className="absolute top-2 right-2 bg-white px-2 py-1 rounded-full"

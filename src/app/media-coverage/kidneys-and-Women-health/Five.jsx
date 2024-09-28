@@ -15,7 +15,7 @@ const Five = () => {
     setSelectedImage(null);
   };
   return (
-    <div>
+    <div className="overflow-x-clip">
       <div className="lg:grid grid-cols-4 lg:px-10 mt-10">
         <div className="col-span-3 mx-10">
           <div className="inline-block mb-4">
