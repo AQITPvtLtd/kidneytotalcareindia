@@ -6,7 +6,6 @@ import Sidebar from "../../../components/common/Sidebar";
 import Image from "next/image";
 import { data } from "../data";
 const Certificate = () => {
-  console.log(data);
   const [selectedImage, setSelectedImage] = useState(null); // State to store the selected image
 
   // Function to handle image click

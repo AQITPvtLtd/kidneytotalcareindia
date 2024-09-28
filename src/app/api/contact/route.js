@@ -6,9 +6,6 @@ export async function POST(request) {
   try {
     const { name, phone, email, message } = await request.json();
     const unique_id = uuid();
-    {
-      console.log({ unique_id, name, phone, email, message });
-    }
     await new Promise((resolve, reject) => {
       connection.query(
         "INSERT INTO contact(id, name, phone, email, message) VALUES (?,?,?,?,?)",

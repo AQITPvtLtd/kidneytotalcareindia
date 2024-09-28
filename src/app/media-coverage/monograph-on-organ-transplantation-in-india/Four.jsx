@@ -19,12 +19,14 @@ const Four = () => {
               width={1000}
               height={1000}
               className="hover:cursor-pointer w-1/2 mt-5"
+              alt="media-coverage"
             />
             <Image
               src="/media-coverage/4.2.jpg"
               width={1000}
               height={1000}
               className="hover:cursor-pointer w-1/2 mt-5"
+              alt="media-coverage"
             />
           </div>
         </div>

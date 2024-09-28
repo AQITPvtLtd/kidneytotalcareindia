@@ -28,6 +28,7 @@ const Two = () => {
               width={1000}
               height={1000}
               className="hover:cursor-pointer"
+              alt="media-coverage"
             />
           </Link>
         </div>

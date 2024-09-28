@@ -19,7 +19,6 @@ const DetailedBlog = ({ url }) => {
     getData();
   }, []);
   const blogDetail = blog?.find((b) => b.url === url);
-  console.log(blogDetail?.tags);
   return (
     <section className="overflow-hidden pb-[120px] pt-10 lg:mx-14 mx-3">
       <div className="container">

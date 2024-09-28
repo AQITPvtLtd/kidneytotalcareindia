@@ -52,6 +52,7 @@ const Six = () => {
               height={10000}
               className="hover:cursor-pointer mt-5 p-3 object-cover"
               onClick={() => openImage(`/media-coverage/tanzania-01.jpg`)}
+              alt="media-coverage"
             />
             <Image
               src="/media-coverage/tanzania-02.jpg"
@@ -59,6 +60,7 @@ const Six = () => {
               height={1000}
               className="hover:cursor-pointer mt-5 p-3 object-cover"
               onClick={() => openImage(`/media-coverage/tanzania-02.jpg`)}
+              alt="media-coverage"
             />
             <Image
               src="/media-coverage/tanzania-03.jpg"
@@ -66,6 +68,7 @@ const Six = () => {
               height={1000}
               className="hover:cursor-pointer mt-5 p-3 object-cover"
               onClick={() => openImage(`/media-coverage/tanzania-03.jpg`)}
+              alt="media-coverage"
             />
             <Image
               src="/media-coverage/tanzania-04.jpg"
@@ -73,6 +76,7 @@ const Six = () => {
               height={1000}
               className="hover:cursor-pointer mt-5 p-3 object-cover"
               onClick={() => openImage(`/media-coverage/tanzania-04.jpg`)}
+              alt="media-coverage"
             />
           </div>
         </div>

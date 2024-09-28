@@ -21,7 +21,6 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault(); // Corrected typo here
     const response = await form(formData);
-    console.log(response);
     if (response.success) {
       Swal.fire({
         title: "Form Submitted Successfully",
@@ -48,8 +47,8 @@ const Contact = () => {
       </div>
 
       <p className="text-xl font-medium text-gray-700 mb-8 text-center lg:px-16">
-        If you are looking for kidney treatment in India, you've come to the
-        right place. Dr. Sunil Prakash is a leading nephrologist, providing
+        If you are looking for kidney treatment in India, you&apos;ve come to
+        the right place. Dr. Sunil Prakash is a leading nephrologist, providing
         top-notch treatment for kidney diseases and disorders. Call today for
         early diagnosis and treatment!
       </p>

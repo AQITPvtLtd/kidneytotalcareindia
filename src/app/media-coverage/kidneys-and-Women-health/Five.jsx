@@ -31,6 +31,7 @@ const Five = () => {
               height={1000}
               className="hover:cursor-pointer mt-5 p-3 object-cover"
               onClick={() => openImage(`/media-coverage/5.1.jpg`)}
+              alt="media-coverage"
             />
             <Image
               src="/media-coverage/5.2.jpg"
@@ -38,6 +39,7 @@ const Five = () => {
               height={1000}
               className="hover:cursor-pointer mt-5 p-3 object-cover"
               onClick={() => openImage(`/media-coverage/5.2.jpg`)}
+              alt="media-coverage"
             />
           </div>
           <div className="flex">
@@ -47,6 +49,7 @@ const Five = () => {
               height={1000}
               className="hover:cursor-pointer mt-5 p-3 object-cover"
               onClick={() => openImage(`/media-coverage/5.3.jpg`)}
+              alt="media-coverage"
             />
             <Image
               src="/media-coverage/5.4.jpg"
@@ -54,6 +57,7 @@ const Five = () => {
               height={1000}
               className="hover:cursor-pointer mt-5 p-3 object-cover"
               onClick={() => openImage(`/media-coverage/5.4.jpg`)}
+              alt="media-coverage"
             />
           </div>
         </div>

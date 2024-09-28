@@ -1,5 +1,5 @@
 import React from "react";
-import InformationData from "./informationData";
+import InformationData from "./InformationData";
 
 const page = ({ params }) => {
   const id = params.id;

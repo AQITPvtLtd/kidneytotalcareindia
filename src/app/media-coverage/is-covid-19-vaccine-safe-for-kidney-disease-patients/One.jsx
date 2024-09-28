@@ -30,6 +30,7 @@ const One = () => {
             height={1000}
             onClick={() => openImage(`/media-coverage/1.jpg`)}
             className="hover:cursor-pointer"
+            alt="media-coverage"
           />
         </div>
         <div className="lg:block hidden">
