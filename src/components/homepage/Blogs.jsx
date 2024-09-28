@@ -26,7 +26,7 @@ const Blogs = () => {
         </p>
       </div>
       <div className="lg:grid grid-cols-3 mx-10 gap-7">
-        {blog?.map((b) => (
+        {blog.slice(0, 3).map((b) => (
           <Link
             href="/"
             key={b.id}
