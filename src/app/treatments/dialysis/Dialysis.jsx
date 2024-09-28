@@ -4,7 +4,7 @@ import Sidebar from "@/components/common/Sidebar";
 import { treatmentData } from "../data";
 const Dialysis = () => {
   return (
-    <div>
+    <div className="overflow-x-clip">
       <div className="lg:grid grid-cols-3 lg:m-16 m-8">
         <div className="lg:block hidden">
           <Sidebar data={treatmentData} />
@@ -23,9 +23,8 @@ const Dialysis = () => {
               will need a treatment called dialysis.
             </p>
             <div className="p-3">
-             
               <Image
-                src="/Kidney/dialysis.jpg"
+                src="/kidney/dialysis2.jpg"
                 height={350}
                 width={350}
                 alt="KidneyImg"
@@ -64,7 +63,11 @@ const Dialysis = () => {
               on the outside and it is at the level of this filter where the
               depurative and normalizing function of the liquid and composition
               of the blood is performed. It is a technique that is performed
-              primarily in hospital units or in <span className="font-semibold text-blue-400"> dialysis centre in Delhi,</span>
+              primarily in hospital units or in{" "}
+              <span className="font-semibold text-blue-400">
+                {" "}
+                dialysis centre in Delhi,
+              </span>
               although home hemodialysis treatment is currently also being
               developed.
             </p>
@@ -77,20 +80,26 @@ const Dialysis = () => {
               superimposable in their function of partially replacing renal
               function. Peritoneal dialysis is performed at home and it is the
               patient himself who performs after a short period of guidance by
-              <span className="font-semibold text-blue-400"> dialysis specialist in Delhi, </span> is continuous
-              throughout the day and therefore more physiological and above all,
-              allows the patient to perform their freedom more freely. usual
-              social and work activity.
+              <span className="font-semibold text-blue-400">
+                {" "}
+                dialysis specialist in Delhi,{" "}
+              </span>{" "}
+              is continuous throughout the day and therefore more physiological
+              and above all, allows the patient to perform their freedom more
+              freely. usual social and work activity.
             </p>
             <p className="text-lg font-bold text-gray-700 mt-2">
               Haemodialysis is usually performed in hospital units or{" "}
-              <span className="font-semibold text-blue-400"> dialysis centre in Delhi,</span> usually 3 times a week (in
-              some it is daily and shorter) every other day and at fixed
-              pre-established times, this often prevents reconciliation with the
-              labour and social activity, in addition to the fact that being an
-              intermittent technique makes it less physiological by more abrupt
-              changes. Nowadays, home hemodialysis programs are being developed
-              that overcome these problems.
+              <span className="font-semibold text-blue-400">
+                {" "}
+                dialysis centre in Delhi,
+              </span>{" "}
+              usually 3 times a week (in some it is daily and shorter) every
+              other day and at fixed pre-established times, this often prevents
+              reconciliation with the labour and social activity, in addition to
+              the fact that being an intermittent technique makes it less
+              physiological by more abrupt changes. Nowadays, home hemodialysis
+              programs are being developed that overcome these problems.
             </p>
           </div>
         </div>

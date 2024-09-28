@@ -50,7 +50,7 @@ const Kidney = () => {
 
             <div className="p-3">
               <Image
-                src="/kidney/kidney.png"
+                src="/kidney/kidney2.png"
                 height={1000}
                 width={1000}
                 alt="KidneyImg"
