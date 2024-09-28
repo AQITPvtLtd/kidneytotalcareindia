@@ -19,7 +19,7 @@ const FAQs = () => {
     {
       key: 3,
       title: "What conditions does Dr. Sunil Prakash treat?",
-      data: `Dr. Sunil Prakash as the best kidney specialist in Delhi treats a wide range of kidney-related conditions, including chronic kidney disease (CKD), acute kidney injury (AKI), diabetes, high blood pressure, polycystic kidney disease (PKD), glomerulonephritis, nephrotic syndrome, renal hypertension, kidney stones, dialysis, and renal transplantation.`,
+      data: `Dr. Sunil Prakash as the best kidney specialist in Delhi treats a wide range of kidney-related conditions, including chronic kidney disease (CKD), acute kidney injury (AKI), diabetes, high blood pressure, polycystic kidney disease (PKD), glomerulonephritis, nephrotic syndrome, hypertension, kidney stones, dialysis, and renal transplantation.`,
       isOpen: false,
     },
     {
@@ -29,7 +29,7 @@ const FAQs = () => {
 <p><strong>Max Hospital Gurgaon:</strong><u> </u><a href="tel:+919268880303"><u><span style="color: rgb(41, 105, 176);">+91 9268880303</span></u></a></p>
 <p><strong>BLK-Max:</strong> <a href="tel:011 30403040"><u><span style="color: rgb(41, 105, 176);">011 30403040</span></u></a></p>
 <p><strong>Coordinator:</strong> <a href="tel:+918130698126"><u><span style="color: rgb(41, 105, 176);">+91 8130698126</span></u></a></p>
-<p><strong>Dr. Sunil Prakash:</strong> <a href="tel:98736 92675"><u><span style="color: rgb(41, 105, 176);">+91 98736 92675</span></u></a></p>`,
+<p><strong>Dr. Sunil Prakash:</strong> <a href="tel:98736 92675"><u><span style="color: rgb(41, 105, 176);">+91 98736 92675</span></u></a></p><p>Dr. Sunil Prakash also takes video consultation after the appointment is fixed.</p>`,
       isOpen: false,
     },
     {

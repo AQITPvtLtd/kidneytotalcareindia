@@ -142,7 +142,7 @@ const Contact = () => {
         </div>
 
         {/* Contact details section */}
-        <div className="col-start-8 col-span-5 mt-8 lg:mt-0">
+        <div className="col-start-7 col-span-7 mt-8 lg:mt-0">
           <div>
             <h2 className="text-2xl font-semibold mb-4 text-primary underline underline-offset-4">
               Dr. Sunil Prakash
@@ -153,27 +153,27 @@ const Contact = () => {
                 Road, Delhi 110005
               </li>
               <li>
-                <strong>Residence:</strong> C-17, Hudco Place, Near Andrews
-                Ganj, New Delhi
+                <strong>BLK-Max:</strong>{" "}
+                <Link href="tel:+91-11-30403040" className="text-blue-500">
+                  011-30403040
+                </Link>
               </li>
               <li>
-                <strong>Phone:</strong>{" "}
-                <Link href="tel:+91-11-30403040" className="text-blue-500">
-                  +91-11-30403040
-                </Link>{" "}
-                /{" "}
-                <Link href="tel:+91-11-26253523" className="text-blue-500">
-                  +91-11-26253523
+                <strong>Max Hospital Gurgaon:</strong>{" "}
+                <Link href="tel:+91 9268880303" className="text-blue-500">
+                  +91 9268880303
+                </Link>
+              </li>
+              <li>
+                <strong>Coordinator:</strong>{" "}
+                <Link href="tel:+918130698126" className="text-blue-500">
+                  +91 8130698126
                 </Link>
               </li>
               <li>
                 <strong>Mobile No.:</strong>{" "}
                 <Link href="tel:+91-9873692675" className="text-blue-500">
                   +91-9873692675
-                </Link>{" "}
-                /{" "}
-                <Link href="tel:+91-9999055675" className="text-blue-500">
-                  +91-9999055675
                 </Link>
               </li>
               <li>
@@ -183,6 +183,13 @@ const Contact = () => {
                   className="text-blue-500"
                 >
                   sunil.neph@gmail.com
+                </Link>{" "}
+                /{" "}
+                <Link
+                  href="mailto:drsunilprakash@gmail.com"
+                  className="text-blue-500"
+                >
+                  drsunilprakash@gmail.com
                 </Link>
               </li>
               <li>

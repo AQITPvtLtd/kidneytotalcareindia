@@ -253,19 +253,25 @@ const Header = () => {
           </div>
         </div>
         {/* grid 3 - call details */}
-        <div className="hidden lg:flex justify-center items-center">
+        <div className="hidden -ml-10 lg:flex justify-center items-center py-2">
           <div>
-            <Link className="flex" href="tel:011-44795968">
+            <Link className="flex" href="tel:+91 9268880303">
               <MdPhoneCallback className="mt-1.5 mr-0.5 text-lightgreen" />
-              Residence: 011-44795968
+              Max Hospital Gurgaon:{" "}
+              <div className="underline">+91 9268880303</div>
             </Link>
-            <Link className="flex" href="tel:09873692675">
+            <Link className="flex" href="tel:011 30403040">
               <MdPhoneCallback className="mt-1.5 mr-0.5 text-lightgreen" />
-              Mobile: 09873692675
+              BLK-Max: <div className="underline">011 30403040</div>
             </Link>
-            <Link className="flex" href="tel:011-30403040 ">
+            <Link className="flex" href="tel:+918130698126">
               <MdPhoneCallback className="mt-1.5 mr-0.5 text-lightgreen" />
-              Office: 011-30403040
+              Coordinator: <div className="underline">+91 8130698126</div>
+            </Link>
+            <Link className="flex" href="tel:+91 98736 92675">
+              <MdPhoneCallback className="mt-1.5 mr-0.5 text-lightgreen" />
+              Dr. Sunil Prakash:{" "}
+              <div className="underline">+91 98736 92675</div>
             </Link>
           </div>
         </div>
