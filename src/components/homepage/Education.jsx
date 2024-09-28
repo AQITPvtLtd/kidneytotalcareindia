@@ -42,7 +42,7 @@ const Education = () => {
           ))}
         </div>
 
-        <div className="lg:grid grid-cols-1 mt-8 gap-5">
+        <div className="lg:grid grid-cols-1 lg:mt-8 gap-5">
           {education.slice(4, 5).map((e) => (
             <div
               key={e.id}

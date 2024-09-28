@@ -1,6 +1,6 @@
 import React from "react";
 import { MdRateReview } from "react-icons/md";
-
+import Link from "next/link";
 const Review = () => {
   const reviews = [
     {
@@ -74,6 +74,14 @@ const Review = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="flex justify-center my-10">
+        <Link
+          href="/happyPatient/testimonials"
+          className="bg-lightgreen text-white py-2 px-3 rounded-md"
+        >
+          View All Reviews
+        </Link>
       </div>
     </div>
   );

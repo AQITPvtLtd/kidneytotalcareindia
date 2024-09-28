@@ -20,20 +20,22 @@ const Certificate = () => {
   };
 
   return (
-    <div className="mt-24 md:mt-10">
-      <div className="lg:grid grid-cols-12 gap-4 px-10 mt-10 z-50">
+    <div className="lg:mt-24 mt-10 overflow-x-clip">
+      <div className="lg:grid grid-cols-12 gap-4 lg:px-10 mt-10 z-50">
         <div className="col-span-8">
-          <h1 className="text-primary font-extrabold text-3xl m-2">
-            Certificates
-          </h1>
-          <div className="border border-lightgreen w-full h-[2px] mx-2"></div>
+          <div className="mb-5">
+            <h1 className="text-primary font-extrabold text-3xl m-2">
+              Certificates
+            </h1>
+            <div className="border border-lightgreen w-full h-[2px] mx-2"></div>
+          </div>
           <div className="lg:grid grid-cols-4 gap-5">
             {cert.map((item) => (
               <div key={item.id} className="m-2">
                 <img
                   src={`/certificates/${item.image}`}
                   alt={`Certificate ${item.id}`}
-                  className="cursor-pointer w-48 h-48 object-fill border-8 border-blue-800"
+                  className="cursor-pointer lg:w-48 w-screen mb-3 lg:h-48 object-fill border-8 border-blue-800"
                   onClick={() =>
                     handleImageClick(`/certificates/${item.image}`)
                   } // Set selected image
@@ -43,7 +45,7 @@ const Certificate = () => {
           </div>
         </div>
 
-        <div className="col-span-4 mt-14">
+        <div className="col-span-4 mt-14 lg:block hidden">
           <Sidebar data={data} />
         </div>
       </div>

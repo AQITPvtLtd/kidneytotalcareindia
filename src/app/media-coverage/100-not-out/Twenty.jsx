@@ -5,7 +5,7 @@ import Sidebar from "@/components/common/Sidebar";
 const Twenty = () => {
   return (
     <div>
-      <div className="lg:grid grid-cols-4 px-10 mt-10">
+      <div className="lg:grid grid-cols-4 lg:px-10 mt-10">
         <div className="col-span-3 mx-10">
           <div className="inline-block mb-4">
             <h1 className="font-bold text-2xl uppercase">100 NOT OUT</h1>
@@ -21,7 +21,7 @@ const Twenty = () => {
             />
           </div>
         </div>
-        <div>
+        <div className="lg:block hidden">
           <Sidebar data={data} />
         </div>
       </div>

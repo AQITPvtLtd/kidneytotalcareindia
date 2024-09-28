@@ -6,7 +6,7 @@ import { data } from "../data";
 import Sidebar from "@/components/common/Sidebar";
 import Image from "next/image";
 const ThirtyTwo = () => {
-    const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState(null);
 
   const openImage = (image) => {
     setSelectedImage(image);
@@ -17,11 +17,11 @@ const ThirtyTwo = () => {
   };
   return (
     <div>
-      <div className="lg:grid grid-cols-4 px-10 mt-10">
+      <div className="lg:grid grid-cols-4 lg:px-10 mt-10">
         <div className="col-span-3 mx-10">
           <div className="inline-block mb-4">
             <h1 className="font-bold text-2xl uppercase">
-            The Pioneer Dr Sunil Prakash (BLK Hospital) Organ donation 14 Aug
+              The Pioneer Dr Sunil Prakash (BLK Hospital) Organ donation 14 Aug
             </h1>
             <div className="border border-lightgreen"></div>
           </div>
@@ -37,7 +37,7 @@ const ThirtyTwo = () => {
             />
           </div>
         </div>
-        <div>
+        <div className="lg:block hidden">
           <Sidebar data={data} />
         </div>
       </div>

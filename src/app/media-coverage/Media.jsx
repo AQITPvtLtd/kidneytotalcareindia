@@ -5,7 +5,7 @@ import Link from "next/link";
 const Media = () => {
   return (
     <div>
-      <div className="lg:grid grid-cols-4 px-10 mt-10 gap-5">
+      <div className="lg:grid grid-cols-4 lg:px-10 mt-10 mx-5 gap-5">
         {/* Main content area */}
         <div className="col-span-3">
           <div className="mb-4">
@@ -14,11 +14,11 @@ const Media = () => {
           </div>
 
           {/* Media coverage grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-5 gap-2">
             {data.map((d) => (
               <Link
                 key={d.id}
-                href={`/media-coverage/${d.link}`}
+                href={`${d.link}`}
                 className="px-5 hover:scale-105 duration-300 bg-primary text-white rounded-md py-2"
               >
                 {d.name}

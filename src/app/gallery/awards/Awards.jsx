@@ -32,7 +32,7 @@ const Awards = () => {
         </h1>
       </div>
 
-      <div className="lg:grid grid-cols-3 px-10 mt-10 z-50">
+      <div className="lg:grid grid-cols-3 lg:px-10 mt-10 z-50">
         <div className="col-span-2">
           <div className="lg:grid grid-cols-3">
             {awards.map((item) => (

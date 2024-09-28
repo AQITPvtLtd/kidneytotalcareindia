@@ -11,13 +11,13 @@ export const data = [
   },
   {
     id: 3,
-    name: "Case Studies",
-    link: "case-studies",
+    name: "Training Abroad",
+    link: "training-abroad",
   },
   {
     id: 4,
-    name: "Editor DNS Newsletter",
-    link: "editor-dns-newsletter",
+    name: "Experience",
+    link: "experience",
   },
   {
     id: 5,

@@ -14,11 +14,11 @@ const ReviewVideo = () => {
         />
         {/* <div className="absolute inset-0 bg-red-600 opacity-70 z-10"></div> */}
         <h1 className="text-white font-serif text-center text-6xl font-bold my-4 absolute inset-0 flex items-center justify-center">
-         Video Reviews
+          Video Reviews
         </h1>
       </div>
       <div className="mt-10">
-        <div className="lg:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-10 px-4">
+        <div className="lg:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:lg:px-10 px-4">
           {video.map((item) => (
             <div key={item.id} className="relative w-full h-0 pb-[56.25%] mb-6">
               <iframe

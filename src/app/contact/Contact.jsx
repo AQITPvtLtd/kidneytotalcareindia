@@ -148,7 +148,7 @@ const Contact = () => {
             <h2 className="text-2xl font-semibold mb-4 text-primary underline underline-offset-4">
               Dr. Sunil Prakash
             </h2>
-            <ul className="text-lg space-y-4 list-disc">
+            <ul className="text-lg space-y-4 list-disc mx-3">
               <li>
                 <strong>BLK Hospital (Nephrology Department):</strong> Pusa
                 Road, Delhi 110005
@@ -193,7 +193,7 @@ const Contact = () => {
           </div>
 
           {/* Uma Sanjivani Hospital Section */}
-          <div className="mt-8">
+          <div className="mt-8 mx-2">
             <h2 className="text-2xl font-semibold mb-4 text-primary underline underline-offset-4">
               Uma Sanjivani Hospital
             </h2>

@@ -177,21 +177,21 @@ const Countires = () => {
     },
   ];
   return (
-    <div>
-      <div className="lg:grid grid-cols-3 mt-4 mx-10">
+    <div className="overflow-x-clip m-5">
+      <div className="lg:grid grid-cols-3 mt-4 lg:mx-10">
         <div className="col-span-2">
           <div className="inline-block">
             <h1 className="text-primary font-extrabold text-3xl">
               Countries Visited for followship & CMES
             </h1>
             <div className="border border-lightgreen w-full h-[2px]"></div>
-            <div className="lg:grid grid-cols-3 gap-5 m-5">
+            <div className="lg:grid grid-cols-3 gap-5 my-5">
               {country.map((d) => (
                 <div
                   key={d.id}
                   className={`${
                     d.color === "blue" ? "bg-primary" : "bg-lightgreen"
-                  }  rounded-lg shadow-md text-white px-5 py-2`}
+                  }  rounded-lg shadow-md text-white px-5 py-2 lg:mb-0 mb-2`}
                 >
                   <div className="flex">
                     <ReactCountryFlag
@@ -203,7 +203,7 @@ const Countires = () => {
                         lineHeight: "2em",
                       }}
                     />
-                    <div className="text-2xl">
+                    <div className="text-xl">
                       {d.country}
                       {d.year}
                     </div>
@@ -215,7 +215,7 @@ const Countires = () => {
             </div>
           </div>
         </div>
-        <div className="mt-14">
+        <div className="mt-14 lg:block hidden">
           <Sidebar data={data} />
         </div>
       </div>

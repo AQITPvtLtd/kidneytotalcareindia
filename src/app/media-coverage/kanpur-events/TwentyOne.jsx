@@ -98,7 +98,7 @@ const TwentyOne = () => {
   ];
   return (
     <div>
-      <div className="lg:grid grid-cols-4 px-10 my-10">
+      <div className="lg:grid grid-cols-4 lg:px-10 my-10">
         <div className="col-span-3 mx-10">
           <div className="inline-block mb-4">
             <h1 className="font-bold text-2xl uppercase">Kanpur Event</h1>
@@ -119,7 +119,7 @@ const TwentyOne = () => {
             ))}
           </div>
         </div>
-        <div>
+        <div className="lg:block hidden">
           <Sidebar data={data} />
         </div>
       </div>

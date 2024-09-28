@@ -26,14 +26,14 @@ const Blogs = () => {
         <Link
           key={b.id}
           href={`/blogs/${b.url}`}
-          className="lg:flex lg:border-2 mb-4 hover:scale-105 hover:shadow-lg"
+          className="lg:flex lg:border-2 mb-4 hover:scale-105 duration-300 hover:shadow-lg"
           alt="blogimage"
         >
           <Image
             src={`/blogs/${b.image}`}
             width={1000}
             height={1000}
-            className="lg:w-[200px] "
+            className="lg:w-[200px] h-[150px] object-cover"
             alt="blogimage"
           />
           <div className="p-4">

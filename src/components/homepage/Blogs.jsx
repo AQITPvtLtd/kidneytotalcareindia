@@ -30,7 +30,7 @@ const Blogs = () => {
           <Link
             href="/"
             key={b.id}
-            className="hover:scale-105 border-gray-300 lg:border rounded-md shadow-md"
+            className="hover:scale-105 border-gray-300 duration-300 lg:border rounded-md shadow-md"
           >
             <Image
               src={`/blogs/${b.image}`}

@@ -1,41 +1,21 @@
 import React from "react";
-import Link from "next/link";
-import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { TestiData } from "./data";
+import Sidebar from "@/components/common/Sidebar";
 
 const Testimonials = () => {
   return (
-    <div className="lg:grid grid-cols-12 items-center justify-evenly gap-10 mt-5">
-      <div className="col-start-2 col-span-5">
-        {TestiData.slice(0, 14).map((d) => (
-          <div
-            key={d.id}
-            className="bg-blue-600 text-white px-3 py-2 mb-2 hover:translate-x-3 duration-500"
-          >
-            <Link href={`/happyPatient/testimonials//${d.id}`}>
-              <div className="flex">
-                <IoMdCheckmarkCircleOutline className="mt-1 mr-1" />
-                {d.title}
-              </div>
-            </Link>
-          </div>
-        ))}
+    <div>
+      <div className="inline-block lg:px-10 pt-10">
+        <h1 className="font-bold text-2xl uppercase">Patient Reviews</h1>
+        <div className="border border-lightgreen"></div>
       </div>
-
-      <div className="col-span-5">
-        {TestiData.slice(14, 28).map((d) => (
-          <div
-            key={d.id}
-            className="bg-blue-600 text-white px-3 py-2 mb-2 hover:translate-x-3 duration-500"
-          >
-            <Link href={`/happyPatient/testimonials/${d.id}`}>
-              <div className="flex">
-                <IoMdCheckmarkCircleOutline className="mt-1 mr-1" />
-                {d.title}
-              </div>
-            </Link>
-          </div>
-        ))}
+      <div className="lg:grid grid-cols-2">
+        <div className="lg:p-10 px-5 pt-5">
+          <Sidebar data={TestiData.slice(0, 14)} />
+        </div>
+        <div className="lg:p-10 px-5">
+          <Sidebar data={TestiData.slice(14)} />
+        </div>
       </div>
     </div>
   );

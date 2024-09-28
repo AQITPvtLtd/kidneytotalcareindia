@@ -218,7 +218,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-      <div className="lg:grid grid-cols-4 lg:px-10 bg-skyblue ">
+      <div className="lg:grid grid-cols-4 lg:lg:px-10 bg-skyblue ">
         {/* grid 1 - logo */}
         <div className="lg:block hidden justify-center">
           <Link

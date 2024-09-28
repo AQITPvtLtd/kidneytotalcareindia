@@ -21,7 +21,7 @@ const DetailedBlog = ({ url }) => {
   const blogDetail = blog?.find((b) => b.url === url);
   console.log(blogDetail?.tags);
   return (
-    <section className="overflow-hidden pb-[120px] pt-20 mx-14">
+    <section className="overflow-hidden pb-[120px] pt-10 lg:mx-14 mx-3">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-8/12">
@@ -70,7 +70,7 @@ const DetailedBlog = ({ url }) => {
                     <h5 className="mb-3 text-lg font-bold text-body-color sm:text-right">
                       Share this post :
                     </h5>
-                    <div className="flex items-center sm:justify-end -mt-3 ml-2">
+                    <div className="flex items-center sm:justify-end -mt-1 ml-2">
                       <SharePost />
                     </div>
                   </div>

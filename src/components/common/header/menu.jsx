@@ -24,18 +24,24 @@ const menuData = [
       },
       {
         id: 23,
-        title: "Case Studies",
-        path: "/about/case-studies",
+        title: "Papers and Publications",
+        path: "/about/papers",
         newTab: false,
       },
       {
         id: 24,
-        title: "Editor DNS News Letter",
-        path: "/about/editor-dns-newsletter",
+        title: "Training Abroad",
+        path: "/about/training-abroad",
         newTab: false,
       },
       {
         id: 25,
+        title: "Experience",
+        path: "/about/experience",
+        newTab: false,
+      },
+      {
+        id: 26,
         title: "Countries Visited for Fellowship CME's",
         path: "/about/countries-visited-for-fellowship-cmes",
         newTab: false,

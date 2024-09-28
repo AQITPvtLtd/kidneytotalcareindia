@@ -34,13 +34,13 @@ const Banner = () => {
             </h3>
             <div className="mt-5">
               <Link
-                href="/"
+                href="/about-us/dr-sunil-prakash"
                 className="bg-lightgreen text-white font-semibold py-2 px-3 rounded-md"
               >
                 About Us
               </Link>
               <Link
-                href="/"
+                href="/contact"
                 className="bg-lightgreen text-white font-semibold py-2 px-3 rounded-md ml-2"
               >
                 Contact Us

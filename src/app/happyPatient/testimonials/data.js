@@ -1,47 +1,50 @@
 export const TestiData = [
   {
     id: 1,
-    title: " Child birth after kidney transplant",
+    name: " Child birth after kidney transplant",
     content: `<p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><span style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">K, was critically sick with failing heart and kidneys. She underwent kidney transplant,recuperated,started her job and gave birth to a boy who is coming up so well.It is pleasure to have treated her. I salute her indomitable spirit. She is a beacon to all young patients</span></p>`,
     image: "img1.jpg",
-    name: "",
+    user: "",
+    link: "/happyPatient/testimonials/1",
   },
 
   {
     id: 2,
-    title:
-      "An international traveller who failed his kidneys and developed life threatening clots in his lungs",
+    name: "An international traveller who failed his kidneys and developed life threatening clots in his lungs",
     content: `
       <p style="text-align: justify; color: rgb(42, 42, 42); background-color: rgb(255, 255, 255); font-size: 22px;"><span style="font-size: 22px;">We arrived at BLK &ndash; MAX A&amp;E on 31 March 2023. His diagnosis at the time was acute gastroenteritis, severe dehydration, septic shock with a creatinine level of 20 for which the team administered HD. Subsequently, his kidneys improved, and dialysis was stopped. He then developed clots in the right leg (Deep Vein Thrombosis) which travelled to his lungs and his oxygen level dropped. The team administered heparin injections which dissolved the clots in the artery of the lungs. Dr Sunil Prakash and the team did an excellent job, and I would go so far as to say he saved his life. My husband was discharged on 11 April. We travelled safely home to Scotland on 21 April.</span></p>
      <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><span style="font-size: 22px;">We are forever grateful to Dr Prakash and the team for the speedy and excellent treatment provided to my husband. We wish them all the very best.</span></p>`,
     image: "",
-    name: "",
+    user: "",
+    link: "/happyPatient/testimonials/2",
   },
 
   {
     id: 3,
-    title: "Kidney Transplant Patient From Tanzania",
+    name: "Kidney Transplant Patient From Tanzania",
     content: `<p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 22px;"><span style="font-size: 22px;">My name is Kitenge Maryam Mohammed, a post kidney transplant patient From Tanzania,I would like to give my special thanks to Dr Sunil Prakash for his excellence and effective service.</span></p>
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><span style="font-size: 22px;">My condition in 2016 was very Critical I consulted doctor Prakash and the rest is history Here I am , gave birth to a health bouncing baby boy through c-section My son is now one year and two months I kept in contact with doctor Prakash since I came back to Tanzania up to date He has been so helpful and always responding on time when he wasn&rsquo;t busy.</span></p>
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><span style="font-size: 22px;">He advices me to wait for two years before I conceive and n lots others advices.</span></p>
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><span style="font-size: 22px;">I followed his lead and today I am a mother , thank you Dr Sunil Prakash You are one special doctor, the passion you have for your patients it&rsquo;s beyond expectations. God bless you!</span></p>`,
     image: "img2.jpg",
-    name: "Kitenge Maryam Mohammed",
+    user: "Kitenge Maryam Mohammed",
+    link: "/happyPatient/testimonials/3",
   },
 
   {
     id: 4,
-    title: "Post transplant John leads normal life",
+    name: "Post transplant John leads normal life",
     content: `<p><b></b></p>
 <h1 style="text-align: left;color: rgb(9, 38, 68);background-color: rgb(255, 255, 255);font-size: 22px;border: none;"><b>&ldquo;Post transplant John leads normal life&rdquo;. He got married and plays regular foot ball. All transplant patient can lead normal life.</b></h1>
 <p></p>`,
     image: "img3.jpg",
-    name: "",
+    user: "",
+    link: "/happyPatient/testimonials/4",
   },
 
   {
     id: 5,
-    title: "Tahsin Azad’s Experience from Bangladesh",
+    name: "Tahsin Azad’s Experience from Bangladesh",
     content: `
      <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><span style="font-size: 22px;">To,<br>Management authority<br>BLK Super Speciality Hospital, New Delhi, India &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;6.17.2020</span></p>
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><span style="font-size: 22px;">Dear Sir,<br>Greetings from Bangladesh.<br>I,&nbsp;<strong><strong>Tahsin Azad</strong></strong>, age 29 have been a patient of BLK hospital since 2016 (MRD:467108) prior to my renal transplant at BLK in the same year. I have had my transplant under the supervision and consultancy of Dr. Sunil Prakash, director &amp; senior consultant, nephrology &amp; renal transplantation. It has been a delightful experience to be treated under him. I am eternally grateful to Allah that I got the support of Sunil Sir from A to Z of my journey of transplantation and post-treatment till now. I regularly write to him from Bangladesh and for four years since my transplant he has been responding to my queries, guiding me, helping me with my every little health problem over e-mails and also during my regular annual visit.<br>I am really fond of Sunil Sir as he inspires me not only as a doctor, but also as a mentor. Every time I visit him, he expresses his joy to see me in good health. To me I am one of his &lsquo;&rsquo;favorite patients&rsquo;&rsquo; and the feeling is mutual. I am living a normal, healthy life now and I have to thank Dr. Sunil Prakash alongside my parents for that.<br>Dr. Prakash provides a safe, understanding, sympathetic practice. He concentrates on wellness of the mind, body, and soul of his patients and he is very caring, kind and supportive. I wish all the very best for him in future.</span></p>
@@ -49,29 +52,31 @@ export const TestiData = [
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><span style="font-size: 22px;"><strong><strong>Tahsin Azad</strong></strong><br>Patient MRD no: 467108<br>Dhaka, Bangladesh<br>Contact no: +880-1554664912<br>Email address: tahsin_azad@yahoo.com</span></p>
     `,
     image: "img4.jpg",
-    name: "Tahsin Azad",
+    user: "Tahsin Azad",
+    link: "/happyPatient/testimonials/5",
   },
 
   {
     id: 6,
-    title: "Shruti’s Experience from Budapest, Hungary",
+    name: "Shruti’s Experience from Budapest, Hungary",
     content: "",
     image: "img5.jpg",
-    name: "Shruti ravinder",
+    user: "Shruti ravinder",
+    link: "/happyPatient/testimonials/6",
   },
 
   {
     id: 7,
-    title:
-      "Younge Kidney Transplant patient’s thoughts about her treatment at BLK.",
+    name: "Younge Kidney Transplant patient’s thoughts about her treatment at BLK.",
     content: "",
     image: "img6.jpg",
-    name: "",
+    user: "",
+    link: "/happyPatient/testimonials/7",
   },
 
   {
     id: 8,
-    title: "HIV-Kidney Transplant (Isaac Alexander Walcott)",
+    name: "HIV-Kidney Transplant (Isaac Alexander Walcott)",
     content: `<p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><strong><strong>BL Kapur Memorial Hospital</strong></strong> gave me a second life after HIV Kidney Transplant</p>
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">I write to bear testimony on how BL Kapur Speciality Memorial Hospital in New Delhi India gave me a second chance to live a normal life after &ldquo;being sentenced to death&rdquo; following a Chronic Kidney Failure combined with an HIV positive status.</p>
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">Coming from a tiny an impoverished Southern African country where HIV/Aids has wrecked havoc, I had been down with Chronic Kidney Disease since August 2011. In the absence of proper medical services, I was advised to try our country&rsquo;s only private hospital which offers Dialysis treatment, where it was confirmed that my kidney had failed and I needed to be on Dailysis.</p>
@@ -92,12 +97,13 @@ export const TestiData = [
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><strong><strong>Isaac Alexander Walcott</strong></strong></p>
 <p><br></p>`,
     image: "",
-    // name: "Isaac Alexander Walcott",
+    user: "Isaac Alexander Walcott",
+    link: "/happyPatient/testimonials/8",
   },
 
   {
     id: 9,
-    title: "Dr Sunil Prakash changed my life",
+    name: "Dr Sunil Prakash changed my life",
     content: `<p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">Hi,</span></p>
 <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">Doctor Sunil Prakash I still remember the day 4 months back when I was admitted in a serious condition in your hospital. You assured me of good health, if I followed your instructions. As you said I followed your treatment and as the time passed your good treatment and care helped me heel. As you assured me that I will be benifited if I start dylasis I will start living a normal life.</span></p>
 <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">Frankly speaking it was ur pep talk with me that the horror of dylasis which was in my mind was blown away. Now 4 months into the dylasis I feel so relaxed and fresh. I don&rsquo;t remember the day when I was admitted to the hospital with breathlessness and depressed condition. Your dedicated treatment has given me a new lifeand my vision towards life has changed all togeather. Recently I went to Jaipur at Rajputana sherreton hotel with my family for a vacation, you know I went for swimming walk and enjoyed the vacation this is all made possible by you. I want to thank you from the bottom of my heart.</span></p>
@@ -106,12 +112,13 @@ export const TestiData = [
 <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">THANK YOU SUNIL PRAKASH.</span></p>
 <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><strong style="box-sizing: border-box; font-weight: bold;"><span style="font-size: 22px;">WITH REGARDS</span></strong></p>`,
     image: "img7.jpg",
-    name: "VINOD KUMAR BEHKI",
+    user: "VINOD KUMAR BEHKI",
+    link: "/happyPatient/testimonials/9",
   },
 
   {
     id: 10,
-    title: "Dr Sunil Prakash the angel Dr. in ARTEMIS",
+    name: "Dr Sunil Prakash the angel Dr. in ARTEMIS",
     content: `<p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I am a retired government officer 69 years of age. The trouble with my kidneys started about 2 years ago. The creatinine level gradually went up and tests indicated 90% failure of this vital or gan unrecognized and uncared for 67 years.</span></p>
 <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I was a minor diabetic and BP patient on medicines for last 20 years. It appears and is apparently the resulted in damage to kidneys. God only knows.</span></p>
 <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">Dr. Sunil Prakash the angel doctor in ARTEMIS asses sed the whole situation and suggested creation of fistula immedia tely. But any doctor who advised to delay this suited me very well. The inevitable happened, blood full of toxins, water in my lungs and weakness.</span></p>
@@ -120,20 +127,22 @@ export const TestiData = [
 <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I used to see dialysis as interruption to normal life then I started seeing it as a thing which saves life. I have been on dialysis for the last 2 years now. I play Golf on weekends, swim with my grandchildren once in a while and try to act normal feel normal and behave normal.</span></p>
 <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">Dialysis is painless and what is the other choice?</span></p>`,
     image: "img8.jpg",
-    name: "MK Bhatnagar",
+    user: "MK Bhatnagar",
+    link: "/happyPatient/testimonials/10",
   },
 
   {
     id: 11,
-    title: "t1",
+    name: "t1",
     content: `<img class="h-auto max-w-full" src="/testimonials/img9.jpg" alt="image description">
     <img class="h-auto max-w-full" src="/testimonials/img9.jpg" alt="image description">`,
-    // image: ``,
-    name: "Baljeet Singh",
+    image: ``,
+    user: "Baljeet Singh",
+    link: "/happyPatient/testimonials/11",
   },
   {
     id: 12,
-    title: "I am a 33 year old male patient diagnosed",
+    name: "I am a 33 year old male patient diagnosed",
     content: `<p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I am a 33 year old male patient diagnosed with ESRD on maintenance hemodialysis since Aug 2005.</span></p>
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">This is way back in 2004 January when I had repeated complaints of vulnerable headache, I got my sight tested. The result was normal but I had reading glasses for a couple of months. The problem still persisted in conjunction with severe back pain. Then I consulted a Physician and was diagnosed to have High Blood Pressure (220/110). He advised me to undergo total health check-up and pathological tests. Based on the results, I was advised to meet a Nephrologist.</span></p>
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">The Nephrologist informed me about the slightly elevated levels of Creatinine and high blood pressure and prescribed medications. Since my levels kept on increasing, the Nephrologist recommended to undergo a Renal Biopsy in March,2004. The findings of the biopsy were &ldquo;Post Streptococcal Glomerulonephritis (Acute Renal failure)&rdquo;, azotemia, elevated ASO titre and proteinuria. Salt restricted diet was recommended with the same medication.</span></p>
@@ -145,39 +154,40 @@ export const TestiData = [
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><strong style="box-sizing: border-box; font-weight: bold;"><span style="font-size: 22px;">Thanks &amp; regards,<br style="box-sizing: border-box;">With love</span></strong><br style="box-sizing: border-box;">Rakesh Khullar</span></strong></p>
     `,
     image: "",
-    name: "",
+    user: "",
+    link: "/happyPatient/testimonials/12",
   },
 
   {
     id: 13,
-    title: "Divine Blessing for his Patients",
+    name: "Divine Blessing for his Patients",
     content: `<p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I shall always be grateful to God as He has introduced a wonderful person Dr. Sunil Prakash to me. Dr. Sunil came into my life as an incarnation of Lord himself when I was in a critical state and soon I realised I was in the safe hands.</span></p>
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I am an 80 years old male patient on Haemodialysis since September 2008 in Artemis Hosptial under the dedicated supervision of Dr. Sunil Prakash. Since then I am leading a healthy life. I feel happier and mentally motivated to survive and I owe this to none other than Dr Sunil Prakash.</span></p>
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I can truly say that Dr. Sunil is a divine blessing for me and many other patients like me. I can assure all the patients in a critical state that Dr. Sunil Prakash can bring back a healthy living in your life within no time. His way of treating his patients is really extraordinary. His charismatic personality has an everlasting impact on all those who come in his contact. He is quite friendly with his patients and they feel extremely comfortable with him. He is caring, generous, thoughtful and inspite of being a famous doctor, he is quite down to earth. He has a human touch for his patients and listens patiently to all their queries inspite of his busy schedule, as he is the most sought doctor for kidney transplants.</span></p>
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">He has a humorous nature and can transform mundane and worried faces of his patients into beaming smiles. His kind words are more powerful than any medicine. His caring nature makes him develop a personal bond with all patients which makes him a unique doctor.<br style="box-sizing: border-box;">I don&rsquo;t have enough words to express my thanks for his support ,kind words and holding my hand during my treatment. I feel extremely fortunate to have him as my doctor.</span></p>
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I salute his dedication towards the profession of helping the mankind.</span></p> <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">With regards</span></p> <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><b><strong style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">V.P. Kohli<br>Retd. Scientist Horticulture<br>Haryana Agriculture University</strong></b></p>
 <p><br></p>`,
-
     image: "",
-    name: "",
+    user: "",
+    link: "/happyPatient/testimonials/13",
   },
 
   {
     id: 14,
-    title: "Dr Prakash was very calm and understanding about the situation",
+    name: "Dr Prakash was very calm and understanding about the situation",
     content: `<p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I was diagnosed with an E. Coli urinary tract infection with ESBL producers in Bangalore, where I was treated with intravenous injections once a day for six days. A month and a half later I developed a reoccurrence. I had a fever of 105&deg;F, pain in my lower back and chest and had chills all across my body. The doctors in Bangalore were quite shocked and confused with the reoccurrence and it was then that I decided to fly to Delhi for treatment.</span></p>
   <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I met with Dr. Sunil Prakash the day I flew into Delhi. I was scared and stressed out, as I had never been so ill before. Dr. Prakash was very calm and understanding about the situation. One of his greatest attributes is that he is very attentive. He took the time to talk to me and listen to my concerns and always tried to come up with solutions that worked for both of us. Dr. Prakash also respected my privacy, which I really appreciate.</span></p>
   <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">Dr. Prakash sent me for a number of tests to investigate what was going on inside me, and at each step he would explain why these tests were being conducted. He came and saw me at the hospital before my scans and also whilst I received my first intravenous injection with the treatment medication. Dr. Prakash discovered my urinary tract infection had spread to my bladder and kidneys and diagnosed me with bilateral pyelonephritis. He put me onto intravenous injections three times a day for two weeks and then oral medication for another month.</span></p>
   <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I was very scared and confused once I was diagnosed, however,Dr. Prakash always made me feel like he had all the time in the world for me. He would sit and answer each and every question I had, even if I asked the same question again and again, with out hurrying me up. He was constantly drawing diagrams for me to help me better understand. Dr. Prakash was extremely patient and supportive and always provided in depth and honest answers to my queries and concerns. I feel he is a physician who genuinely cares about all his patients, as I have experienced it first hand. During my first appointment with Dr. Prakash he gave me his personal number and always answered the phone, whether it was 7am or 7pm I could always get in touch with him. And when I did not call him, Dr. Prakash called me to check on how I was feeling, whether certain symptoms had disappeared or if I had any new ones. I was very touched by his concern and calls, and I never expected a doctor to call and check up on me. I feel he goes above and beyond for his patients and I am very grateful.</span></p>
   <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">Dr. Prakash is a very experienced and knowledgeable physician and made me feel safe and confident about handling my diagnosis. He also investigated every possible lead into how I may have contracted bilateral pyelonephritis and was cautious in his approach. He made sure I did not have to undergo any unnecessary and/or invasive tests as I had already been through so much. But he also made sure that the infection was completely eradicated.I am very glad that Dr. Prakash is my physician andthat he was in my life when I needed him.</span></p>`,
     image: "",
-    name: "",
+    user: "",
+    link: "/happyPatient/testimonials/14",
   },
 
   {
     id: 15,
-    title:
-      "During My Wife’s Treatment for CKD She was in coma and family also had given up all hope.",
+    name: "During My Wife’s Treatment for CKD She was in coma and family also had given up all hope.",
     content: `<p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">175 Golf Links</p>
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">New Delhi-110003</p>
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">31st July 2012</p>
@@ -190,12 +200,13 @@ export const TestiData = [
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><strong><strong>Your Fainthfully, J.K. Khosla</strong></strong></p>
 <p><br></p>`,
     image: "",
-    name: "",
+    user: "",
+    link: "/happyPatient/testimonials/15",
   },
 
   {
     id: 16,
-    title: "Dr Sunil Prakash the angel",
+    name: "Dr Sunil Prakash the angel",
     content: `I am a retired government officer 69 years of age. The trouble with my kidneys started about 2 years ago. The creatinine level gradually went up and tests indicated 90% failure of this vital or gan unrecognized and uncared for 67 years.
 
   I was a minor diabetic and BP patient on medicines for last 20 years. It appears and is apparently the resulted in damage to kidneys. God only knows.
@@ -210,24 +221,26 @@ export const TestiData = [
 
   Dialysis is painless and what is the other choice?`,
     image: "img8.jpg",
-    name: "MK Bhatnagar",
+    user: "MK Bhatnagar",
+    link: "/happyPatient/testimonials/16",
   },
 
   {
     id: 17,
-    title: "God bless you",
+    name: "God bless you",
     content: `<p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">DR SIR, HERE IS S M MAKHIJA AT YOUR SWEET SERVICE.</span></p>
   <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">IT IS ALWAYS AN ADDITION TO MY LUCK AND ALSO TO MY WIFE KIRAN MAKHIJA, WHEN EVER WE MEET YOU FOR HER TREATMENT.</span></p>
   <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">YOUR COOL AND SMILING TEMPRAMENT IS REALLY UNIQE AND CLASS BY ITSELF.</span></p>
   <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">SHE REALLY FEELS RELIEVED AND IS IMPROVING DAY BY DAY.</span></p>
   <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">GOD BLESS YOU AND GRACE YOU AND CREATE THE MAGIC TOUCH TO THE QUALITY OF YOU<br style="box-sizing: border-box;">TREATMENT AND HEALING.</span></p>`,
     image: "",
-    name: "BEST OF LUCK, S M MAKHIJA",
+    user: "BEST OF LUCK, S M MAKHIJA",
+    link: "/happyPatient/testimonials/17",
   },
 
   {
     id: 18,
-    title: "Hello docx Dr Sunil Prakash changed my life",
+    name: "Hello docx Dr Sunil Prakash changed my life",
     content: `<p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">DR SIR, HERE IS S M MAKHIJA AT YOUR SWEET SERVICE.</span></p>
   <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">IT IS ALWAYS AN ADDITION TO MY LUCK AND ALSO TO MY WIFE KIRAN MAKHIJA, WHEN EVER WE MEET YOU FOR HER TREATMENT.</span></p>
   <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">YOUR COOL AND SMILING TEMPRAMENT IS REALLY UNIQE AND CLASS BY ITSELF.</span></p>
@@ -235,34 +248,37 @@ export const TestiData = [
   <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">GOD BLESS YOU AND GRACE YOU AND CREATE THE MAGIC TOUCH TO THE QUALITY OF YOU<br style="box-sizing: border-box;">TREATMENT AND HEALING.</span></p>
   <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><strong style="box-sizing: border-box; font-weight: bold;"><span style="font-size: 22px;">BEST OF LUCK</span></strong></p>`,
     image: "",
-    name: "S M MAKHIJA",
+    user: "S M MAKHIJA",
+    link: "/happyPatient/testimonials/18",
   },
 
   {
     id: 19,
-    title: "I am extremely grateful to you and your team",
+    name: "I am extremely grateful to you and your team",
     content: `<p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">Dear Dr. Prakash,</span></p>
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I am extremely grateful to you and your team (Dr. Ashwani Goel, Dr. Deepak Jain, Dr. Monika Gupta, Dr. Aliya Arshad, Dr. Jaydev Kumar) to have looked after me very well during my stay at Dr. B.L.Kapur Memorial Hospital.</span></p>
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I have gradually recovered and my blood chemistry is within normal limits. I am reasonably week and difficult to get up from bed. As soon as I am in better condition I will call upon you.</span></p>
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">Please express my feelings to all your team members.</span></p>
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">With Warm Regards<br style="box-sizing: border-box;">Your Sincerely</span></p>`,
     image: "",
-    name: "Dr. Hari Mohan",
+    user: "Dr. Hari Mohan",
+    link: "/happyPatient/testimonials/19",
   },
 
   {
     id: 20,
-    title: "I thank and salute you for treating me",
+    name: "I thank and salute you for treating me",
     content: `<p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">Dear Dr. Sunil Prakash</span></p>
   <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I wish to thank you immensely for the presidential treatment accorded me in BLK Super Specialist Hospital and for the special medical treatment given to me. I wish to inform you of my safe arrival in Nigeria and that for now there is no adverse observation. Therefore, I am recovering very fast, except for little pains at the site of surgery.</span></p>
   <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">Once more, I thank and salute you for taking me as a special guest to your hospital. I would continue to feed you back about the progress of my health. Thanks and God bless.<br style="box-sizing: border-box;">Yours</span></p>`,
     image: "",
-    name: "LI LAWAL, Brigadier General",
+    user: "LI LAWAL, Brigadier General",
+    link: "/happyPatient/testimonials/20",
   },
 
   {
     id: 21,
-    title: "My smile came back on face and most of time its remains",
+    name: "My smile came back on face and most of time its remains",
     content: `<p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">Hello Big Brother,</span></p>
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">There is no way i can say you thanks for your efforts so i will not say.</span></p>
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I never thought before meeting you that in my life i will do my regular work like earlier after Renal Transplantation. Reason behind that my friends, relatives always came and tell us horror story abouth transplantation I was very de-motivated and hopeless when i came to you and full of fear about transplantation. But the way you clear my doubt and treat me after transplantation i had not faced a single minute of episode of fear before operation and after operation. Your support is the only reason i recovered so fast and on a positive track that today nobody after seeing me can say i even faced a fever in my life even if i told them i had gone for kidney transplantation they said you are lier.</span></p>
@@ -277,12 +293,13 @@ export const TestiData = [
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">&ldquo;Some peoples on the earth cames for giving happiness to others&rdquo; I am lucky i got that one like you.</span></p>
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">salute to my big bro</span></p>`,
     image: "",
-    name: "OmPrakash",
+    user: "OmPrakash",
+    link: "/happyPatient/testimonials/21",
   },
 
   {
     id: 22,
-    title: "Transplant from a Dead Persons Kidney",
+    name: "Transplant from a Dead Persons Kidney",
     content: `<p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;"> My name is shweta and I am 24 yrs old and a student. About two and a half years ago I was diagnosed with chest tuberculosis for which I started the treatment but within a month my legs started to swell up.i went for a blood test and urine r/m, which showed my inc in protien and slight inc in creatinine. </span></p>
 
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">I ws advised a renal biopsy which showed my kidneys hv degraded by 90% and class VI lupus. I went for all possible treatments in a reputed hospital n under a reputed rheumatologist,but in vain as I was detroiting day by day.</span></p>
@@ -293,12 +310,13 @@ export const TestiData = [
 
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">Thanks to my Doctors and my Surgeons, I owe my life to them.</span></p>`,
     image: "",
-    // name: "",
+    user: "",
+    link: "/happyPatient/testimonials/22",
   },
 
   {
     id: 23,
-    title: " vikram sood",
+    name: " vikram sood",
     content: `<p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>I am a retired civil servant and had to be admitted to the Emergency section of one of the hospitals in Gurgaon following complaints of stomach distension and heaviness in the chest. The ECG was considered normal by the doctor on duty and my BP was normal (120/80) as well.</p>
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>A senior doctor at the hospital felt otherwise and suggested other tests, including angiography. Following this, angioplasty for the insertion of one stent was recommended.</p>
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Thereafter, for reasons not known or explained, they inserted four stents. The entire procedure was faulty and poorly handled and without any standby surgical team. As a result of this, my condition deteriorated rapidly in the next two days to that the extent the chances of my survival, according to the doctors attending on me, seemed minimal.</p>
@@ -310,20 +328,22 @@ export const TestiData = [
     <p style='box-sizing: border-box; margin: 0px 0px 12px; font-size: 21px; line-height: 25px; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><strong style='box-sizing: border-box; font-weight: bold; color: rgb(42, 42, 42); font-family: "Open Sans", sans-serif; font-size: 21px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="font-size: 22px;">Vikram Sood,<br style="box-sizing: border-box;">Secretary (R) retd.<br style="box-sizing: border-box;">Cabinet Secretariat<br style="box-sizing: border-box;">Govt. Of India</span></strong></p>
    `,
     image: "",
-    // name: "",
+    // user: "",
+    link: "/happyPatient/testimonials/23",
   },
 
   {
     id: 24,
-    title: "Prof. L. Munkonge",
+    name: "Prof. L. Munkonge",
     content: ``,
     image: "img11.jpg",
-    // name: "",
+    // user: "",
+    link: "/happyPatient/testimonials/24",
   },
 
   {
     id: 25,
-    title: "Kidney Transplant",
+    name: "Kidney Transplant",
     content: `<p style='text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;font-family: "'><span style="font-size: 24px;">Any disease is bad but kidney disease is such where your life can get ruined unless one is aware of what the latest is on and how one can lead to a normal life.</span></p>
 <p style='text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;font-family: "'><span style="font-size: 24px;">I was detected of kidney problem in October 2008 when my creatinine was 2.5 and urea 220.</span></p>
 <p style='text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;font-family: "'><span style="font-size: 24px;">I visited B L Kapoor Hospital in 2008 and was initially treated by Dr.Deepak Jain-the treatment continued for good 4 years but to our Indian mentality and our society I got into other sources of treatment (ayurvedic and homeopathy)- which was a major blunder on my part. My creatine which was maintained around 5 suddenly shooted to 14.4 on 25th July 2012.</span></p>
@@ -340,13 +360,13 @@ export const TestiData = [
 <p style='text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;font-family: "'><strong><span style="font-size: 24px;">Navin Mehra</span></strong><br><span style="font-size: 24px;">Delhi</span>.<br><span style="font-size: 24px;">+91-9810170512</span></p>
   `,
     image: "",
-    // name: "",
+    // user: "",
+    link: "/happyPatient/testimonials/25",
   },
 
   {
     id: 26,
-    title:
-      "Patient is dialysis free after being initially on dialysis for 6 months",
+    name: "Patient is dialysis free after being initially on dialysis for 6 months",
     content: `
    <p style='text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;font-family: "'><strong><span style="font-size: 24px;">Dear Dr. Prakash</span></strong></p>
 <p style='text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;font-family: "'><span style="font-size: 24px;">It is my pleasure to write about the excellent treatment that I received as follows:</span></p>
@@ -360,12 +380,13 @@ export const TestiData = [
 <p style='text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;font-family: "'><strong><span style="font-size: 24px;">With kind regards<br>Very Sincerely<br>Rajeev Lochan Pandey<br>28A/11,Jia Sarai,New delhi<br>(Formerly Maruti Suzuki India Limited Employee</span></strong></p>
     `,
     image: "",
-    // name: "",
+    // user: "",
+    link: "/happyPatient/testimonials/26",
   },
 
   {
     id: 27,
-    title: "I Dance Again After Transplant",
+    name: "I Dance Again After Transplant",
     content: `<p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><strong><strong>Hi</strong></strong>,</p>
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">My name is Shirley,and I am 28 yrs old.</p>
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">The world came crashing down on me 3 yrs back, in the tear 2013, when I was diagnosed with chronic kidney failure. My work, my lifestyle had taken a heavy toll on my health and all of a sudden I got deprived of everything I used to love &ndash; from Dancing, Shopping, Travelling, Eating out, parties etc.</p>
@@ -377,12 +398,13 @@ export const TestiData = [
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><strong><strong>Thankfully Yours,</strong></strong></p>
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><strong><strong>Shirley Shahi Thakuri</strong></strong></p>`,
     image: "",
-    // name: "Shirley Shahi Thakuri",
+    user: "Shirley Shahi Thakuri",
+    link: "/happyPatient/testimonials/27",
   },
 
   {
     id: 28,
-    title: "Excellent Treatment and services at BLK Nephrology Unit",
+    name: "Excellent Treatment and services at BLK Nephrology Unit",
     content: `<p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"><strong><strong>Respected Sir</strong></strong>,</p>
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">I am writing this, on my behalf of my father : Dr K N Pandey, who was admitted to BLK Hospital sometime back.</p>
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">We would like to express our gratitude towards your esteemed hospital and learned experts of Nephrology unit.</p>
@@ -394,6 +416,7 @@ export const TestiData = [
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">Regards,</p>
 <p style="text-align: justify;color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">Dr K N Pandey / Aditya Ranjan</p>`,
     image: "",
-    // name: "Dr K N Pandey / Aditya Ranjan",
+    user: "Dr K N Pandey / Aditya Ranjan",
+    link: "/happyPatient/testimonials/28",
   },
 ];

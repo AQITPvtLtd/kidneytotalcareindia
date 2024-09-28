@@ -1,7 +1,8 @@
 export const Infodata = [
   {
     id: 1,
-    title: "Basic about kidneys",
+    name: "Basic about kidneys",
+    link: "/information/1",
     content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Basic about kidneys</h1>
 
@@ -29,11 +30,12 @@ export const Infodata = [
             The internal morphology of the kidney in a cross-section is shown in the figure above. This structure plays a vital role in filtering blood and maintaining overall body fluid balance.
         </p>
     </div>`,
-    image: "img1.jpg",
+    image: "img2.jpg",
   },
   {
     id: 2,
-    title: "Functions of the kidneys",
+    name: "Functions of the kidneys",
+    link: "/information/2",
     content: ` <div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Functions of the Kidneys</h1>
 
@@ -64,10 +66,12 @@ export const Infodata = [
 
         <p style="line-height: 1.6; color: #34495e;">It is important to note that many of these symptoms can be caused by other health issues, not just kidney disease. The only way to determine the cause is to visit your nephrologist in Delhi, India.</p>
     </div>`,
+    image: "",
   },
   {
     id: 3,
-    title: "Investigation",
+    name: "Investigation",
+    link: "/information/3",
     content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); ">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Investigation</h1>
 
@@ -91,10 +95,12 @@ export const Infodata = [
             A normal ultrasound for kidneys does not rule out CKD, especially in diabetics who may have advanced kidney disease despite the appearance of normal kidney size.
         </p>
     </div>`,
+    image: "",
   },
   {
     id: 4,
-    title: "Simple test to diagnose kidney disease",
+    name: "Simple test to diagnose kidney disease",
+    link: "/information/4",
     content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Simple test to diagnose kidney disease</h1>
 
@@ -112,10 +118,12 @@ export const Infodata = [
             A normal kidney ultrasound does not rule out CKD, as many diabetics with advanced kidney disease may still have normal-sized kidneys.
         </p>
     </div>`,
+    image: "",
   },
   {
     id: 5,
-    title: "About Dialysis",
+    name: "About Dialysis",
+    link: "/information/5",
     content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">About Dialysis</h1>
 
@@ -147,10 +155,12 @@ export const Infodata = [
             It is advisable to opt for early elective dialysis and avoid waiting for an emergency. Emergency dialysis carries higher risks of mortality and morbidity.
         </p>
     </div>`,
+    image: "",
   },
   {
     id: 6,
-    title: "Types of Dialysis",
+    name: "Types of Dialysis",
+    link: "/information/6",
     content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Types of Dialysis</h1>
 
@@ -189,10 +199,12 @@ export const Infodata = [
         </ul>
 
     </div>`,
+    image: "",
   },
   {
     id: 7,
-    title: "Transplantation",
+    name: "Transplantation",
+    link: "/information/7",
     content: ` <div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Transplantation</h1>
 
@@ -211,10 +223,12 @@ export const Infodata = [
         </p>
 
     </div>`,
+    image: "",
   },
   {
     id: 8,
-    title: "Some Do’s for the CKD patient",
+    name: "Some Do’s for the CKD patient",
+    link: "/information/8",
     content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Some Do’s for the CKD patient</h1>
 
@@ -236,10 +250,12 @@ export const Infodata = [
             <li><strong>Depression</strong>: Avoid negative thoughts and focus on positivity.</li>
         </ul>
     </div>`,
+    image: "",
   },
   {
     id: 9,
-    title: "About Renal Replacement Therapy",
+    name: "About Renal Replacement Therapy",
+    link: "/information/9",
     content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">About Renal Replacement Therapy</h1>
 
@@ -262,10 +278,12 @@ export const Infodata = [
         </p>
 
     </div>`,
+    image: "",
   },
   {
     id: 10,
-    title: "Diet",
+    name: "Diet",
+    link: "/information/10",
     content: ` <div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Diet</h1>
 
@@ -334,5 +352,6 @@ export const Infodata = [
         </p>
 
     </div>`,
+    image: "",
   },
 ];
