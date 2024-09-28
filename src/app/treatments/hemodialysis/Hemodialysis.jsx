@@ -8,7 +8,7 @@ const Hemodialysis = () => {
     <div>
       <div className="lg:grid grid-cols-3 lg:m-16 m-8">
         <div className="lg:block hidden">
-        <Sidebar data={treatmentData}/>
+          <Sidebar data={treatmentData} />
         </div>
         <div className="col-span-2 mx-5 inline-block">
           <div className="inline-block">
@@ -35,7 +35,7 @@ const Hemodialysis = () => {
 
             <div className="p-3">
               <Image
-                src="/Kidney/hemodialysis.jpg"
+                src="/kidney/hemodialysis2.jpg"
                 height={350}
                 width={350}
                 alt="KidneyImg"

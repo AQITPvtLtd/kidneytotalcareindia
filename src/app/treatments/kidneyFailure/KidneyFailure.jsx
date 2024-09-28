@@ -3,7 +3,6 @@ import Image from "next/image";
 import { treatmentData } from "../data";
 import Sidebar from "@/components/common/Sidebar";
 
-
 const KidneyFailure = () => {
   return (
     <div>
@@ -46,7 +45,7 @@ const KidneyFailure = () => {
 
             <div className="p-3">
               <Image
-                src="/Kidney/kidneyFailure.jpg"
+                src="/kidney/kidneyfailure.jpg"
                 height={350}
                 width={350}
                 alt="KidneyImg"

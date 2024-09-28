@@ -4,10 +4,10 @@ import Sidebar from "@/components/common/Sidebar";
 import { treatmentData } from "../data";
 const HomeDialysis = () => {
   return (
-    <div>
+    <div className="overflow-x-clip">
       <div className="lg:grid grid-cols-3 lg:m-16 m-8">
         <div className="lg:block hidden">
-        <Sidebar data={treatmentData}/>  
+          <Sidebar data={treatmentData} />
         </div>
         <div className="col-span-2 mx-5 inline-block">
           <div className="inline-block">
@@ -31,7 +31,7 @@ const HomeDialysis = () => {
             </h1>
             <div className="p-3">
               <Image
-                src="/Kidney/homeDialysis.jpg"
+                src="/kidney/homedialysis.jpg"
                 height={350}
                 width={350}
                 alt="KidneyImg"
