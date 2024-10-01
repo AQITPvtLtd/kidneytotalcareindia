@@ -158,12 +158,7 @@ const Contact = () => {
                   011-30403040
                 </Link>
               </li>
-              <li>
-                <strong>Max Hospital Gurgaon:</strong>{" "}
-                <Link href="tel:+91 9268880303" className="text-blue-500">
-                  +91 9268880303
-                </Link>
-              </li>
+
               <li>
                 <strong>Coordinator:</strong>{" "}
                 <Link href="tel:+918130698126" className="text-blue-500">
@@ -197,7 +192,24 @@ const Contact = () => {
               </li>
             </ul>
           </div>
-
+          {/* max hospital gurgaon section */}
+          <div className="mt-8 mx-2">
+            <h2 className="text-2xl font-semibold mb-4 text-primary underline underline-offset-4">
+              Max Hospital
+            </h2>
+            <ul className="text-lg space-y-4 list-disc">
+              <li>Sushant Lok Phase I, Sector 43, Gurugram, Haryana 122022</li>
+              <li>
+                <strong>Max Hospital Gurgaon:</strong>{" "}
+                <Link href="tel:+91 9268880303" className="text-blue-500">
+                  +91 9268880303
+                </Link>
+              </li>
+              <li>
+                <strong>Timing:</strong> 12am to 4pm (Wednesday)
+              </li>
+            </ul>
+          </div>
           {/* Uma Sanjivani Hospital Section */}
           <div className="mt-8 mx-2">
             <h2 className="text-2xl font-semibold mb-4 text-primary underline underline-offset-4">
