@@ -255,10 +255,10 @@ const Header = () => {
         {/* grid 3 - call details */}
         <div className="hidden -ml-10 lg:flex justify-center items-center py-2">
           <div>
-            <Link className="flex" href="tel:+91 9268880303">
+            <Link className="flex" href="tel:0124-6623000">
               <MdPhoneCallback className="mt-1.5 mr-0.5 text-lightgreen" />
               Max Hospital Gurgaon:{" "}
-              <div className="underline">+91 9268880303</div>
+              <div className="underline">0124-6623000</div>
             </Link>
             <Link className="flex" href="tel:011 30403040">
               <MdPhoneCallback className="mt-1.5 mr-0.5 text-lightgreen" />

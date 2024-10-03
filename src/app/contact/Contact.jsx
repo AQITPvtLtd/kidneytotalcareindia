@@ -134,7 +134,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-full text-white bg-primary py-3 rounded-lg transition duration-300 ease-in-out transform hover:bg-white hover:text-primary hover:border-2 hover:border-primary hover:shadow-lg hover:scale-105"
+              className="w-full text-white bg-primary py-3 rounded-lg transition duration-500 ease-in-out transform hover:bg-white hover:text-primary hover:border-2 hover:border-primary hover:shadow-lg hover:scale-105"
             >
               Submit
             </button>
@@ -201,8 +201,8 @@ const Contact = () => {
               <li>Sushant Lok Phase I, Sector 43, Gurugram, Haryana 122022</li>
               <li>
                 <strong>Max Hospital Gurgaon:</strong>{" "}
-                <Link href="tel:+91 9268880303" className="text-blue-500">
-                  +91 9268880303
+                <Link href="tel:0124-6623000" className="text-blue-500">
+                  0124-6623000
                 </Link>
               </li>
               <li>
