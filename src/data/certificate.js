@@ -1,7 +1,7 @@
 export const cert = [
   {
     id: 1,
-    image: "/cert1.jpg",
+    image: "cert1.jpg",
   },
   {
     id: 2,

@@ -32,6 +32,8 @@ const Certificate = () => {
             {cert.map((item) => (
               <div key={item.id} className="m-2">
                 <Image
+                  width={500}
+                  height={500}
                   src={`/certificates/${item.image}`}
                   alt={`Certificate ${item.id}`}
                   className="cursor-pointer lg:w-48 w-screen mb-3 lg:h-48 object-fill border-8 border-blue-800"

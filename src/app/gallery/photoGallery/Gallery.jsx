@@ -57,6 +57,8 @@ const Gallery = () => {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
           <div className="relative">
             <Image
+              width={500}
+              height={500}
               src={selectedImage}
               alt="Selected"
               className="max-w-[90vw] max-h-[90vh] object-contain"
