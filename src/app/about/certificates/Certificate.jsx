@@ -31,13 +31,13 @@ const Certificate = () => {
           <div className="lg:grid grid-cols-4 gap-5">
             {cert.map((item) => (
               <div key={item.id} className="m-2">
-                <img
+                <Image
                   src={`/certificates/${item.image}`}
                   alt={`Certificate ${item.id}`}
                   className="cursor-pointer lg:w-48 w-screen mb-3 lg:h-48 object-fill border-8 border-blue-800"
                   onClick={() =>
                     handleImageClick(`/certificates/${item.image}`)
-                  } // Set selected image
+                  }
                 />
               </div>
             ))}
@@ -56,13 +56,14 @@ const Certificate = () => {
           onClick={handleCloseModal}
         >
           <div className="relative z-[101]">
-            <img
+            <Image
               src={selectedImage}
               alt="Selected Certificate"
               className="z-[101]"
               height={450}
               width={450}
             />
+
             <button
               className="absolute top-2 right-2 text-white text-2xl bg-black rounded-full px-3 py-1 z-[101]"
               onClick={handleCloseModal}

@@ -56,11 +56,12 @@ const Gallery = () => {
       {selectedImage && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
           <div className="relative">
-            <img
+            <Image
               src={selectedImage}
               alt="Selected"
-              className="max-w-[90vw] max-h-[90vh] object-contain" // Set max width/height and maintain aspect ratio
+              className="max-w-[90vw] max-h-[90vh] object-contain"
             />
+
             <button
               className="absolute top-2 right-2 bg-white px-2 py-1 rounded-full"
               onClick={closeModal}
