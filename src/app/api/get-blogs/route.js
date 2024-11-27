@@ -4,13 +4,16 @@ export async function GET() {
   try {
     const results = await new Promise((resolve, reject) => {
       // Perform the database query
-      connection.query("SELECT * FROM blog", (err, results, fields) => {
-        if (err) {
-          reject(err); // Reject the promise if there's an error
-        } else {
-          resolve(results); // Resolve the promise with the query results
+      connection.query(
+        "SELECT * FROM blog ORDER BY id DESC",
+        (err, results, fields) => {
+          if (err) {
+            reject(err); // Reject the promise if there's an error
+          } else {
+            resolve(results); // Resolve the promise with the query results
+          }
         }
-      });
+      );
     });
     return NextResponse.json({
       message: "success",
