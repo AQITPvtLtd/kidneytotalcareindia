@@ -9,7 +9,7 @@ import Image from "next/image";
 import { FaUser } from "react-icons/fa";
 import Moment from "react-moment";
 
-const DetailedBlog = ({ url }) => {
+const DetailedBlog = ({ id, url }) => {
   const [blog, setBlog] = useState([]);
   useEffect(() => {
     async function getData() {
@@ -18,7 +18,7 @@ const DetailedBlog = ({ url }) => {
     }
     getData();
   }, []);
-  const blogDetail = blog?.find((b) => b.url === url);
+  const blogDetail = blog?.find((b) => b.id == id && b.url == url);
   return (
     <section className="overflow-hidden pb-[120px] pt-10 lg:mx-14 mx-3">
       <div className="container">
@@ -105,7 +105,7 @@ const DetailedBlog = ({ url }) => {
                       <RelatedPost
                         title={b.name}
                         image={`/blogs/${b.image}`}
-                        slug={`/blogs/${b.url}`}
+                        slug={`/blogs/${b.id}/${b.url}`}
                         date={b.date}
                       />
                     </div>
@@ -114,7 +114,7 @@ const DetailedBlog = ({ url }) => {
               </ul>
             </div>
 
-            <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
+            {/* <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
               <h3 className="border-b border-body-color border-opacity-10 px-8 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
                 Popular Tags
               </h3>
@@ -129,7 +129,7 @@ const DetailedBlog = ({ url }) => {
                         <TagButton key={index} text={b.trim()} />
                       ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

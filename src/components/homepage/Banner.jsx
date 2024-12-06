@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className="overflow-x-clip">
       <div className="lg:grid grid-cols-2">
-        <div className="">
+        <div>
           <Image
             src="/doctor/dr-sunil-prakash.png"
             width={800}
@@ -34,7 +34,7 @@ const Banner = () => {
             </h3>
             <div className="mt-5">
               <Link
-                href="/about-us/dr-sunil-prakash"
+                href="/about/dr-sunil-prakash"
                 className="bg-lightgreen text-white font-semibold py-2 px-3 rounded-md"
               >
                 About Us

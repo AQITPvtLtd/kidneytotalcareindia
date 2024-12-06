@@ -25,7 +25,7 @@ const Blogs = () => {
       {blog.map((b) => (
         <Link
           key={b.id}
-          href={`/blogs/${b.url}`}
+          href={`/blogs/${b.id}/${b.url}`}
           className="lg:flex lg:border-2 mb-4 hover:scale-105 duration-300 hover:shadow-lg"
           alt="blogimage"
         >
