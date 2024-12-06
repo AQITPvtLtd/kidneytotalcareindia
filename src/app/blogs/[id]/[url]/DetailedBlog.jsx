@@ -77,14 +77,13 @@ const DetailedBlog = ({ id, url }) => {
               </div>
               <div>
                 <div className="mb-10 w-full overflow-hidden rounded">
-                  <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
-                    <Image
-                      src={`/blogs/${blogDetail?.image}`}
-                      alt="image"
-                      fill
-                      className="h-full w-full object-cover object-center"
-                    />
-                  </div>
+                  <Image
+                    src={`/blogs/${blogDetail?.image}`}
+                    alt="image"
+                    height={500}
+                    width={500}
+                    className="h-full w-full object-cover object-center"
+                  />
                 </div>
                 <p
                   dangerouslySetInnerHTML={{ __html: blogDetail?.description }}
