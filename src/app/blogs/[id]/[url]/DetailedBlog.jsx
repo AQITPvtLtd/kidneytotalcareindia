@@ -114,7 +114,7 @@ const DetailedBlog = ({ id, url }) => {
               </ul>
             </div>
 
-            {/* <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
+            <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
               <h3 className="border-b border-body-color border-opacity-10 px-8 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
                 Popular Tags
               </h3>
@@ -129,7 +129,7 @@ const DetailedBlog = ({ id, url }) => {
                         <TagButton key={index} text={b.trim()} />
                       ))}
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
