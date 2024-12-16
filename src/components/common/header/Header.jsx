@@ -68,10 +68,10 @@ const Header = () => {
             <div>
               <Link
                 href="/"
-                className={`header-logo block lg:ml-0 ml-2 mt-3 bg-white lg:my-3 lg:hidden`}
+                className={`header-logo block lg:ml-0 ml-2 mt-3 lg:my-3 lg:hidden`}
               >
                 <Image
-                  src="/logo/logo.png"
+                  src="/logo/updated-newlogo.png"
                   alt="logo"
                   width={1000}
                   height={1000}
@@ -233,7 +233,7 @@ const Header = () => {
             className={`header-logo block lg:ml-0 ml-2 mt-3 lg:my-3`}
           >
             <Image
-              src="/logo/logo.png"
+              src="/logo/updated-newlogo.png"
               alt="logo"
               width={1000}
               height={1000}
