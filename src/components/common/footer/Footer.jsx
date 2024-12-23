@@ -34,7 +34,7 @@ const Footer = () => {
             <div>
               <Link href="/" className="">
                 <Image
-                  src="/logo/footerlogo.png"
+                  src="/logo/newfooterlogo.png"
                   alt="logo"
                   width={200}
                   height={200}

@@ -71,7 +71,7 @@ const Header = () => {
                 className={`header-logo block lg:ml-0 ml-2 mt-3 lg:my-3 lg:hidden`}
               >
                 <Image
-                  src="/logo/footerlogo.png"
+                  src="/logo/newfooterlogo.png"
                   alt="logo"
                   width={1000}
                   height={1000}
