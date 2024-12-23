@@ -61,7 +61,7 @@ const Certificate = () => {
             <Image
               src={selectedImage}
               alt="Selected Certificate"
-              className="z-[101]"
+              className="z-[101] object-cover"
               height={450}
               width={450}
             />

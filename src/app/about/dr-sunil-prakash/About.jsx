@@ -18,8 +18,8 @@ const About = () => {
               </h1>
 
               <p className="text-2xl font-semibold text-lightgreen p-3">
-                Head of Nephrology & <br />
-                Renal Transplant Services
+                Vice Chairman and Head Of department Nephrology and Renal
+                sciences & Kidney transplant
               </p>
             </div>
           </div>
@@ -42,9 +42,9 @@ const About = () => {
                   <GiCheckMark className="text-green-700" />
                 </td>
                 <td>
-                  Director and Head of Nephrology & Renal Transplant Services at
-                  B.L. Kapoor Super Speciality Hospital, New Delhi (since
-                  January 2012)
+                  Vice Chairman and Head Of department Nephrology and Renal
+                  sciences & Kidney transplant at B.L. Kapoor Super Speciality
+                  Hospital, New Delhi (since January 2012)
                 </td>
               </tr>
               <tr>

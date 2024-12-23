@@ -38,7 +38,7 @@ const Footer = () => {
                   alt="logo"
                   width={200}
                   height={200}
-                  className="w-[250px] mb-4 p-2"
+                  className="w-[300px] mb-4 p-2"
                 />
               </Link>
               <p className="leading-normal text-white">
