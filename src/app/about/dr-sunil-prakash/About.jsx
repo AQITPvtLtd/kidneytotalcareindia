@@ -107,7 +107,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="mt-10">
+      <div className="my-10">
         {/* Text Content on top of the image */}
         <div className="flex flex-col justify-center items-center text-white">
           <h1 className="text-center font-bold text-2xl sm:text-3xl md:text-4xl text-black bg-white py-2 px-3 rounded-md shadow-lg">
