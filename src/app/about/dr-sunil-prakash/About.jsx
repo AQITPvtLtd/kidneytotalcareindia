@@ -110,7 +110,7 @@ const About = () => {
                     key={e.id}
                     className={`border p-5 bg-${e.color} bg-opacity-90 text-white rounded-md shadow-md`}
                   >
-                    <h2 className="text-4xl sm:text-5xl md:text-6xl text-center opacity-70 font-bold font-serif">
+                    <h2 className="text-4xl sm:text-4xl md:text-5xl text-center opacity-70 font-bold font-serif">
                       {e.year}
                     </h2>
                     <h1 className="font-semibold text-center mt-3 text-xl sm:text-2xl">
