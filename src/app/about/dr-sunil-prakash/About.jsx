@@ -9,27 +9,32 @@ import { data } from "../data";
 const About = () => {
   return (
     <div>
-      <div className="flex justify-center">
-        <div className="lg:grid grid-cols-2">
-          <div className="flex items-center justify-center text-center">
-            <div>
-              <h1 className="text-primary font-extrabold text-6xl">
-                Dr. Sunil Prakash
-              </h1>
+      <div className="">
+        <div className="lg:grid grid-cols-12 items-center flex flex-col-reverse">
+          <div className="col-start-2 col-span-6">
+            <div className="flex items-center">
+              <div className="lg:px-0 px-6 lg:py-0 py-3 lg:pl-0 pl-10">
+                <h1 className="text-primary font-extrabold lg:text-6xl text-4xl">
+                  Dr. Sunil Prakash
+                </h1>
 
-              <p className="text-2xl font-semibold text-lightgreen p-3">
-                Vice Chairman and Head Of department Nephrology and Renal
-                sciences & Kidney transplant
-              </p>
+                <p className="lg:text-2xl text-xl font-semibold text-lightgreen lg:pt-5">
+                  Vice Chairman and Head Of department Nephrology and Renal
+                  sciences & Kidney transplant
+                </p>
+              </div>
             </div>
           </div>
-          <div className="pt-3">
-            <Image
-              src="/doctor/dr5.png"
-              width={400}
-              height={400}
-              alt="about-doctor w-[200px] h-[200px]"
-            />
+          <div className="col-span-4">
+            <div className="pt-3">
+              <Image
+                src="/doctor/dr5.png"
+                className="lg:p-0 px-5"
+                width={400}
+                height={400}
+                alt="about-doctor w-[200px] h-[200px]"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -96,56 +101,38 @@ const About = () => {
           </table>
           <Experience />
           {/* education */}
-          <div className="my-10">
-            {/* Text Content on top of the image */}
-            <div className="flex flex-col justify-center items-center text-white">
-              <h1 className="text-center font-bold text-2xl sm:text-3xl md:text-4xl text-black bg-white py-2 px-3 rounded-md shadow-lg">
-                EDUCATION / QUALIFICATIONS
-              </h1>
-
-              {/* Education Details */}
-              <div className="lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:mx-4 mt-10">
-                {education.slice(0, 4).map((e) => (
-                  <div
-                    key={e.id}
-                    className={`border p-5 bg-${e.color} bg-opacity-90 text-white rounded-md shadow-md`}
-                  >
-                    <h2 className="text-4xl sm:text-4xl md:text-5xl text-center opacity-70 font-bold font-serif">
-                      {e.year}
-                    </h2>
-                    <h1 className="font-semibold text-center mt-3 text-xl sm:text-2xl">
-                      {e.edu}
-                    </h1>
-                    <p className="mt-2 text-center text-sm sm:text-base">
-                      {e.college}
-                    </p>
-                  </div>
-                ))}
-              </div>
-
-              <div className="lg:grid grid-cols-1 lg:mt-8 gap-5">
-                {education.slice(4, 5).map((e) => (
-                  <div
-                    key={e.id}
-                    className={`border p-5 bg-${e.color} bg-opacity-90 text-white rounded-md shadow-md`}
-                  >
-                    <h2 className="text-4xl sm:text-5xl md:text-6xl text-center opacity-70 font-bold font-serif">
-                      {e.year}
-                    </h2>
-                    <h1 className="font-semibold text-center mt-3 text-xl sm:text-2xl">
-                      {e.edu}
-                    </h1>
-                    <p className="mt-2 text-center text-sm sm:text-base">
-                      {e.college}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
         </div>
         <div className="lg:block hidden">
           <Sidebar data={data} />
+        </div>
+      </div>
+
+      <div className="mt-10">
+        {/* Text Content on top of the image */}
+        <div className="flex flex-col justify-center items-center text-white">
+          <h1 className="text-center font-bold text-2xl sm:text-3xl md:text-4xl text-black bg-white py-2 px-3 rounded-md shadow-lg">
+            EDUCATION / QUALIFICATIONS
+          </h1>
+
+          {/* Education Details */}
+          <div className="lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 lg:mx-4 mt-10 lg:px-10 px-3">
+            {education.map((e) => (
+              <div
+                key={e.id}
+                className={`border p-5 bg-${e.color} bg-opacity-90 text-white rounded-md shadow-md`}
+              >
+                <h2 className="text-4xl sm:text-4xl md:text-5xl text-center opacity-70 font-bold font-serif">
+                  {e.year}
+                </h2>
+                <h1 className="font-semibold text-center mt-3 text-xl sm:text-2xl">
+                  {e.edu}
+                </h1>
+                <p className="mt-2 text-center text-sm sm:text-base">
+                  {e.college}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

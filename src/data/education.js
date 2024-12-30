@@ -9,14 +9,14 @@ export const education = [
   {
     id: 2,
     year: 1985,
-    edu: "M.D. (Ind Med.)",
+    edu: "M.D (Ind Med.)",
     college: "G.S.V.M. Medical College, L.L.R. Hospital, Kanpur",
     color: "lightgreen",
   },
   {
     id: 3,
     year: 1995,
-    edu: "D.M. (Nephrology)",
+    edu: "D.M (Nephrology)",
     college: "All India Institute of Medical Sciences",
     color: "primary",
   },
