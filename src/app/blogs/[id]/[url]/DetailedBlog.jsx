@@ -25,7 +25,7 @@ const DetailedBlog = ({ id, url }) => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-8/12">
             <div>
-              <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+              <h1 className="mb-5 text-3xl font-bold leading-tight text-black sm:text-4xl sm:leading-tight">
                 {blogDetail?.name}
               </h1>
               <div className="mb-5 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
