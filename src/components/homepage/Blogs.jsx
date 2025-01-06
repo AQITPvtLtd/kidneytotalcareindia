@@ -9,13 +9,13 @@ import { FaUser } from "react-icons/fa";
 import Link from "next/link";
 const Blogs = () => {
   const [blog, setBlog] = useState([]);
-  console.log(blog);
+  // console.log(blog);
 
   useEffect(() => {
     async function getData() {
       const result = await getBlog();
       setBlog(result.result);
-      console.log(result);
+      // console.log(result);
     }
     getData();
   }, []);
