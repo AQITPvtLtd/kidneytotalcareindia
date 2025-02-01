@@ -5,4 +5,4 @@ export async function getBlog() {
     .get("/api/get-blogs")
     .then((response) => response.data);
   return result;
-}
+} 
