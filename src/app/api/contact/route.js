@@ -4,12 +4,20 @@ import { v4 as uuid } from "uuid";
 import nodemailer from "nodemailer";
 export async function POST(request) {
   try {
-    const { name, phone, email, message } = await request.json();
+
+    const formData = await request.formData();
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const phone = formData.get("phone");
+    const location = formData.get("location");
+    const message = formData.get("message");
+    const MedicalReport = formData.get("MedicalReport");
+    // const { name, phone, email, location, message } = await request.json();
     const unique_id = uuid();
     await new Promise((resolve, reject) => {
       connection.query(
-        "INSERT INTO contact(id, name, phone, email, message) VALUES (?,?,?,?,?)",
-        [unique_id, name, phone, email, message],
+        "INSERT INTO contact(id, date, name, phone, email, location ,message) VALUES (?,NOW() ,?,?,?,?,?)",
+        [unique_id, name, phone, email, location, message],
         (err, results, fields) => {
           if (err) {
             console.error(err);
@@ -44,6 +52,10 @@ export async function POST(request) {
                 <p>${message}</p>
               </body>
              </html>`,
+      attachments: MedicalReport ? [{
+        filename: MedicalReport.name,
+        content: Buffer.from(await MedicalReport.arrayBuffer()),
+      }] : [],
     });
 
     // Send confirmation email to the user

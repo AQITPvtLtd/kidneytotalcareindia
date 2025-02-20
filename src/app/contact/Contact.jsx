@@ -4,36 +4,86 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Swal from "sweetalert2";
 import { form } from "@/services/user";
+import { ClipLoader } from "react-spinners";
 
 const Contact = () => {
   const router = useRouter();
+  const [loading, setLoading] = useState(false);
   const [formData, setformData] = useState({
     name: "",
     email: "",
     phone: "",
+    location: "",
     message: "",
+    MedicalReport: null,
   });
 
   const handleChange = (e) => {
     setformData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  const handleFileChange = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      if (file.size > 10 * 1024 * 1024) {
+        Swal.fire({
+          icon: "warning",
+          title: "File Too Large",
+          text: "Please upload a file smaller than 10MB.",
+        });
+        e.target.value = "";
+        return;
+      }
+      setformData({ ...formData, MedicalReport: file })
+    }
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault(); // Corrected typo here
-    const response = await form(formData);
-    if (response.success) {
-      Swal.fire({
-        title: "Form Submitted Successfully",
-        text: "You clicked the Button!",
-        icon: "success",
-      });
-      router.push("/");
-    } else {
+    setLoading(true);
+    const formDataToSend = new FormData();
+    formDataToSend.append("name", formData.name);
+    formDataToSend.append("email", formData.email);
+    formDataToSend.append("phone", formData.phone);
+    formDataToSend.append("location", formData.location);
+    formDataToSend.append("message", formData.message);
+
+    if (formData.MedicalReport) {
+      formDataToSend.append("MedicalReport", formData.MedicalReport);
+    }
+
+    try {
+      const response = await form(formDataToSend);
+      if (response.success) {
+        Swal.fire({
+          title: "Form Submitted Successfully",
+          text: "You clicked the Button!",
+          icon: "success",
+        });
+        setformData({
+          name: "",
+          email: "",
+          phone: "",
+          location: "",
+          message: "",
+          MedicalReport: null,
+        });
+        router.push("/");
+      } else {
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Something went wrong",
+        });
+      }
+    } catch (error) {
       Swal.fire({
         icon: "error",
-        title: "Oops...",
-        text: "Something went wrong",
+        title: "Error",
+        text: "Failed to submit the form. Please check your network and try again.",
       });
+    } finally {
+      setLoading(false)
     }
   };
 
@@ -116,15 +166,34 @@ const Contact = () => {
 
             <div className="mb-6">
               <label
+                htmlFor="location"
+                className="block text-md font-medium mb-2 text-primary"
+              >
+                Location
+              </label>
+              <input
+                type="location"
+                id="location"
+                name="location"
+                placeholder="Enter Your Current location"
+                required
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                value={formData.location}
+                onChange={handleChange}
+              />
+            </div>
+
+            <div className="mb-6">
+              <label
                 htmlFor="message"
                 className="block text-md font-medium mb-2 text-primary"
               >
-                Message
+                Write Problem English / Hindi
               </label>
               <textarea
                 name="message"
                 id="message"
-                placeholder="Write Your Message Here..."
+                placeholder="Describe Your Health Problem"
                 required
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 value={formData.message}
@@ -132,12 +201,34 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            <button
-              type="submit"
-              className="w-full text-white bg-primary py-3 rounded-lg transition duration-500 ease-in-out transform hover:bg-white hover:text-primary hover:border-2 hover:border-primary hover:shadow-lg hover:scale-105"
-            >
-              Submit
-            </button>
+            <div className="mb-6">
+              <label
+                htmlFor="MedicalReport"
+                className="block text-md font-medium mb-2 text-primary"
+              >
+                Upload Medical Report (Optional)
+              </label>
+              <input
+                type="file"
+                id="MedicalReport"
+                name="MedicalReport"
+                accept=".pdf, .doc, .docx, .xls, .xlsx, .txt, .jpg, .png, .jpeg, .avif"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                onChange={handleFileChange}
+              />
+            </div>
+
+            <div>
+              {loading ? (<div className="flex justify-center items-center w-full h-full bg-gray-500 bg-opacity-50 rounded-md fixed top-0 left-0 z-50">
+                <ClipLoader width="60" height="60" color="#092644" className="animate-spin" />
+              </div>) : (<button
+                type="submit"
+                className="w-full text-white bg-primary py-3 rounded-lg transition duration-500 ease-in-out transform hover:bg-white hover:text-primary hover:border-2 hover:border-primary hover:shadow-lg hover:scale-105"
+              >
+                Submit
+              </button>)}
+            </div>
+
           </form>
         </div>
 
@@ -238,7 +329,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div >
 
       <div className="lg:grid grid-cols-1 mt-10">
         <div className="lg:mx-10 mx-2 rounded-md">
@@ -254,7 +345,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 04, 2025 at 12:10 PM
+-- Generation Time: Feb 20, 2025 at 01:24 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -69,21 +69,15 @@ INSERT INTO `blog` (`id`, `name`, `short_desc`, `image`, `description`, `date`, 
 --
 
 CREATE TABLE `contact` (
-  `id` int(11) NOT NULL,
+  `s.no` int(11) NOT NULL,
+  `date` date NOT NULL,
+  `id` varchar(200) NOT NULL,
   `name` varchar(200) NOT NULL,
   `phone` varchar(200) NOT NULL,
   `email` varchar(200) NOT NULL,
-  `date` date NOT NULL,
+  `location` varchar(200) NOT NULL,
   `message` varchar(500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `contact`
---
-
-INSERT INTO `contact` (`id`, `name`, `phone`, `email`, `date`, `message`) VALUES
-(0, 'Abhishek', '9958461283', 'mamta296076@gmail.com', '0000-00-00', 'website testing'),
-(1, 'Abhishek', '9958461283', 'mamta296076@gmail.com', '0000-00-00', 'website testing...');
 
 --
 -- Indexes for dumped tables
@@ -99,7 +93,7 @@ ALTER TABLE `blog`
 -- Indexes for table `contact`
 --
 ALTER TABLE `contact`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`s.no`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -110,6 +104,12 @@ ALTER TABLE `contact`
 --
 ALTER TABLE `blog`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+
+--
+-- AUTO_INCREMENT for table `contact`
+--
+ALTER TABLE `contact`
+  MODIFY `s.no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
