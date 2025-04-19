@@ -1,28 +1,26 @@
 import { NextResponse } from "next/server";
-import connection from "../../../helper/db";
+import pool from "../../../helper/db";
+
 export async function GET() {
   try {
     const results = await new Promise((resolve, reject) => {
-      // Perform the database query
-      connection.query(
-        "SELECT * FROM blog ORDER BY id DESC",
-        (err, results, fields) => {
-          if (err) {
-            reject(err); // Reject the promise if there's an error
-          } else {
-            resolve(results); // Resolve the promise with the query results
-          }
+      pool.query("SELECT * FROM blog ORDER BY id DESC", (err, results) => {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(results);
         }
-      );
+      });
     });
+
     return NextResponse.json({
       message: "success",
       success: true,
       result: results,
     });
+
   } catch (error) {
-    console.log(error.message);
-    connection.end();
+    console.error("Error fetching blogs:", error.message);
     return NextResponse.json({ message: error.message, success: false });
   }
 }

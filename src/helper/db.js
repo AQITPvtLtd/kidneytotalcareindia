@@ -1,11 +1,15 @@
 import mysql from "mysql2";
 
-// Create the connection to database
-const connection = mysql.createConnection({
+// Create a connection pool
+const pool = mysql.createPool({
   host: "localhost",
   user: "root",
   password: "",
   database: "kidneytotalcare",
+  waitForConnections: true,
+  connectionLimit: 10,
+  queueLimit: 0,
 });
 
-export default connection;
+export default pool;
+
