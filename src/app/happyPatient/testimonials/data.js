@@ -419,4 +419,16 @@ export const TestiData = [
     user: "Dr K N Pandey / Aditya Ranjan",
     link: "/happyPatient/testimonials/28",
   },
+
+  {
+    id: 29,
+    name: "A Second Chance at Life: My Journey with Dr. Sunil Prakash",
+    content: `<p style="color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">I was diagnosed with end stage renal disease on year 2024 and was started on maintainance dialysis ,my blood pressure was always high and was not under control but then when i was planning for transplant in india delhi in my first visit with Dr sunil prakash he prescribed me the pressure medications in just one day my blood pressure started being under control. I did dialysis until the time of transplant under supervision of Dr sunil prakash all went well i am still in contact with Dr sunil prakash who is guiding me through out.</p>
+<p style="color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;"></p>
+<p style="color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">Dr sunil prakash he is a wonderful and a great human being, excellent nephrologist, very good listener , his treatment and management approach is excellent.</p>
+<p style="color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">I am very lucky and happy and also blessed to have him as my nephrologist. May God bless him with good health and long life.</p>`,
+    image: "",
+    user: "",
+    link: "/happyPatient/testimonials/29",
+  },
 ];
