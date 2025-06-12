@@ -28,7 +28,7 @@ const DetailedBlog = ({ id, url }) => {
               <h1 className="mb-5 text-3xl font-bold leading-tight text-black sm:text-4xl sm:leading-tight">
                 {blogDetail?.name}
               </h1>
-              <div className="mb-5 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
+              <div className="flex flex-wrap items-center justify-between dark:border-white dark:border-opacity-10">
                 <div className="flex flex-wrap items-center">
                   <div className="mb-5 mr-10 flex items-center">
                     <FaUser className="mr-2" />
@@ -63,7 +63,7 @@ const DetailedBlog = ({ id, url }) => {
                   </div>
                 </div>
               </div>
-              <div className="flex">
+              {/* <div className="flex">
                 <div className="items-center justify-between flex">
                   <div className="mb-5 flex">
                     <h5 className="mb-3 text-lg font-bold text-body-color sm:text-right">
@@ -74,9 +74,9 @@ const DetailedBlog = ({ id, url }) => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div>
-                <div className="mb-10 w-full overflow-hidden rounded">
+                <div className="mb-5 w-full overflow-hidden rounded">
                   <Image
                     src={`/blogs/${blogDetail?.image}`}
                     alt="image"
