@@ -94,11 +94,11 @@ const DetailedBlog = ({ id, url }) => {
           </div>
           <div className="w-full px-4 lg:w-4/12">
             <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
-              <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
+              <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 ">
                 Related Posts
               </h3>
               <ul className="p-4">
-                <li className=" border-b border-body-color border-opacity-10 pb-3 dark:border-white dark:border-opacity-10">
+                <li className=" border-b border-body-color border-opacity-10 pb-3 dark:border-white dark:border-opacity-10 text-black">
                   {blog?.map((b) => (
                     <div className="mb-5" key={b.id}>
                       <RelatedPost
@@ -113,7 +113,7 @@ const DetailedBlog = ({ id, url }) => {
               </ul>
             </div>
 
-            <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
+            {/* <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
               <h3 className="border-b border-body-color border-opacity-10 px-8 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
                 Popular Tags
               </h3>
@@ -128,7 +128,7 @@ const DetailedBlog = ({ id, url }) => {
                         <TagButton key={index} text={b.trim()} />
                       ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

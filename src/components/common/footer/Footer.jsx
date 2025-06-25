@@ -235,13 +235,12 @@ const Footer = () => {
         </div>
         {/* <!-- Copyright section --> */}
         <div className="w-full bg-lightgreen text-white p-2 text-center">
-          © 2024 Copyright:
           <Link
             target="__blank"
             className="text-white font-semibold"
             href="https://www.tekbooster.com"
           >
-            TekBooster
+            Design & Developed By Tek Booster (Digital Marketing Company)
           </Link>
         </div>
       </footer>
