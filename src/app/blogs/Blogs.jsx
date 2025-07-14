@@ -21,8 +21,7 @@ const Blogs = () => {
   return (
     <div className="lg:p-10 px-4 overflow-x-clip bg-gray-50">
       <div className="py-5 text-center">
-        <h1 className="text-4xl font-bold mb-2">Latest Blog</h1>
-        <p className="text-lg text-gray-600">Read our latest blog.</p>
+        <h1 className="text-4xl font-bold mb-2">Read our latest blogs</h1>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

@@ -161,7 +161,7 @@ const menuData = [
   },
   {
     id: 8,
-    title: "Blog",
+    title: "Blogs",
     path: "/blogs",
     newTab: false,
   },
