@@ -16,6 +16,20 @@ const Gallery = () => {
 
   return (
     <div className="">
+      {/* <div className="relative">
+        <Image
+          src=""
+          width={1000}
+          height={1000}
+          className="w-full h-[250px] object-cover"
+          alt="Contact Image"
+        />
+        <div className="absolute inset-0 bg-cyan-600 opacity-70 z-10"></div>
+        <h1 className="absolute inset-0 z-20 flex items-center justify-center text-white font-serif text-center text-6xl font-bold my-4">
+
+        </h1>
+      </div> */}
+
       <div className="relative">
         <Image
           src="/gallery/backgroundImg.jpg"
@@ -25,7 +39,7 @@ const Gallery = () => {
           alt="Contact Image"
         />
         <div className="absolute inset-0 bg-cyan-600 opacity-70 z-10"></div>
-        <h1 className="text-white font-serif text-center text-6xl font-bold my-4 absolute inset-0 z-20 flex items-center justify-center">
+        <h1 className="text-white font-serif text-center text-6xl font-bold my-4 absolute inset-0 z-[10] flex items-center justify-center">
           Photo Gallery
         </h1>
       </div>
