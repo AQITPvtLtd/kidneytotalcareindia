@@ -4,34 +4,44 @@ import React, { useEffect, useState } from "react";
 import { getBlog } from "@/services/getBlog";
 import Image from "next/image";
 import Moment from "react-moment";
-import { FaStopwatch } from "react-icons/fa";
-import { FaUser } from "react-icons/fa";
+import { FaStopwatch, FaUser } from "react-icons/fa";
 import Link from "next/link";
+
 const Blogs = () => {
   const [blog, setBlog] = useState([]);
-  // console.log(blog);
 
   useEffect(() => {
     async function getData() {
-      const result = await getBlog();
-      setBlog(result.result);
-      // console.log(result);
+      try {
+        const result = await getBlog();
+        if (result && Array.isArray(result.result)) {
+          setBlog(result.result);
+        } else {
+          console.error("Unexpected response format:", result);
+          setBlog([]); // fallback to empty array
+        }
+      } catch (error) {
+        console.error("Failed to fetch blogs:", error);
+        setBlog([]); // fallback to empty array
+      }
     }
     getData();
   }, []);
+
   return (
     <div className="my-4">
       <div className="mt-14 mb-7">
-        <h1 className="text-3xl font-bold text-center">Latest Blog</h1>
+        <h1 className="text-3xl font-bold text-center">Latest Blogs</h1>
         <p className="text-center text-xl">
           Read our latest blog. Feel free to ask questions in comments for any
           blog you find interesting.
         </p>
       </div>
+
       <div className="lg:grid grid-cols-3 mx-10 gap-7">
         {blog.slice(0, 3).map((b) => (
           <Link
-            href="/"
+            href={`/blogs/${b.url}`}
             key={b.id}
             className="hover:scale-105 border-gray-300 duration-300 lg:border rounded-md shadow-md"
           >
@@ -40,7 +50,7 @@ const Blogs = () => {
               width={1000}
               height={1000}
               className="w-full h-[200px] object-cover"
-              alt="blogimage"
+              alt={b.name || "blog image"}
             />
             <h1 className="px-5 font-semibold text-center text-xl mt-3 mb-2">
               {b.name}
@@ -59,7 +69,8 @@ const Blogs = () => {
           </Link>
         ))}
       </div>
-      <div className="flex justify-center my-10 ">
+
+      <div className="flex justify-center my-10">
         <Link
           href="/blogs"
           className="bg-lightgreen px-6 py-2 text-white rounded-md hover:scale-105 hover:shadow-md"

@@ -50,7 +50,7 @@ const Blogs = () => {
 
               <div className="my-4">
                 <Link
-                  href={`/blogs/${b.id}/${b.url}`}
+                  href={`/blogs/${b.url}`}
                   className="bg-lightgreen text-white px-6 py-2 rounded-md border-2 border-lightgreen transition duration-200 ease-in-out hover:bg-white hover:text-lightgreen hover:shadow-md hover:-translate-y-0.5"
                 >
                   Read More
