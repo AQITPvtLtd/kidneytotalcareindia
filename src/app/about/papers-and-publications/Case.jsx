@@ -1,8 +1,6 @@
 import React from "react";
-import Sidebar from "../../../components/common/Sidebar";
-import { data } from "../data";
+import Sidebar from "../Sidebar";
 import { papers } from "./papersData";
-import Link from "next/link";
 const Case = () => {
   return (
     <div>
@@ -29,7 +27,7 @@ const Case = () => {
 
         {/* Sidebar */}
         <div className="lg:block hidden">
-          <Sidebar data={data} />
+          <Sidebar />
         </div>
       </div>
     </div>

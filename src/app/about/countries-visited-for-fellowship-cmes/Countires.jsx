@@ -1,8 +1,6 @@
 import React from "react";
-import Sidebar from "../../../components/common/Sidebar";
 import ReactCountryFlag from "react-country-flag";
-import { data } from "../data";
-
+import Sidebar from "../Sidebar";
 const Countires = () => {
   const country = [
     {
@@ -215,7 +213,7 @@ const Countires = () => {
           </div>
         </div>
         <div className="mt-14 lg:block hidden ml-4">
-          <Sidebar data={data} />
+          <Sidebar />
         </div>
       </div>
     </div>

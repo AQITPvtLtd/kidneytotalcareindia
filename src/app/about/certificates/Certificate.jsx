@@ -2,9 +2,8 @@
 
 import React, { useState } from "react";
 import { cert } from "@/data/certificate";
-import Sidebar from "../../../components/common/Sidebar";
+import Sidebar from "../Sidebar";
 import Image from "next/image";
-import { data } from "../data";
 const Certificate = () => {
   const [selectedImage, setSelectedImage] = useState(null); // State to store the selected image
 
@@ -47,7 +46,7 @@ const Certificate = () => {
         </div>
 
         <div className="col-span-4 mt-14 lg:block hidden">
-          <Sidebar data={data} />
+          <Sidebar />
         </div>
       </div>
 

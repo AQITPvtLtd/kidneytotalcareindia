@@ -1,6 +1,5 @@
 import React from "react";
-import Sidebar from "../../../components/common/Sidebar";
-import { data } from "../data";
+import Sidebar from "../Sidebar";
 import Experience from "@/components/homepage/Experience";
 import { IoMdArrowDroprightCircle } from "react-icons/io";
 
@@ -9,7 +8,7 @@ const Editor = () => {
     <div>
       <div className="lg:grid grid-cols-4 lg:m-16 m-4">
         <div className="lg:block hidden">
-          <Sidebar data={data} />
+          <Sidebar />
         </div>
         <div className="col-span-3 lg:-mt-14">
           <Experience />

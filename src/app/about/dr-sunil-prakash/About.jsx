@@ -3,8 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { GiCheckMark } from "react-icons/gi";
 import { education } from "@/data/education";
-import Sidebar from "../../../components/common/Sidebar";
-import { data } from "../data";
+import Sidebar from "../Sidebar";
 
 const About = () => {
   return (
@@ -103,7 +102,7 @@ const About = () => {
           {/* education */}
         </div>
         <div className="lg:block hidden">
-          <Sidebar data={data} />
+          <Sidebar />
         </div>
       </div>
 
