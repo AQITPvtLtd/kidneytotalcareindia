@@ -12,7 +12,7 @@ export const data = [
   {
     id: 3,
     name: "Training Abroad",
-    link: "training-abroad",
+    link: "awards-and-training-abroad",
   },
   {
     id: 4,

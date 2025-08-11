@@ -77,7 +77,7 @@ const Review = () => {
       </div>
       <div className="flex justify-center my-10">
         <Link
-          href="/happyPatient/testimonials"
+          href="/happy-patient/testimonials"
           className="bg-lightgreen text-white py-2 px-3 rounded-md"
         >
           View All Reviews

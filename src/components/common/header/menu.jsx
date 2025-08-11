@@ -25,13 +25,13 @@ const menuData = [
       {
         id: 23,
         title: "Papers and Publications",
-        path: "/about/papers",
+        path: "/about/papers-and-publications",
         newTab: false,
       },
       {
         id: 24,
         title: "Training Abroad",
-        path: "/about/training-abroad",
+        path: "/about/awards-and-training-abroad",
         newTab: false,
       },
       {
@@ -56,13 +56,13 @@ const menuData = [
       {
         id: 31,
         title: "Renal Replacement Surgery",
-        path: "/treatments/renalReplacement",
+        path: "/treatments/renal-replacement-surgery",
         newTab: false,
       },
       {
         id: 32,
         title: "Kidney Transplantation",
-        path: "/treatments/kidneyTransplantation",
+        path: "/treatments/kidney-transplantation",
         newTab: false,
       },
       {
@@ -74,37 +74,37 @@ const menuData = [
       {
         id: 34,
         title: "Slowing of Kidney Disease by DIET",
-        path: "/treatments/diseasebyDIET",
+        path: "/treatments/slowing-of-kidney-disease-by-diet",
         newTab: false,
       },
       {
         id: 35,
         title: "Home Dialysis Treatments",
-        path: "/treatments/homeDialysis",
+        path: "/treatments/home-dialysis-treatments",
         newTab: false,
       },
       {
         id: 36,
         title: "Hemodialysis Treatments for Kidney",
-        path: "/treatments/hemodialysis",
+        path: "/treatments/hemodialysis-treatments-for-kidney",
         newTab: false,
       },
       {
         id: 37,
         title: "Kidney Failure Treatments",
-        path: "/treatments/kidneyFailure",
+        path: "/treatments/kidney-failure-treatment",
         newTab: false,
       },
       {
         id: 38,
         title: "Patient Education Diabetes",
-        path: "/treatments/patientEducation",
+        path: "/treatments/patient-education-diabetes",
         newTab: false,
       },
       {
         id: 39,
         title: "Kidney Donation",
-        path: "/treatments/kidneyDonation",
+        path: "/treatments/kidney-donation",
         newTab: false,
       },
     ],
@@ -122,13 +122,13 @@ const menuData = [
       {
         id: 51,
         title: "Testimonials",
-        path: "/happyPatient/testimonials",
+        path: "/happy-patient/testimonials",
         newTab: false,
       },
       {
         id: 52,
         title: "Video Reviews",
-        path: "/happyPatient/reviewVideo",
+        path: "/happy-patient/review-video",
         newTab: false,
       },
     ],
@@ -141,7 +141,7 @@ const menuData = [
       {
         id: 61,
         title: "Photo Gallery",
-        path: "/gallery/photoGallery",
+        path: "/gallery/photo-gallery",
         newTab: false,
       },
       {
@@ -168,7 +168,7 @@ const menuData = [
   {
     id: 7,
     title: "Contact Us",
-    path: "/contact",
+    path: "/contact-us",
     newTab: false,
   },
 ];

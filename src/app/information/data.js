@@ -1,9 +1,9 @@
 export const Infodata = [
-  {
-    id: 1,
-    name: "Basic about kidneys",
-    link: "/information/1",
-    content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    {
+        id: 1,
+        name: "Basic about kidneys",
+        url: "information/basic-about-kidneys",
+        content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Basic about kidneys</h1>
 
         <p style="line-height: 1.6; color: #34495e;">
@@ -30,13 +30,27 @@ export const Infodata = [
             The internal morphology of the kidney in a cross-section is shown in the figure above. This structure plays a vital role in filtering blood and maintaining overall body fluid balance.
         </p>
     </div>`,
-    image: "img2.jpg",
-  },
-  {
-    id: 2,
-    name: "Functions of the kidneys",
-    link: "/information/2",
-    content: ` <div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        image: "img2.jpg",
+        meta_title: "Basic About Kidneys – Structure, Function & Role in the Body",
+        meta_desc: "Learn the basic facts about kidneys – their structure, location, function, and role in filtering blood, excreting waste, and maintaining fluid balance in the body.",
+        keyword: [
+            "basic about kidneys",
+            "kidney structure and function",
+            "location of kidneys",
+            "kidney anatomy",
+            "nephron function",
+            "role of kidneys in body",
+            "urine formation process",
+            "urinary system anatomy",
+            "kidney cross-section",
+            "kidney function in excretion"
+        ],
+    },
+    {
+        id: 2,
+        name: "Functions of the kidneys",
+        url: "information/functions-of-the-kidneys",
+        content: ` <div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Functions of the Kidneys</h1>
 
         <p style="line-height: 1.6; color: #34495e;">The kidneys perform many vital functions to maintain a clean and healthy internal environment:</p>
@@ -66,13 +80,27 @@ export const Infodata = [
 
         <p style="line-height: 1.6; color: #34495e;">It is important to note that many of these symptoms can be caused by other health issues, not just kidney disease. The only way to determine the cause is to visit your nephrologist in Delhi, India.</p>
     </div>`,
-    image: "",
-  },
-  {
-    id: 3,
-    name: "Investigation",
-    link: "/information/3",
-    content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); ">
+        image: "",
+        meta_title: "Functions of the Kidneys & Early Symptoms of Kidney Failure",
+        meta_desc: "Discover the vital functions of the kidneys, including waste removal, hormone production, and bone health, and learn the early symptoms of kidney failure to ensure timely medical care.",
+        keyword: [
+            "functions of the kidneys",
+            "kidney function and health",
+            "early symptoms of kidney failure",
+            "chronic kidney disease signs",
+            "role of kidneys in body",
+            "kidney hormone production",
+            "waste removal by kidneys",
+            "vitamin d and kidney health",
+            "kidney disease awareness",
+            "nephrologist in delhi"
+        ],
+    },
+    {
+        id: 3,
+        name: "Investigation",
+        url: "information/investigation",
+        content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); ">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Investigation</h1>
 
         <p style="line-height: 1.6; color: #34495e;">The diagnosis of kidney disease is made through various tests, including:</p>
@@ -95,13 +123,27 @@ export const Infodata = [
             A normal ultrasound for kidneys does not rule out CKD, especially in diabetics who may have advanced kidney disease despite the appearance of normal kidney size.
         </p>
     </div>`,
-    image: "",
-  },
-  {
-    id: 4,
-    name: "Simple test to diagnose kidney disease",
-    link: "/information/4",
-    content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        image: "",
+        meta_title: "Investigation & Diagnosis of Kidney Disease – Tests & Scans",
+        meta_desc: "Learn about the investigation of kidney disease, including blood tests, urine analysis, and ultrasound scans, and understand why normal kidney size on imaging doesn’t always rule out CKD.",
+        keyword: [
+            "investigation of kidney disease",
+            "kidney disease diagnosis tests",
+            "blood tests for kidney health",
+            "urine test for kidney disease",
+            "ultrasound for kidney disease",
+            "chronic kidney disease detection",
+            "serum creatinine test",
+            "microalbumin urine test",
+            "kidney scan in ckd",
+            "kidney disease in diabetics"
+        ],
+    },
+    {
+        id: 4,
+        name: "Simple test to diagnose kidney disease",
+        url: "information/simple-test-to-diagnose-kidney-disease",
+        content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Simple test to diagnose kidney disease</h1>
 
         <p style="line-height: 1.6; color: #34495e;">
@@ -118,13 +160,27 @@ export const Infodata = [
             A normal kidney ultrasound does not rule out CKD, as many diabetics with advanced kidney disease may still have normal-sized kidneys.
         </p>
     </div>`,
-    image: "",
-  },
-  {
-    id: 5,
-    name: "About Dialysis",
-    link: "/information/5",
-    content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        image: "",
+        meta_title: "Simple Tests to Diagnose Kidney Disease – Blood, Urine & Ultrasound",
+        meta_desc: "Understand the simple tests to diagnose kidney disease, including blood tests, urine analysis, and ultrasound scans, and why normal kidney size doesn’t always rule out CKD.",
+        keyword: [
+            "simple test to diagnose kidney disease",
+            "kidney disease diagnosis",
+            "blood tests for kidney function",
+            "urine test for kidney problems",
+            "ultrasound scan for kidney health",
+            "chronic kidney disease detection",
+            "serum creatinine and urea test",
+            "protein in urine test",
+            "kidney disease in diabetics",
+            "ckd diagnosis methods"
+        ],
+    },
+    {
+        id: 5,
+        name: "About Dialysis",
+        url: "information/about-dialysis",
+        content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">About Dialysis</h1>
 
         <h2 style="color: #2c3e50;">Choosing Between Hemodialysis and Peritoneal Dialysis</h2>
@@ -155,13 +211,27 @@ export const Infodata = [
             It is advisable to opt for early elective dialysis and avoid waiting for an emergency. Emergency dialysis carries higher risks of mortality and morbidity.
         </p>
     </div>`,
-    image: "",
-  },
-  {
-    id: 6,
-    name: "Types of Dialysis",
-    link: "/information/6",
-    content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        image: "",
+        meta_title: "About Dialysis – Hemodialysis, Peritoneal Dialysis & When to Start",
+        meta_desc: "Learn all about dialysis, including the choice between hemodialysis and peritoneal dialysis, when to start treatment, and why early elective dialysis is safer than emergency dialysis.",
+        keyword: [
+            "about dialysis",
+            "hemodialysis vs peritoneal dialysis",
+            "when to start dialysis",
+            "emergency dialysis conditions",
+            "dialysis specialist in delhi",
+            "dialysis for kidney failure",
+            "elective dialysis benefits",
+            "dialysis treatment options",
+            "kidney disease dialysis care",
+            "risks of emergency dialysis"
+        ],
+    },
+    {
+        id: 6,
+        name: "Types of Dialysis",
+        url: "information/types-of-dialysis",
+        content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Types of Dialysis</h1>
 
         <h2 style="color: #2c3e50;">Home Hemodialysis</h2>
@@ -199,13 +269,27 @@ export const Infodata = [
         </ul>
 
     </div>`,
-    image: "",
-  },
-  {
-    id: 7,
-    name: "Transplantation",
-    link: "/information/7",
-    content: ` <div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        image: "",
+        meta_title: "Explore the Main Types of Dialysis – Home Hemodialysis & CAPD",
+        meta_desc: "Explore the main types of dialysis, including home hemodialysis and continuous ambulatory peritoneal dialysis (CAPD), their procedures, requirements, and benefits for kidney patients.",
+        keyword: [
+            "types of dialysis",
+            "home hemodialysis",
+            "continuous ambulatory peritoneal dialysis",
+            "capd dialysis procedure",
+            "dialysis at home in delhi",
+            "advantages of capd",
+            "kidney failure dialysis options",
+            "dialysis lifestyle benefits",
+            "dialysis patient training",
+            "peritoneal dialysis in india"
+        ],
+    },
+    {
+        id: 7,
+        name: "Transplantation",
+        url: "information/transplantation",
+        content: ` <div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Transplantation</h1>
 
         <p style="line-height: 1.6; color: #34495e;">
@@ -223,13 +307,27 @@ export const Infodata = [
         </p>
 
     </div>`,
-    image: "",
-  },
-  {
-    id: 8,
-    name: "Some Do’s for the CKD patient",
-    link: "/information/8",
-    content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        image: "",
+        meta_title: "Kidney Transplantation in Delhi – Donor Requirements & Post-Transplant Care",
+        meta_desc: "Learn about kidney transplantation in Delhi, including donor requirements, eligibility, and essential post-transplant care to ensure the long-term success of the transplanted kidney.",
+        keyword: [
+            "kidney transplantation in delhi",
+            "kidney transplant donor requirements",
+            "post transplant care",
+            "kidney transplant in delhi",
+            "end stage renal disease treatment",
+            "kidney transplant eligibility",
+            "kidney specialist in delhi",
+            "organ donor shortage",
+            "kidney transplant success",
+            "lifelong care after transplant"
+        ],
+    },
+    {
+        id: 8,
+        name: "Some Do’s for the CKD patient",
+        url: "information/some-do-for-the-ckd-patient",
+        content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Some Do’s for the CKD patient</h1>
 
         <h2 style="color: #2c3e50;">Do’s</h2>
@@ -250,13 +348,27 @@ export const Infodata = [
             <li><strong>Depression</strong>: Avoid negative thoughts and focus on positivity.</li>
         </ul>
     </div>`,
-    image: "",
-  },
-  {
-    id: 9,
-    name: "About Renal Replacement Therapy",
-    link: "/information/9",
-    content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        image: "",
+        meta_title: "Do’s and Don’ts for CKD Patients – Healthy Living Tips",
+        meta_desc: "Discover essential do’s for CKD patients, including regular medication, checkups, diet, exercise, and mental well-being, along with key don’ts to avoid worsening kidney health.",
+        keyword: [
+            "do’s for ckd patients",
+            "don’ts for ckd patients",
+            "chronic kidney disease care tips",
+            "kidney health do’s and don’ts",
+            "ckd patient lifestyle",
+            "diet plan for kidney disease",
+            "exercise for ckd patients",
+            "avoiding dehydration in ckd",
+            "ckd patient mental health",
+            "kidney disease precautions"
+        ],
+    },
+    {
+        id: 9,
+        name: "About Renal Replacement Therapy",
+        url: "information/about-renal-replacement-therapy",
+        content: `<div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">About Renal Replacement Therapy</h1>
 
         <p style="line-height: 1.6; color: #34495e;">
@@ -278,13 +390,27 @@ export const Infodata = [
         </p>
 
     </div>`,
-    image: "",
-  },
-  {
-    id: 10,
-    name: "Diet",
-    link: "/information/10",
-    content: ` <div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        image: "",
+        meta_title: "About Renal Replacement Therapy – Dialysis & Kidney Transplant in Delhi",
+        meta_desc: "Learn about renal replacement therapy options, including hemodialysis, peritoneal dialysis, and kidney transplantation in Delhi, for patients with end-stage renal disease or severe kidney failure.",
+        keyword: [
+            "about renal replacement therapy",
+            "dialysis and kidney transplant",
+            "hemodialysis in delhi",
+            "peritoneal dialysis capd",
+            "kidney transplant in delhi",
+            "end stage renal disease treatment",
+            "stage v chronic kidney disease",
+            "esrd dialysis care",
+            "kidney failure treatment options",
+            "loss of kidney function"
+        ],
+    },
+    {
+        id: 10,
+        name: "Diet",
+        url: "information/diet",
+        content: ` <div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
         <h1 style="text-align: center; color: #2c3e50; font-weight: bold; font-size: 30px; padding: 10px;">Diet</h1>
 
         <p style="line-height: 1.6; color: #34495e;">
@@ -352,6 +478,20 @@ export const Infodata = [
         </p>
 
     </div>`,
-    image: "",
-  },
+        image: "",
+        meta_title: "Diet for Kidney Disease Patients – Tips by Dr. Sunil Prakash",
+        meta_desc: "Dr. Sunil Prakash shares essential diet tips for kidney disease patients, including protein, potassium, and sodium restrictions, along with foods to avoid and safe food choices for better kidney health.",
+        keyword: [
+            "diet for kidney disease patients",
+            "kidney disease diet plan",
+            "protein restriction in kidney disease",
+            "potassium restriction in ckd",
+            "sodium restriction for kidney patients",
+            "foods to avoid in kidney disease",
+            "ckd patient diet tips",
+            "nephrologist diet advice delhi",
+            "diet for dialysis patients",
+            "kidney-friendly foods"
+        ],
+    },
 ];

@@ -4,26 +4,19 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 
 const Sidebar = ({ data }) => {
   return (
-    <div>
-      <div className="text-lg">
-        {data.map((d) => (
-          <div
-            key={d.id}
-            className="bg-lightgreen rounded-sm text-white px-3 py-2 mb-1 hover:translate-x-3 duration-500"
-          >
-            <Link href={`${d.link}`} className="">
-              <table>
-                <tr>
-                  <td>
-                    <IoMdCheckmarkCircleOutline className="mt-1 mr-1" />
-                  </td>
-                  <td> {d.name}</td>
-                </tr>
-              </table>
-            </Link>
+    <div className="text-lg">
+      {data.map((d) => (
+        <Link
+          key={d.id}
+          href={`/${d.url}`} // use d.url directly since it already has "information/"
+          className="block bg-lightgreen rounded-sm text-white px-3 py-2 mb-1 hover:translate-x-3 duration-500"
+        >
+          <div className="flex items-center">
+            <IoMdCheckmarkCircleOutline className="mr-2" />
+            <span>{d.name}</span>
           </div>
-        ))}
-      </div>
+        </Link>
+      ))}
     </div>
   );
 };

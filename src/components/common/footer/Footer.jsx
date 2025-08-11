@@ -93,7 +93,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/gallery/photoGallery"
+                      href="/gallery/photo-gallery"
                       className="hover:text-darkgreen"
                     >
                       Gallery
@@ -109,11 +109,11 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="/blogs" className="hover:text-darkgreen">
-                      Blog
+                      Blogs
                     </Link>
                   </li>
                   <li>
-                    <Link href="/contact" className="hover:text-darkgreen">
+                    <Link href="/contact-us" className="hover:text-darkgreen">
                       Contact Us
                     </Link>
                   </li>
@@ -127,7 +127,7 @@ const Footer = () => {
                 <ul className="mb-0 list-none leading-loose">
                   <li>
                     <Link
-                      href="/treatments/renalReplacement"
+                      href="/treatments/renal-replacement-surgery"
                       className="hover:text-blue"
                     >
                       Renal Replacement Therapy
@@ -135,7 +135,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/treatments/kidneyTransplantation"
+                      href="/treatments/kidney-transplantation"
                       className="hover:text-blue"
                     >
                       Kidney Transplantation
@@ -151,7 +151,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/treatments/diseasebyDIET"
+                      href="/treatments/slowing-of-kidney-disease-by-diet"
                       className="hover:text-blue"
                     >
                       Slowing of kidney disease by diet
@@ -159,7 +159,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/treatments/homeDialysis"
+                      href="/treatments/home-dialysis-treatments"
                       className="hover:text-blue"
                     >
                       Home Dialysis Treatments
@@ -167,7 +167,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/treatments/hemodialysis"
+                      href="/treatments/hemodialysis-treatments-for-kidney"
                       className="hover:text-blue"
                     >
                       Hemodialysis Treatments for Kidney

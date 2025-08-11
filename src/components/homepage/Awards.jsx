@@ -12,7 +12,7 @@ const Awards = () => {
       <TrainingAbroad awards={awards.slice(0, 6)} />
       <div className="flex justify-center my-5">
         <Link
-          href="/about/training-abroad"
+          href="/about/awards-and-training-abroad"
           className="bg-lightgreen text-white py-2 px-3 rounded-md"
         >
           View All Awards

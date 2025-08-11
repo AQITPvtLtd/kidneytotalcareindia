@@ -40,7 +40,7 @@ const Banner = () => {
                 About Us
               </Link>
               <Link
-                href="/contact"
+                href="/contact-us"
                 className="bg-lightgreen text-white font-semibold py-2 px-3 rounded-md ml-2"
               >
                 Contact Us

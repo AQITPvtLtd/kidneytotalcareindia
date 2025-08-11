@@ -189,9 +189,8 @@ const Countires = () => {
               {country.map((d) => (
                 <div
                   key={d.id}
-                  className={`${
-                    d.color === "blue" ? "bg-primary" : "bg-lightgreen"
-                  }  rounded-lg shadow-md text-white px-5 py-2 lg:mb-0 mb-2`}
+                  className={`${d.color === "blue" ? "bg-primary" : "bg-lightgreen"
+                    }  rounded-lg shadow-md text-white px-5 py-2 lg:mb-0 mb-2`}
                 >
                   <div className="flex">
                     <ReactCountryFlag

@@ -20,14 +20,39 @@ const DetailedBlog = ({ url }) => {
     getData();
   }, []);
   const blogDetail = blog?.find((b) => b.url == url);
+
+
+  // ✅ Update browser tab title dynamically
+  useEffect(() => {
+    if (blogDetail) {
+      document.title = blogDetail.meta_title || blogDetail.title;
+    }
+  }, [blogDetail]);
+
+  if (!blogDetail) {
+    return <p className="text-center text-red-500">Blog not found!</p>;
+  }
+
+
   return (
     <>
       {/* SEO Meta Tags */}
       <Head>
-        <title>{blog.meta_title || blog.title}</title>
-        <meta name="description" content={blog.meta_desc || blog.short_desc || ""} />
-        <meta name="keywords" content={blog.meta_keyword || ""} />
+        <title>{blogDetail.meta_title || blogDetail.title}</title>
+        <meta
+          name="description"
+          content={
+            blogDetail.meta_disc ||
+            blogDetail.small_desc ||
+            ""
+          }
+        />
+        <meta
+          name="keywords"
+          content={blogDetail.meta_keyword || ""}
+        />
       </Head>
+
       <section className="overflow-hidden pb-[120px] pt-10 lg:mx-14 mx-3">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
