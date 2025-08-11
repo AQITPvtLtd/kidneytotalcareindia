@@ -1,4 +1,3 @@
-import { Sidebar } from "lucide-react";
 import React from "react";
 import Sidebar from "../Sidebar";
 
