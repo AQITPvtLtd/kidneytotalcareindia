@@ -5,8 +5,8 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="overflow-x-clip">
-      <div className="lg:grid grid-cols-2">
-        <div>
+      <div className="lg:grid grid-cols-12">
+        <div className="col-span-6">
           <Image
             src="/doctor/dr-sunil-prakash.png"
             width={800}
@@ -15,7 +15,7 @@ const Banner = () => {
             alt="dr-sunil-prakash"
           />
         </div>
-        <div className="bg-primary lg:m-8 mx-2 rounded-xl">
+        <div className="col-span-6 bg-primary lg:m-8 mx-2 rounded-xl">
           <div className="bg-skyblue border-white border-8 h-full p-5 rounded-xl font-thin translate-x-7 translate-y-7">
             <h1 className="lg:text-4xl text-3xl text-primary font-bold pb-3">
               Dr. Sunil Prakash: The Best Nephrologist in Delhi
@@ -24,7 +24,7 @@ const Banner = () => {
               Expert Kidney Care: Consult with the Best Nephrologist in Delhi
               for Top-notch Treatment
             </h2>
-            <h3 className=" leading-relaxed font-semibold">
+            <h3 className="leading-relaxed font-semibold lg:text-justify pr-14">
               Are you looking for the best nephrologist in Delhi? Look no
               further because Dr. Sunil Prakash is here to provide you with
               exceptional care and expertise. With 40 years of experience in the

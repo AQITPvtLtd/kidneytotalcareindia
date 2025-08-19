@@ -38,7 +38,7 @@ const Blogs = () => {
         </p>
       </div>
 
-      <div className="lg:grid grid-cols-3 mx-10 gap-7">
+      <div className="lg:grid grid-cols-3 mx-10 gap-7 px-10">
         {blog.slice(0, 3).map((b) => (
           <Link
             href={`/blogs/${b.url}`}
@@ -49,23 +49,23 @@ const Blogs = () => {
               src={`/blogs/${b.image}`}
               width={1000}
               height={1000}
-              className="w-full h-[200px] object-cover"
+              className="w-full h-[200px] object-fill"
               alt={b.name || "blog image"}
             />
             <h1 className="px-5 font-semibold text-center text-xl mt-3 mb-2">
               {b.name}
             </h1>
             <div className="flex justify-around">
-              <div className="flex my-2">
+              <div className="flex">
                 <FaStopwatch className="mt-0.5 mr-1 text-lightgreen" />
                 <Moment format="MMMM DD, YYYY">{b.date}</Moment>
               </div>
-              <div className="flex my-2">
+              <div className="flex">
                 <FaUser className="mt-0.5 mr-1 text-lightgreen" />
                 Dr Sunil Prakash
               </div>
             </div>
-            <p className="p-5">{b?.short_desc}</p>
+            <p className="p-5 pt-1 lg:text-justify">{b?.short_desc}</p>
           </Link>
         ))}
       </div>

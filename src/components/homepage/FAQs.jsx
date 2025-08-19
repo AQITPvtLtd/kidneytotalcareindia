@@ -83,7 +83,7 @@ const FAQs = () => {
           Frequently Asked Questions About Dr. Sunil Prakash, Nephrologist in
           Delhi
         </h1>
-        <p className="text-center text-xl">
+        <p className="text-center text-xl lg:px-10">
           Dr. Sunil Prakash is a renowned nephrologist in Delhi, India, known
           for his expertise and compassionate care. If you have questions about
           Dr. Prakash and his practice, you&apos;ve come to the right place.

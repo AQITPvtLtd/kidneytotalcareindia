@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { data } from "../data";
-import Sidebar from "@/components/common/Sidebar";
+import Sidebar from "../Sidebar";
 const Nine = () => {
   return (
     <div>

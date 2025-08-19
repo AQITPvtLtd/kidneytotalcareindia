@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Sidebar from "@/components/common/Sidebar";
+import Sidebar from "../Sidebar";
 import { data } from "../data";
 const Three = () => {
   return (

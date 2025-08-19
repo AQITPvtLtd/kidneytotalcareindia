@@ -212,7 +212,7 @@ const Countires = () => {
             </div>
           </div>
         </div>
-        <div className="mt-14 lg:block hidden ml-4">
+        <div className="mt-14 lg:block hidden ml-4 lg:px-10">
           <Sidebar />
         </div>
       </div>

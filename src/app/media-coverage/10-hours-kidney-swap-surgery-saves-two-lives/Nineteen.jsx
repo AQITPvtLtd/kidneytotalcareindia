@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { data } from "../data";
-import Sidebar from "@/components/common/Sidebar";
+import Sidebar from "../Sidebar";
+
 const Nineteen = () => {
   return (
     <div>
@@ -37,7 +38,7 @@ const Nineteen = () => {
             />
           </div>
         </div>
-        <div className="lg:block hidden">
+        <div className="lg:block hidden px-10">
           <Sidebar data={data} />
         </div>
       </div>

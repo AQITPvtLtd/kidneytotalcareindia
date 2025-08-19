@@ -45,9 +45,9 @@ const Review = () => {
         our satisfied patients who have experienced firsthand the transformative
         impact of our services.
       </p>
-      <div className="lg:grid grid-cols-3 gap-x-20 mx-5 relative">
+      <div className="lg:grid grid-cols-3 gap-x-20 mx-5 relative px-10">
         {reviews.map((r) => (
-          <div key={r.id} className="relative mt-14">
+          <div key={r.id} className="relative mt-10">
             {/* Rotated green background */}
             <div
               className={`absolute inset-0 ${
@@ -69,7 +69,7 @@ const Review = () => {
                 <h1 className="text-xl text-center font-semibold mb-2 text-black">
                   {r.name}
                 </h1>
-                <p className="text-sm text-black">{r.comment}</p>
+                <p className="text-sm text-black lg:text-justify">{r.comment}</p>
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Sidebar from "@/components/common/Sidebar";
+import Sidebar from "../Sidebar";
 import { data } from "../data";
 import Image from "next/image";
 const Six = () => {

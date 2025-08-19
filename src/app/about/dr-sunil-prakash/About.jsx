@@ -101,7 +101,7 @@ const About = () => {
           <Experience />
           {/* education */}
         </div>
-        <div className="lg:block hidden">
+        <div className="lg:block hidden px-10">
           <Sidebar />
         </div>
       </div>
@@ -114,13 +114,32 @@ const About = () => {
           </h1>
 
           {/* Education Details */}
-          <div className="lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 lg:mx-4 mt-10 lg:px-10 px-3">
-            {education.map((e) => (
+          <div className="lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
+            {education.slice(0, 3).map((e) => (
               <div
                 key={e.id}
                 className={`border p-5 bg-${e.color} bg-opacity-90 text-white rounded-md shadow-md`}
               >
-                <h2 className="text-4xl sm:text-4xl md:text-5xl text-center opacity-70 font-bold font-serif">
+                <h2 className="text-4xl sm:text-5xl md:text-6xl text-center opacity-70 font-bold font-serif">
+                  {e.year}
+                </h2>
+                <h1 className="font-semibold text-center mt-3 text-xl sm:text-2xl">
+                  {e.edu}
+                </h1>
+                <p className="mt-2 text-center text-sm sm:text-base">
+                  {e.college}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <div className="lg:grid grid-cols-2 lg:mt-8 gap-5">
+            {education.slice(3, 5).map((e) => (
+              <div
+                key={e.id}
+                className={`border p-5 bg-${e.color} bg-opacity-90 text-white rounded-md shadow-md`}
+              >
+                <h2 className="text-4xl sm:text-5xl md:text-6xl text-center opacity-70 font-bold font-serif">
                   {e.year}
                 </h2>
                 <h1 className="font-semibold text-center mt-3 text-xl sm:text-2xl">

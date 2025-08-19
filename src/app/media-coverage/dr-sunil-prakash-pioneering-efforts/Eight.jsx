@@ -1,8 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { data } from "../data";
-import Sidebar from "@/components/common/Sidebar";
+import Sidebar from "../Sidebar";
 const Eight = () => {
   return (
     <div>

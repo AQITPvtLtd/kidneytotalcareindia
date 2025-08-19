@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import Sidebar from "@/components/common/Sidebar";
+import Sidebar from "../Sidebar";
 import { data } from "../data";
 const Five = () => {
   const [selectedImage, setSelectedImage] = useState(null);

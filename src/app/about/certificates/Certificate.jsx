@@ -18,8 +18,8 @@ const Certificate = () => {
   };
 
   return (
-    <div className="lg:mt-24 mt-10 overflow-x-clip">
-      <div className="lg:grid grid-cols-12 gap-4 lg:px-10 mt-10 z-50">
+    <div className="mt-10 overflow-x-clip">
+      <div className="lg:grid grid-cols-12 gap-4 lg:px-10 z-50">
         <div className="col-span-8">
           <div className="mb-5">
             <h1 className="text-primary font-extrabold text-3xl m-2">
@@ -27,7 +27,7 @@ const Certificate = () => {
             </h1>
             <div className="border border-lightgreen w-full h-[2px] mx-2"></div>
           </div>
-          <div className="lg:grid grid-cols-4 gap-5">
+          <div className="lg:grid grid-cols-3 gap-5">
             {cert.map((item) => (
               <div key={item.id} className="m-2">
                 <Image
@@ -35,7 +35,7 @@ const Certificate = () => {
                   height={500}
                   src={`/certificates/${item.image}`}
                   alt={`Certificate ${item.id}`}
-                  className="cursor-pointer lg:w-48 w-screen mb-3 lg:h-48 object-fill border-8 border-blue-800"
+                  className="cursor-pointer lg:w-60 w-screen mb-3 lg:h-60 object-fill border-8 border-blue-600"
                   onClick={() =>
                     handleImageClick(`/certificates/${item.image}`)
                   }
@@ -45,7 +45,7 @@ const Certificate = () => {
           </div>
         </div>
 
-        <div className="col-span-4 mt-14 lg:block hidden">
+        <div className="col-span-4 mt-14 lg:block hidden lg:px-10">
           <Sidebar />
         </div>
       </div>

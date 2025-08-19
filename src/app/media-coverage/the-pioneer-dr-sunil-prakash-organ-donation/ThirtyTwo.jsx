@@ -3,7 +3,7 @@
 import React from "react";
 import { useState } from "react";
 import { data } from "../data";
-import Sidebar from "@/components/common/Sidebar";
+import Sidebar from "../Sidebar";
 import Image from "next/image";
 const ThirtyTwo = () => {
   const [selectedImage, setSelectedImage] = useState(null);

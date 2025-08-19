@@ -1,11 +1,11 @@
 import React from "react";
-import Sidebar from "@/components/common/Sidebar";
-import { data } from "./data";
+import Sidebar from "./Sidebar";
+import { data } from "./data"; 
 import Link from "next/link";
 const Media = () => {
   return (
     <div>
-      <div className="lg:grid grid-cols-4 lg:px-10 mt-10 mx-5 gap-5">
+      <div className="lg:grid grid-cols-4 lg:px-10 mt-10 mx-5 gap-2">
         {/* Main content area */}
         <div className="col-span-3">
           <div className="mb-4">
@@ -28,7 +28,7 @@ const Media = () => {
         </div>
 
         {/* Sidebar */}
-        <div className="lg:block hidden">
+        <div className="lg:block hidden px-10">
           <Sidebar data={data} />
         </div>
       </div>

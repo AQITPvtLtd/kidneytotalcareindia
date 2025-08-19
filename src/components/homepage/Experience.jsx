@@ -61,7 +61,7 @@ const Experience = () => {
               8 August 1995 - 30 April 2007
             </time>
             <h3 className="text-lg font-semibold text-gray-900 ">
-              Sr.Nephrologist
+              Sr. Nephrologist
             </h3>
             <p className="mb-4 text-base font-normal text-gray-500 ">
               Head of Nephrology Division, Northern Railway Central Hospital,
@@ -74,7 +74,7 @@ const Experience = () => {
               1 May 2007 - 7 Febuary 2012
             </time>
             <h3 className="text-lg font-semibold text-gray-900 ">
-              Sr.Consultant Nephrology & Renal Transplant Services
+              Sr. Consultant Nephrology & Renal Transplant Services
             </h3>
             <p className="mb-4 text-base font-normal text-gray-500 ">
               Artemis health Institute sec 51 Gurgaon

@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/common/header/Header";
 import Footer from "@/components/common/footer/Footer";
 import Script from "next/script";
+import SocialLinks from "@/components/common/SocialLinks";
 
 const inter = Inter({ subsets: ["latin"] });
 const baseUrl = process.env.BASE_URL;
@@ -39,6 +40,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Header />
         {children}
+        <SocialLinks />
         <Footer />
       </body>
     </html>

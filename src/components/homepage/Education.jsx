@@ -23,8 +23,8 @@ const Education = () => {
         </h1>
 
         {/* Education Details */}
-        <div className="lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mx-4 mt-10">
-          {education.slice(0, 4).map((e) => (
+        <div className="lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
+          {education.slice(0, 3).map((e) => (
             <div
               key={e.id}
               className={`border p-5 bg-${e.color} bg-opacity-90 text-white rounded-md shadow-md`}
@@ -42,8 +42,8 @@ const Education = () => {
           ))}
         </div>
 
-        <div className="lg:grid grid-cols-1 lg:mt-8 gap-5">
-          {education.slice(4, 5).map((e) => (
+        <div className="lg:grid grid-cols-2 lg:mt-8 gap-5">
+          {education.slice(3, 5).map((e) => (
             <div
               key={e.id}
               className={`border p-5 bg-${e.color} bg-opacity-90 text-white rounded-md shadow-md`}
