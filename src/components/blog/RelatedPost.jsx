@@ -14,12 +14,12 @@ const RelatedPost = ({ image, slug, title, date }) => {
         <h5>
           <Link
             href={slug}
-            className="mb-[6px] block text-base font-medium leading-snug text-black hover:text-primary dark:hover:text-primary"
+            className="mb-[6px] block text-sm font-medium leading-snug text-black hover:text-primary dark:hover:text-primary"
           >
             {title}
           </Link>
         </h5>
-        <Moment format="MMMM DD, YYYY">{date}</Moment>
+        <Moment format="MMMM DD, YYYY" >{date}</Moment>
       </div>
     </div>
   );

@@ -38,7 +38,7 @@ const Blogs = () => {
         </p>
       </div>
 
-      <div className="lg:grid grid-cols-3 mx-10 gap-7 px-10">
+      <div className="lg:grid grid-cols-3 mx-10 gap-7 lg:px-10">
         {blog.slice(0, 3).map((b) => (
           <Link
             href={`/blogs/${b.url}`}
@@ -65,7 +65,7 @@ const Blogs = () => {
                 Dr Sunil Prakash
               </div>
             </div>
-            <p className="p-5 pt-1 lg:text-justify">{b?.short_desc}</p>
+            <p className="p-5 pt-1 lg:text-justify text-center">{b?.short_desc}</p>
           </Link>
         ))}
       </div>

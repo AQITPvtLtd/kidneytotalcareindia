@@ -120,7 +120,7 @@ const DetailedBlog = ({ url }) => {
                   </div>
                   <p
                     dangerouslySetInnerHTML={{ __html: blogDetail?.description }}
-                    className="p-5"
+                    className="p-5 lg:text-justify"
                   ></p>
                 </div>
               </div>
@@ -131,7 +131,7 @@ const DetailedBlog = ({ url }) => {
                   Related Posts
                 </h3>
                 <ul className="p-4">
-                  <li className=" border-b border-body-color border-opacity-10 pb-3 dark:border-white dark:border-opacity-10 text-black">
+                  <li className="px-5 border-b border-body-color border-opacity-10 pb-3 dark:border-white dark:border-opacity-10 text-black">
                     {blog?.map((b) => (
                       <div className="mb-5" key={b.id}>
                         <RelatedPost

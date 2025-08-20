@@ -45,10 +45,10 @@ const Review = () => {
         our satisfied patients who have experienced firsthand the transformative
         impact of our services.
       </p>
-      <div className="lg:grid grid-cols-3 gap-x-20 mx-5 relative px-10">
+      <div className="lg:grid grid-cols-3 gap-x-20 mx-5 relative lg:px-10">
         {reviews.map((r) => (
           <div key={r.id} className="relative mt-10">
-            {/* Rotated green background */}
+        
             <div
               className={`absolute inset-0 ${
                 r.bgcolor === "blue" ? "bg-primary" : "bg-lightgreen"

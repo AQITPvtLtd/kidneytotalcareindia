@@ -20,11 +20,11 @@ const Blogs = () => {
 
   return (
     <div className="lg:p-10 px-4 overflow-x-clip bg-gray-50">
-      <div className="py-5 text-center">
-        <h1 className="text-4xl font-bold mb-2">Read our latest blogs</h1>
+      <div className="pb-5 text-center">
+        <h1 className="text-4xl font-bold">Read our latest blogs</h1>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 lg:px-10">
         {blog.map((b) => (
           <div
             key={b.id}
@@ -34,7 +34,7 @@ const Blogs = () => {
               src={`/blogs/${b.image}`}
               width={600}
               height={400}
-              className="w-full h-60 object-cover"
+              className="w-full h-60 object-fill"
               alt="blogimage"
             />
             <div className="p-4 flex flex-col flex-grow">

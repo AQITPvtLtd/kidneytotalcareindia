@@ -33,7 +33,7 @@ const InformationData = ({ url }) => {
             </div>
           </div>
         </div>
-        <div className="lg:block hidden">
+        <div className="lg:block hidden lg:px-10">
           <Sidebar data={Infodata} />
         </div>
       </div>

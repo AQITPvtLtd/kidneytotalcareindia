@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Header />
         {children}
-        <SocialLinks />
+        <SocialLinks className="hidden lg:block" />
         <Footer />
       </body>
     </html>
