@@ -20,7 +20,7 @@ const Banner = () => {
             <h1 className="lg:text-4xl text-3xl text-primary font-bold pb-3">
               Dr. Sunil Prakash: The Best Nephrologist in Delhi
             </h1>
-            <h2 className="lg:text-2xl text-xl text-lightgreen font-semibold leading-relaxed pr-2">
+            <h2 className="lg:text-2xl text-xl text-lightgreen font-semibold leading-relaxed">
               Expert Kidney Care: Consult with the Best Nephrologist in Delhi
               for Top-notch Treatment
             </h2>
