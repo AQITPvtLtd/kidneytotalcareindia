@@ -736,4 +736,28 @@ export const TestiData = [
       "kidney transplant recovery guidance"
     ],
   },
+  {
+    id: 30,
+    name: "I mark one year since my kidney transplant",
+    content: `<p style="color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">Dr Sunil Prakash, Dr YS Rana and the Transplant Team, Damini mam, Akshay sir, transplant coordinator mam, nursing staff of KTU</p>
+<p style="color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">As I mark one year since my kidney transplant, I wanted to take a moment to express my deepest gratitude to you and your incredible team.</p>
+<p style="color: rgb(42, 42, 42);background-color: rgb(255, 255, 255);font-size: 21px;">This past year has been a journey of healing, hope, and renewal — none of which would have been possible without your expertise, compassion, and unwavering dedication. From the very first consultation through surgery and recovery, you guided me with such care and professionalism. You not only gave me a second chance at life but also the strength to face this chapter with confidence thank-you and forever grateful ♾️✌️🧿🧿🙏🙏 transplant date(22-8-24)🌻</p>`,
+    image: "",
+    user: "",
+    link: "/happy-patient/testimonials/one-year-since-my-kidney-transplant",
+    meta_title: "",
+    meta_desc: "",
+    keyword: [
+      "kidney transplant",
+      "one year post transplant",
+      "kidney transplant journey",
+      "dr sunil prakash nephrologist",
+      "kidney care",
+      "transplant team",
+      "patient gratitude",
+      "healing journey",
+      "renewal after transplant",
+      "kidney transplant success"
+    ],
+  }
 ];
