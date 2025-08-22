@@ -19,9 +19,9 @@ const TestimonialData = ({ link }) => {
   }
 
   return (
-    <div className="lg:grid grid-cols-4 lg:px-10 mt-10 gap-6">
+    <div className="lg:grid grid-cols-5 lg:px-10 mt-10 gap-6">
       {/* Main Content */}
-      <div className="col-span-3 lg:mx-10 mx-2">
+      <div className="col-span-3 mx-2">
         <div key={obj.link} className="gap-4 items-center">
           <div className="justify-center bg-white p-6 rounded-lg shadow-inner overflow-hidden">
             <div className="inline-block mb-4">
@@ -30,7 +30,7 @@ const TestimonialData = ({ link }) => {
             </div>
 
             <div
-              className="text-gray-700 text-lg"
+              className="text-gray-700 text-lg text-justify"
               dangerouslySetInnerHTML={{ __html: obj.content }}
             />
 
@@ -50,7 +50,7 @@ const TestimonialData = ({ link }) => {
       </div>
 
       {/* Sidebar (Replaced) */}
-      <div className="lg:block hidden">
+      <div className="lg:block hidden col-span-2 lg:px-14">
         {TestiData.map((item) => (
           <Link key={item.id} href={item.link}>
             <div className="flex items-start gap-2 bg-red-800 text-white p-3 rounded-sm mb-2 cursor-pointer hover:bg-red-900 transition">
