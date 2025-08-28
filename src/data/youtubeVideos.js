@@ -95,4 +95,8 @@ export const video = [
     id: 24,
     link: "https://youtu.be/tsYpuUP8ObI",
   },
+  {
+    id: 25,
+    link: "https://youtu.be/qB9jGhaL7m0?si=I6lamIUsQwtIW7ou",
+  },
 ];
