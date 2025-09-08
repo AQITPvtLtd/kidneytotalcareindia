@@ -2,11 +2,12 @@
 import { galleryPhoto } from "@/data/gallery";
 import React, { useState } from "react";
 import Image from "next/image";
-import Sidebar from "@/components/common/Sidebar";
 import Link from "next/link";
 import { data } from "../data";
+
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
+
   const openImage = (image) => {
     setSelectedImage(image);
   };
@@ -15,22 +16,12 @@ const Gallery = () => {
     setSelectedImage(null);
   };
 
+  // Sort descending order by id
+  const sortedGallery = [...galleryPhoto].sort((a, b) => b.id - a.id);
+  const sortedData = [...data].sort((a, b) => b.id - a.id);
+
   return (
-    <div className="">
-      {/* <div className="relative">
-        <Image
-          src=""
-          width={1000}
-          height={1000}
-          className="w-full h-[250px] object-cover"
-          alt="Contact Image"
-        />
-        <div className="absolute inset-0 bg-cyan-600 opacity-70 z-10"></div>
-        <h1 className="absolute inset-0 z-20 flex items-center justify-center text-white font-serif text-center text-6xl font-bold my-4">
-
-        </h1>
-      </div> */}
-
+    <div>
       <div className="relative">
         <Image
           src="/gallery/backgroundImg.jpg"
@@ -48,7 +39,7 @@ const Gallery = () => {
       <div className="lg:grid grid-cols-3 lg:px-10 mt-10 z-50">
         <div className="col-span-2">
           <div className="lg:grid grid-cols-3">
-            {galleryPhoto.map((item) => (
+            {sortedGallery.map((item) => (
               <div key={item.id} className="m-2">
                 <Image
                   width={1000}
@@ -65,7 +56,7 @@ const Gallery = () => {
 
         {/* Sidebar (Replaced) */}
         <div className="lg:block hidden lg:px-10 mt-3">
-          {data.map((item) => (
+          {sortedData.map((item) => (
             <Link key={item.id} href={item.link}>
               <div className="flex items-start gap-2 bg-red-800 text-white p-3 rounded-sm mb-2 cursor-pointer hover:bg-red-900 transition">
                 <span className="text-sm font-medium">{item.name}</span>
