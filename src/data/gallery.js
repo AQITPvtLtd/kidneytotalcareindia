@@ -40,4 +40,5 @@ export const galleryPhoto = [
   { id: 39, image: "img39.jpg" },
   { id: 40, image: "img40.jpg" },
   { id: 41, image: "img41.jpeg" },
+  { id: 42, image: "img42.jpeg" },
 ];
