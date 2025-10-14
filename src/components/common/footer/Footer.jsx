@@ -14,6 +14,7 @@ import {
 import { MdPhoneCallback } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
+import { FcGoogle } from "react-icons/fc";
 
 const Footer = () => {
   return (
@@ -50,33 +51,42 @@ const Footer = () => {
               <div className="flex gap-4 items-center mt-3">
                 <Link
                   target="__blank"
-                  href={"https://www.facebook.com/TotalKidneySolutions"}
-                  className="hover:text-secondary"
+                  href="https://www.facebook.com/TotalKidneySolutions"
+                  className="text-[#1877F2] hover:opacity-80 transition"
                 >
                   <FaFacebook size={20} />
                 </Link>
                 <Link
                   target="__blank"
-                  href={"https://www.instagram.com/p/C_nKAkhhMhP/"}
-                  className="hover:text-secondary"
+                  href="https://www.instagram.com/p/C_nKAkhhMhP/"
+                  className="text-[#E4405F] hover:opacity-80 transition"
                 >
                   <FaInstagram size={20} />
                 </Link>
                 <Link
                   target="__blank"
-                  href={"https://www.linkedin.com/in/sunil-prakash-50879112/"}
-                  className="hover:text-secondary"
+                  href="https://www.linkedin.com/in/sunil-prakash-50879112/"
+                  className="text-[#0A66C2] hover:opacity-80 transition"
                 >
                   <FaLinkedin size={20} />
                 </Link>
                 <Link
                   target="__blank"
-                  href={"https://www.youtube.com/@drsunilprakash9685"}
-                  className="hover:text-secondary"
+                  href="https://www.youtube.com/@drsunilprakash9685"
+                  className="text-[#FF0000] hover:opacity-80 transition"
                 >
                   <FaYoutube size={20} />
                 </Link>
+                <Link
+                  target="__blank"
+                  href="https://maps.app.goo.gl/URjGdgDXAs25gTMt5"
+                  className="hover:opacity-80 transition"
+                >
+               
+                  <FcGoogle  size={20} />
+                </Link>
               </div>
+
             </div>
             <div className="lg:flex justify-center mt-6">
               <div className="mb-6">
