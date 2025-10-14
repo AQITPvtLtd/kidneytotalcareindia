@@ -5,9 +5,7 @@ const Hemodialysis = () => {
   return (
     <div>
       <div className="lg:grid grid-cols-3 lg:m-16 m-8">
-        <div className="lg:block hidden">
-          <Sidebar />
-        </div>
+
         <div className="col-span-2 mx-5 inline-block">
           <div className="inline-block">
             <h1 className="text-primary font-extrabold text-3xl">
@@ -146,6 +144,11 @@ const Hemodialysis = () => {
               both the patient, the companion, and the home meet certain
               requirements that guarantee adequate treatment.
             </p>
+          </div>
+        </div>
+        <div className="hidden lg:block lg:px-6">
+          <div className="sticky top-[165px]">
+            <Sidebar />
           </div>
         </div>
       </div>

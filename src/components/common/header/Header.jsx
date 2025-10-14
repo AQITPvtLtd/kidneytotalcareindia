@@ -12,6 +12,7 @@ import { FaYoutube } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { IoIosMail } from "react-icons/io";
 import { MdPhoneCallback } from "react-icons/md";
+import { FcGoogle } from "react-icons/fc";
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -56,11 +57,10 @@ const Header = () => {
   };
   return (
     <div
-      className={`overflow-x-clip header left-0 z-40 top-0 w-full items-center bg-gradient-to-r font-semibold ${
-        sticky
-          ? "fixed z-[20] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
-          : ""
-      }`}
+      className={`overflow-x-clip header left-0 z-40 top-0 w-full items-center bg-gradient-to-r font-semibold ${sticky
+        ? "fixed z-[20] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
+        : ""
+        }`}
     >
       <header className="flex justify-around bg-primary text-white overflow-x-clip">
         <div className="container flex items-center">
@@ -86,30 +86,25 @@ const Header = () => {
               className=" rounded-full px-3 py-[6px] ring-primary lg:hidden"
             >
               <span
-                className={`relative my-1.5 block h-0.5 w-[30px] bg-white transition-all duration-300  ${
-                  navbarOpen ? " top-[7px] rotate-45" : ""
-                }`}
+                className={`relative my-1.5 block h-0.5 w-[30px] bg-white transition-all duration-300  ${navbarOpen ? " top-[7px] rotate-45" : ""
+                  }`}
               />
               <span
-                className={`relative my-1.5 block h-0.5 w-[30px] bg-white transition-all duration-300 ${
-                  navbarOpen ? "opacity-0" : ""
-                }`}
+                className={`relative my-1.5 block h-0.5 w-[30px] bg-white transition-all duration-300 ${navbarOpen ? "opacity-0" : ""
+                  }`}
               />
               <span
-                className={`relative my-1.5 block h-0.5 w-[30px] bg-white transition-all duration-300  ${
-                  navbarOpen ? " top-[-8px] -rotate-45" : ""
-                }`}
+                className={`relative my-1.5 block h-0.5 w-[30px] bg-white transition-all duration-300  ${navbarOpen ? " top-[-8px] -rotate-45" : ""
+                  }`}
               />
             </button>
             <nav
               id="navbarCollapse"
-              className={`navbar absolute right-0 z-30 rounded px-6 py-4 duration-300 dark:bg-dark lg:visible lg:static w-full lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
-                navbarOpen
-                  ? `visibility ${
-                      sticky ? "top-[60%]" : "top-[10%]"
-                    }  opacity-100`
-                  : "invisible top-[120%] opacity-0"
-              }`}
+              className={`navbar absolute right-0 z-30 rounded px-6 py-4 duration-300 dark:bg-dark lg:visible lg:static w-full lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${navbarOpen
+                ? `visibility ${sticky ? "top-[60%]" : "top-[10%]"
+                }  opacity-100`
+                : "invisible top-[120%] opacity-0"
+                }`}
             >
               <ul className="block lg:grid grid-cols-9 gap-2 relative bg-primary">
                 {menu.map((menuItem, index) => (
@@ -120,11 +115,10 @@ const Header = () => {
                       handleSubSubmenu(-1);
                     }}
                     key={index}
-                    className={`group relative text-center ${
-                      usePathName === menuItem.path
-                        ? "bg-lightgreen"
-                        : "text-dark hover:bg-lightgreen"
-                    }`}
+                    className={`group relative text-center ${usePathName === menuItem.path
+                      ? "bg-lightgreen"
+                      : "text-dark hover:bg-lightgreen"
+                      }`}
                   >
                     {menuItem.path ? (
                       <Link
@@ -146,9 +140,8 @@ const Header = () => {
                           <IoMdArrowDropdown />
                         </p>
                         <div
-                          className={`submenu relative left-0 top-full lg:ml-0 pl-4 rounded-sm transition-[top] duration-300 lg:absolute lg:top-[102%] lg:w-[250px] lg:p-4 bg-primary lg:shadow-lg ${
-                            openIndex == menuItem.id ? "block" : "hidden"
-                          }`}
+                          className={`submenu relative left-0 top-full lg:ml-0 pl-4 rounded-sm transition-[top] duration-300 lg:absolute lg:top-[102%] lg:w-[250px] lg:p-4 bg-primary lg:shadow-lg ${openIndex == menuItem.id ? "block" : "hidden"
+                            }`}
                         >
                           {menuItem.submenu.map((submenuItem, index) => (
                             <div
@@ -192,11 +185,10 @@ const Header = () => {
                                     </span>
                                   </p>
                                   <div
-                                    className={`lg:ml-[225px] rounded-sm bg-primary lg:px-3 lg:py-2 lg:-mt-6 ml-4 transition-[top] duration-300 lg:absolute lg:w-[250px] lg:shadow-lg ${
-                                      openSubIndex === submenuItem.id
-                                        ? "block"
-                                        : "hidden"
-                                    }`}
+                                    className={`lg:ml-[225px] rounded-sm bg-primary lg:px-3 lg:py-2 lg:-mt-6 ml-4 transition-[top] duration-300 lg:absolute lg:w-[250px] lg:shadow-lg ${openSubIndex === submenuItem.id
+                                      ? "block"
+                                      : "hidden"
+                                      }`}
                                   >
                                     {submenuItem.submenu.map(
                                       (subsubmenuItem, index) => (
@@ -291,30 +283,32 @@ const Header = () => {
               <Link
                 href="https://www.facebook.com/TotalKidneySolutions"
                 target="__blank"
-                className="text-white"
               >
-                <FaFacebookF className="px-1 bg-lightgreen" />
+                <FaFacebookF className="px-1" style={{ color: "#1877F2" }} size={25} />
               </Link>
               <Link
                 href="https://www.instagram.com/p/C_nKAkhhMhP/"
                 target="__blank"
-                className="text-white"
               >
-                <FaInstagram className="px-1 bg-lightgreen" />
+                <FaInstagram className="px-1" style={{ color: "#E4405F" }} size={28} />
               </Link>
               <Link
                 href="https://www.linkedin.com/in/sunil-prakash-50879112/"
                 target="__blank"
-                className="text-white"
               >
-                <FaLinkedinIn className="px-1 bg-lightgreen" />
+                <FaLinkedinIn className="px-1" style={{ color: "#0A66C2" }} size={28} />
               </Link>
               <Link
                 href="https://www.youtube.com/@drsunilprakash9685"
                 target="__blank"
-                className="text-white"
               >
-                <FaYoutube className="px-1 bg-lightgreen" />
+                <FaYoutube className="px-1" style={{ color: "#FF0000" }} size={28} />
+              </Link>
+              <Link
+                href="https://maps.app.goo.gl/URjGdgDXAs25gTMt5"
+                target="__blank"
+              >
+                <FcGoogle className="px-1" style={{ color: "#FF0000" }} size={28} />
               </Link>
             </div>
           </div>

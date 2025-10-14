@@ -4,9 +4,6 @@ const Disease = () => {
   return (
     <div>
       <div className="lg:grid grid-cols-3 lg:m-16 m-8">
-        <div className="lg:block hidden">
-          <Sidebar />
-        </div>
 
         <div className="col-span-2 mx-5 inline-block">
           <div className="inline-block">
@@ -176,6 +173,12 @@ const Disease = () => {
                 should be based on starches and vegetable fats and not sugars.
               </li>
             </ul>
+          </div>
+        </div>
+
+        <div className="hidden lg:block lg:px-6">
+          <div className="sticky top-[165px]">
+            <Sidebar />
           </div>
         </div>
       </div>

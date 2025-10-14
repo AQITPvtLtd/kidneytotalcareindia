@@ -6,9 +6,7 @@ const HomeDialysis = () => {
   return (
     <div className="overflow-x-clip">
       <div className="lg:grid grid-cols-3 lg:m-16 m-8">
-        <div className="lg:block hidden">
-          <Sidebar />
-        </div>
+
         <div className="col-span-2 mx-5 inline-block">
           <div className="inline-block">
             <h1 className="text-primary font-extrabold text-3xl">
@@ -211,6 +209,12 @@ const HomeDialysis = () => {
               material. If the duration is longer, your usual provider will
               provide your treatment at your vacation place.
             </p>
+          </div>
+        </div>
+
+        <div className="hidden lg:block lg:px-6">
+          <div className="sticky top-[165px]">
+            <Sidebar />
           </div>
         </div>
       </div>

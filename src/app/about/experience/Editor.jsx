@@ -7,9 +7,7 @@ const Editor = () => {
   return (
     <div>
       <div className="lg:grid grid-cols-4 lg:m-16 m-4">
-        <div className="lg:block hidden">
-          <Sidebar />
-        </div>
+
         <div className="col-span-3 lg:-mt-14">
           <Experience />
           <div>
@@ -135,6 +133,11 @@ const Editor = () => {
                 </tr>
               </tbody>
             </table>
+          </div>
+        </div>
+        <div className="mt-10 hidden lg:block lg:px-6">
+          <div className="sticky top-44">
+            <Sidebar />
           </div>
         </div>
       </div>

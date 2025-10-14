@@ -30,7 +30,7 @@ const menuData = [
       },
       {
         id: 24,
-        title: "Training Abroad",
+        title: "Awards And Training Abroad",
         path: "/about/awards-and-training-abroad",
         newTab: false,
       },

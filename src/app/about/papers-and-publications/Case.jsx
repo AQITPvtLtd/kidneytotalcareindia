@@ -26,8 +26,10 @@ const Case = () => {
         </div>
 
         {/* Sidebar */}
-        <div className="lg:block hidden">
-          <Sidebar />
+        <div className="mt-10 hidden lg:block lg:px-6">
+          <div className="sticky top-44">
+            <Sidebar />
+          </div>
         </div>
       </div>
     </div>
