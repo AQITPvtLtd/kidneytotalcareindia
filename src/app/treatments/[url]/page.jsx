@@ -1,5 +1,4 @@
 import TreatmentContent from "./TreatmentContent";
-// import { getTreatment } from "@/helper/getTreatment";
 import { getTreatment } from "@/services/gettreatment";
 
 export const dynamic = "force-dynamic";
