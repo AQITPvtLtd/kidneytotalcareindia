@@ -82,8 +82,8 @@ const Footer = () => {
                   href="https://maps.app.goo.gl/URjGdgDXAs25gTMt5"
                   className="hover:opacity-80 transition"
                 >
-               
-                  <FcGoogle  size={20} />
+
+                  <FcGoogle size={20} />
                 </Link>
               </div>
 
@@ -111,7 +111,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/happyPatient/testimonials"
+                      href="/happy-patient/testimonials"
                       className="hover:text-darkgreen"
                     >
                       Happy Patients
@@ -250,7 +250,7 @@ const Footer = () => {
             className="text-white font-semibold"
             href="https://www.tekbooster.com"
           >
-            Design & Developed By Tek Booster (Digital Marketing Company)
+            Design & Developed By Tek Booster <br className="lg:hidden block" /> (Digital Marketing Company)
           </Link>
         </div>
       </footer>
