@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import { getBlog } from "@/services/getBlog";
-import TagButton from "@/components/blog/TagButton";
-import SharePost from "@/components/blog/SharePost";
+// import TagButton from "@/components/blog/TagButton";
+// import SharePost from "@/components/blog/SharePost";
 import RelatedPost from "@/components/blog/RelatedPost";
 import Image from "next/image";
 import Head from 'next/head';
