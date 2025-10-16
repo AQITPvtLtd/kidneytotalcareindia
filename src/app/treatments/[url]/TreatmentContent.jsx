@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Sidebar from "../Sidebar";
+// import Sidebar from "../Sidebar";
 
 const TreatmentContent = ({ treatment }) => {
     return (
@@ -19,11 +19,11 @@ const TreatmentContent = ({ treatment }) => {
             </div>
 
             {/* Sidebar */}
-            <div className="lg:col-span-3 lg:col-start-9">
+            {/* <div className="lg:col-span-3 lg:col-start-9">
                 <div className="sticky top-[180px]">
                     <Sidebar />
                 </div>
-            </div>
+            </div> */}
         </div>
 
     );
