@@ -253,13 +253,13 @@ const Contact = () => {
               <li>
                 <strong>Coordinator:</strong>{" "}
                 <Link href="tel:+918130698126" className="text-blue-500">
-                  +91 8130698126
+                  +91 81306 98126
                 </Link>
               </li>
               <li>
                 <strong>Mobile No.:</strong>{" "}
                 <Link href="tel:+91-9873692675" className="text-blue-500">
-                  +91-9873692675
+                  +91 98736 92675
                 </Link>
               </li>
               <li>

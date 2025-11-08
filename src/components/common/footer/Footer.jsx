@@ -191,18 +191,6 @@ const Footer = () => {
               <div className="mb-6">
                 <ul className="mb-0 list-none leading-loose">
                   <li className="leading-normal mt-2">
-                    <h5 className="mb-2.5 font-bold uppercase">Address</h5>
-                    <Link
-                      target="__blank"
-                      href="https://maps.app.goo.gl/LPTCjhdCZBdtzp8m6"
-                      className="hover:text-blue flex"
-                    >
-                      <FaLocationDot className="mt-1.5 mr-0.5 text-lightgreen" />
-                      BLK Hospital (Nephrology Department) Pusa Road, Delhi
-                      110005
-                    </Link>
-                  </li>
-                  <li className="leading-normal mt-2">
                     <h5 className="mb-2.5 font-bold uppercase">Mail US</h5>
                     <div>
                       <Link className="flex" href="mailto:sunil.neph@gmail.com">
@@ -217,6 +205,19 @@ const Footer = () => {
                         drsunilprakash@gmail.com
                       </Link>
                     </div>
+                  </li>
+
+                  <li className="leading-normal mt-2">
+                    <h5 className="mb-2.5 font-bold uppercase">Address</h5>
+                    <Link
+                      target="__blank"
+                      href="https://maps.app.goo.gl/LPTCjhdCZBdtzp8m6"
+                      className="hover:text-blue flex"
+                    >
+                      <FaLocationDot className="mt-1.5 mr-0.5 text-lightgreen" />
+                      BLK Hospital (Nephrology Department) Pusa Road, Delhi
+                      110005
+                    </Link>
                   </li>
 
                   {/* <li className="mt-3 leading-normal">
