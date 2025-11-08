@@ -92,7 +92,7 @@ export default function SocialLinks() {
                 <button
                     onClick={() => setIsOpen(true)}
                     className="fixed top-1/2 right-0 transform -translate-y-1/2 cursor-pointer
-          bg-[#084cfc] pl-1 pt-1 pb-1 rounded-l-xl shadow-lg z-50"
+          bg-lightgreen pl-1 pt-1 pb-1 rounded-l-xl shadow-lg z-50"
                 >
                     <Image src="/iconbar/iconsidebar.png" width={40} height={40} alt="" />
                 </button>
