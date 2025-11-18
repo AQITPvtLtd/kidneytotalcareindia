@@ -70,7 +70,7 @@ export default function SocialLinks() {
                 {/* Google Map */}
                 <div className="group relative w-max transition-transform duration-500 hover:scale-125">
                     <Link
-                        href="https://maps.app.goo.gl/56nJikPeg8KzyzqV7"
+                        href="https://maps.app.goo.gl/URjGdgDXAs25gTMt5"
                         role="button"
                         target="_blank"
                     >
