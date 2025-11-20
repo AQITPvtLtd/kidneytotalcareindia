@@ -53,7 +53,7 @@ const DetailedBlog = ({ url }) => {
         />
       </Head>
 
-      <section className="overflow-hidden pb-[120px] pt-10 lg:mx-14 mx-3">
+      <section className="overflow-hidden pb-[20px] pt-10 lg:mx-14 mx-3">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-8/12">
@@ -96,23 +96,12 @@ const DetailedBlog = ({ url }) => {
                     </div>
                   </div>
                 </div>
-                {/* <div className="flex">
-                <div className="items-center justify-between flex">
-                  <div className="mb-5 flex">
-                    <h5 className="mb-3 text-lg font-bold text-body-color sm:text-right">
-                      Share this post :
-                    </h5>
-                    <div className="flex items-center sm:justify-end -mt-1 ml-2">
-                      <SharePost />
-                    </div>
-                  </div>
-                </div>
-              </div> */}
+
                 <div>
                   <div className="mb-5 w-full overflow-hidden rounded">
                     <Image
                       src={`/blogs/${blogDetail?.image}`}
-                      alt="image"
+                      alt={blogDetail?.img_alt_tag}
                       height={500}
                       width={500}
                       className="h-full w-full object-cover object-center"
@@ -146,22 +135,6 @@ const DetailedBlog = ({ url }) => {
                 </ul>
               </div>
 
-              {/* <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-white dark:shadow-none">
-              <h3 className="border-b border-body-color border-opacity-10 px-8 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
-                Popular Tags
-              </h3>
-              <div className="flex flex-wrap px-8 py-6">
-                {blogDetail?.tags && Array.isArray(JSON.parse(blogDetail?.tags))
-                  ? JSON.parse(blogDetail.tags).map((b, index) => (
-                      <TagButton key={index} text={b} />
-                    ))
-                  : blogDetail?.tags
-                      ?.split(",")
-                      .map((b, index) => (
-                        <TagButton key={index} text={b.trim()} />
-                      ))}
-              </div>
-            </div> */}
             </div>
           </div>
         </div>
