@@ -33,7 +33,6 @@ const DetailedBlog = ({ url }) => {
     return <p className="text-center text-red-500">Blog not found!</p>;
   }
 
-
   return (
     <>
       {/* SEO Meta Tags */}
