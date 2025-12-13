@@ -1,8 +1,8 @@
-import React from "react";
 import DetailedBlog from "./DetailedBlog";
 
-const page = ({ params }) => {
-  const { url } = params;
+const Page = async ({ params }) => {
+  const { url } = await params;
+
   return (
     <div>
       <DetailedBlog url={url} />
@@ -10,4 +10,4 @@ const page = ({ params }) => {
   );
 };
 
-export default page;
+export default Page;
